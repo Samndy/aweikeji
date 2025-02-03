@@ -1,4 +1,11 @@
-[老牌机场](https://www.linghunyun.com/#/register?code=KBcl8cHj)
+
+<details>
+
+<summary>老牌机场推荐</summary>
+
+```ruby
+"[灵魂云](https://www.linghunyun.com/#/register?code=KBcl8cHj)
+```
 
 <details>
 

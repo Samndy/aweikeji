@@ -1,5 +1,5 @@
 
-[老牌机场](https://www.linghunyun.com/#/register?code=KBcl8cHj)
+[老牌机场](https://www.linghunyun.com/#/register?code=KBcl8cHj)，[机场节点列表](https://github.com/ggborr/FREEE-VPN/blob/main/%E7%81%B5%E9%AD%82%E4%BA%910.25%E5%80%8D%E7%8E%87.pdf)
 ****
 <details>
 

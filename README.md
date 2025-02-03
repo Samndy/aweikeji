@@ -1,15 +1,8 @@
 
+[老牌机场](https://www.linghunyun.com/#/register?code=KBcl8cHj)
 <details>
 
-<summary>老牌机场推荐</summary>
-
-```ruby
-"[灵魂云](https://www.linghunyun.com/#/register?code=KBcl8cHj)
-```
-
-<details>
-
-<summary>节点列表</summary>
+<summary>免费节点列表</summary>
 
 ```ruby
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZmMzNGI2MS03YmQyLTRiMzYtODExNy1lMDU5MjVlNDg1Nzc=@chiyu.myfczy169.top:20901#%E9%A6%99%E6%B8%AF%E4%B8%AD%E8%BD%AC%2B05

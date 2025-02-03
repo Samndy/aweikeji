@@ -1,7 +1,9 @@
 
 [老牌机场](https://www.linghunyun.com/#/register?code=KBcl8cHj)，[机场节点列表](https://github.com/ggborr/FREEE-VPN/blob/main/%E7%81%B5%E9%AD%82%E4%BA%91%E8%8A%82%E7%82%B9.pdf)
 ****
+
 # 更新时间2025/3/2,18:12
+[v2ray订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/2v2ray
 <details>
 
 <summary>免费节点列表</summary>

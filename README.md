@@ -4,6 +4,9 @@
 
 # 更新时间2025/3/3,12:08
 [v2ray订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/2v2ray
+clash节点太多分2条链接
+Clash订阅链接https://ggfree.us.kg/c/1
+Clash订阅链接https://ggfree.us.kg/c/2
 <details>
 
 <summary>免费节点列表</summary>

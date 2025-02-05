@@ -4,7 +4,7 @@
 
 # 更新时间2025/2/5,22:08
 v2ray订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/2v2ray
-clash订阅链接https://ggfree.us.kg/c/ff
+ clash订阅链接https://ggfree.us.kg/c/ff
 节点太多clash只取V2ray部分节点
 <details>
 

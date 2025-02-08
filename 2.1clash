@@ -15,29 +15,50 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18012, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 5QCGV4AXFQAJE5KA, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 45.76.249.12, port: 8881, client-fingerprint: chrome, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚 IEPL专线NO1, server: i.needss.top, port: 20011, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇮🇳 印度 IEPL专线NO1, server: i.needss.top, port: 15442, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇵🇹 葡萄牙 IEPL专线NO1, server: qd.needss.top, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1B, server: 195.58.49.42, port: 20312, client-fingerprint: chrome, type: vmess, uuid: 44dc2493-1910-4a50-8ce6-aaaf9db91e23, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚 IEPL专线NO1 2, server: i.needss.top, port: 20011, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 IEPL专线NO1, server: i.needss.top, port: 54787, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇫🇷 法国1 2, server: haa.dashuai.cyou, port: 45072, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 IEPL专线NO1, server: i.needss.top, port: 20021, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本NO.2 2, server: xdd.dashuai.cyou, port: 45057, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇼 台湾 IEPL专线NO3, server: i.needss.top, port: 20016, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇼 台湾2 2, server: xdd.dashuai.cyou, port: 45077, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 IEPL专线NO1, server: i.needss.top, port: 20015, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇮🇳 印度 IEPL专线NO1 2, server: i.needss.top, port: 15442, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 IEPL专线NO1, server: qd.needss.top, port: 54774, client-fingerprint: chrome, type: vmess, uuid: 5ec19420-7311-4198-8887-5e949f1c8d40, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, client-fingerprint: chrome, type: vmess, uuid: b110997f-7992-4665-bd28-ad01fe7f9a38, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 103.216.253.197, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, tfo: false}
+  - {name: 🇫🇮 芬兰 赫尔辛基, server: southvip1.pkyun.xyz, port: 58822, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, client-fingerprint: chrome, type: vmess, uuid: 285af773-0b94-4943-93de-1e5f6198695d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, client-fingerprint: chrome, type: vmess, uuid: 285af773-0b94-4943-93de-1e5f6198695d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇫🇷 法国_10, server: 62.210.88.22, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9yHLHEHYGRqXC6TfeMk65w, tfo: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1D, server: 195.58.49.42, port: 20313, client-fingerprint: chrome, type: vmess, uuid: 30330346-62b1-409f-8f0b-d1edf26580df, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1B, server: 195.58.49.42, port: 20313, client-fingerprint: chrome, type: vmess, uuid: 44dc2493-1910-4a50-8ce6-aaaf9db91e23, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1A, server: 195.58.49.42, port: 20313, client-fingerprint: chrome, type: vmess, uuid: 0a18579e-2118-4e9f-b810-5f5cab82cff9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
+  - {name: 🇩🇪 德国 IEPL专线NO1, server: i.needss.top, port: 54787, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇧🇪 比利时 布鲁塞尔, server: southvip1.pkyun.xyz, port: 58833, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, client-fingerprint: chrome, type: vmess, uuid: 285af773-0b94-4943-93de-1e5f6198695d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1A 2, server: 195.58.49.42, port: 20313, client-fingerprint: chrome, type: vmess, uuid: 0a18579e-2118-4e9f-b810-5f5cab82cff9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 韩国 IEPL专线NO1, server: i.needss.top, port: 20021, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 IEPL专线NO1, server: i.needss.top, port: 15442, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 IEPL专线NO1, server: qd.needss.top, port: 54774, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 CM 隧道NO1, server: qd.needss.top, port: 52108, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-113.99.142.171-020, server: ti3hyra4.slashdevslashnetslashtun.net, port: 15004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KPOQG1L4BS2PKML1, tfo: false}
+  - {name: 🇨🇦 加拿大 IEPL专线 NO1, server: qd.needss.top, port: 45112, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US 03 CC, server: southvip1.pkyun.xyz, port: 34403, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇺🇸 US 01 GGVISON, server: southvip1.pkyun.xyz, port: 34401, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇹🇼 TW 01 DUO, server: southvip1.pkyun.xyz, port: 34501, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇸🇬 SG 02 GGV, server: southvip1.pkyun.xyz, port: 34302, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇭🇰 HK 04 BAGEVM, server: southvip1.pkyun.xyz, port: 34004, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇭🇰 HK 03 LAIN, server: southvip1.pkyun.xyz, port: 34003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇭🇰 HK 01 ALICE, server: southvip1.pkyun.xyz, port: 34001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 中转节点-65.6MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: LJSU1P9549K09CVE, tfo: false}
+  - {name: 中转节点-48.9MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2XZNFVL28OOLLELR, tfo: false}
+  - {name: 中转节点-111.9KB/s, server: 183.61.177.234, port: 15012, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FPJ3XYH5EY246SXU, tfo: false}
+  - {name: 🇻🇳 越南 河内ISP, server: southvip1.pkyun.xyz, port: 58808, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇬🇧 英国中转 02-1A, server: chiyu.myfczy169.top, port: 19115, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73e4d28b-c96c-4c21-8a05-25509aa0cd63, tfo: false}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, client-fingerprint: chrome, type: vmess, uuid: 285af773-0b94-4943-93de-1e5f6198695d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇮🇳 印度中转 01-1B, server: chiyu.myfczy169.top, port: 21061, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b010bac7-8b64-47e6-babb-e77e12887886, tfo: false}
+  - {name: 🇸🇬 新加坡中转 03-1B, server: chiyu.myfczy169.top, port: 37958, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b010bac7-8b64-47e6-babb-e77e12887886, tfo: false}
+  - {name: 🇸🇬 新加坡中转 01-1B, server: chiyu.myfczy169.top, port: 26867, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b010bac7-8b64-47e6-babb-e77e12887886, tfo: false}
+  - {name: 🇸🇬 新加坡 IEPL专线NO1, server: i.needss.top, port: 20015, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港中转 02-1A, server: chiyu.myfczy169.top, port: 19946, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73e4d28b-c96c-4c21-8a05-25509aa0cd63, tfo: false}
+  - {name: 🇭🇰 香港中转 01-1A, server: chiyu.myfczy169.top, port: 54016, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73e4d28b-c96c-4c21-8a05-25509aa0cd63, tfo: false}
+  - {name: 🇹🇳 突尼斯 突尼斯市, server: southvip1.pkyun.xyz, port: 58854, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇹🇭 泰国 IEPL专线 NO1, server: i.needss.top, port: 30028, client-fingerprint: chrome, type: vmess, uuid: a0dc07a4-1c4d-4157-bccd-d9c2c3df7aa4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇵🇹 葡萄牙 维亚纳堡, server: southvip1.pkyun.xyz, port: 58830, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
+  - {name: 🇺🇸 美国中转 03-1B, server: chiyu.myfczy169.top, port: 50563, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b010bac7-8b64-47e6-babb-e77e12887886, tfo: false}
+  - {name: 🇺🇸 美国中转 01-1A, server: chiyu.myfczy169.top, port: 13489, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73e4d28b-c96c-4c21-8a05-25509aa0cd63, tfo: false}
+  - {name: 🇲🇾 马来西亚中转 01-1A, server: chiyu.myfczy169.top, port: 20119, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73e4d28b-c96c-4c21-8a05-25509aa0cd63, tfo: false}
+  - {name: 🇨🇦 加拿大 蒙特利尔, server: southvip1.pkyun.xyz, port: 58809, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0d5f924c-851a-4316-9760-93dfb800a3fd, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -54,28 +75,49 @@ proxy-groups:
     type: select
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇦🇺 澳大利亚 IEPL专线NO1
+      - 🇫🇮 芬兰 赫尔辛基
+      - 🇫🇷 法国2
       - 🇫🇷 法国1
-      - 🇮🇳 印度 IEPL专线NO1
-      - 🇯🇵 日本NO.2
-      - 🇵🇹 葡萄牙 IEPL专线NO1
+      - 🇫🇷 法国_10
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1D
       - 🇷🇺 俄罗斯-圣彼得堡-015-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇹🇼 台湾2
-      - 🇦🇺 澳大利亚 IEPL专线NO1 2
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1A
       - 🇩🇪 德国 IEPL专线NO1
-      - 🇫🇷 法国1 2
+      - 🇧🇪 比利时 布鲁塞尔
+      - 🇸🇬 新加坡NO.1
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1A 2
       - 🇰🇷 韩国 IEPL专线NO1
-      - 🇺🇸 美国NO.2
-      - 🇯🇵 日本NO.2 2
-      - 🇹🇼 台湾 IEPL专线NO3
-      - 🇹🇼 台湾2 2
-      - 🇸🇬 新加坡 IEPL专线NO1
-      - 🇮🇳 印度 IEPL专线NO1 2
-      - 🇮🇳 印度1
+      - 🇮🇳 印度 IEPL专线NO1
       - 🇬🇧 英国 IEPL专线NO1
+      - 🇫🇷 法国 CM 隧道NO1
+      - 🇨🇳 CN-113.99.142.171-020
+      - 🇨🇦 加拿大 IEPL专线 NO1
+      - 🇺🇸 US 03 CC
+      - 🇺🇸 US 01 GGVISON
+      - 🇹🇼 TW 01 DUO
+      - 🇸🇬 SG 02 GGV
+      - 🇭🇰 HK 04 BAGEVM
+      - 🇭🇰 HK 03 LAIN
+      - 🇭🇰 HK 01 ALICE
+      - 中转节点-65.6MB/s
+      - 中转节点-48.9MB/s
+      - 中转节点-111.9KB/s
+      - 🇻🇳 越南 河内ISP
+      - 🇬🇧 英国中转 02-1A
       - 🇬🇧 英国2
+      - 🇮🇳 印度中转 01-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇸🇬 新加坡 IEPL专线NO1
+      - 🇭🇰 香港中转 02-1A
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇳 突尼斯 突尼斯市
+      - 🇹🇭 泰国 IEPL专线 NO1
+      - 🇵🇹 葡萄牙 维亚纳堡
+      - 🇺🇸 美国中转 03-1B
+      - 🇺🇸 美国中转 01-1A
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇨🇦 加拿大 蒙特利尔
   - name: 📲 电报消息
     type: select
     proxies:
@@ -266,27 +308,34 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇰 HK 04 BAGEVM
+      - 🇭🇰 HK 03 LAIN
+      - 🇭🇰 HK 01 ALICE
+      - 🇭🇰 香港中转 02-1A
+      - 🇭🇰 香港中转 01-1A
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本NO.2
-      - 🇯🇵 日本NO.2 2
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 美国NO.2
+      - 🇺🇸 US 03 CC
+      - 🇺🇸 US 01 GGVISON
+      - 🇺🇸 美国中转 03-1B
+      - 🇺🇸 美国中转 01-1A
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬 新加坡NO.2
+      - 🇸🇬 新加坡NO.1
+      - 🇸🇬 SG 02 GGV
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇸🇬 新加坡中转 01-1B
       - 🇸🇬 新加坡 IEPL专线NO1
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾 IEPL专线NO3
-      - 🇹🇼 台湾2 2
+      - 🇹🇼 TW 01 DUO
   - name: 🇰🇷 韩国节点
     type: select
     proxies:

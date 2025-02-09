@@ -13,6 +13,7 @@ clash订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/m
 <summary>免费节点列表</summary>
 
 ```ruby
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTc1ZDY2Zi03Y2Y1LTQ3YWEtODNiZS1hOGU5NjljZGJlMmQ=@rk1.boost1.top:40000#%e5%85%b3%e6%b3%a8https%3a%2f%2fgithub.com%2fggborr%2fFREEE-VPN
 vless://25b8f4b0-4f7d-400f-bc4a-f10e5b8796a2@151.101.66.133:443?encryption=none&security=tls&sni=anchor.fm&type=ws&host=magdl.ir&path=%2fstream%2f#%e5%85%b3%e6%b3%a8https%3a%2f%2fgithub.com%2fggborr%2fFREEE-VPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozRkIyM0ExOS05NDI0LTQwQzctOTEzOS0zNTQwMjI4MjgzRkE=@sgp.fastsoonlink.com:40005#%e5%85%b3%e6%b3%a8https%3a%2f%2fgithub.com%2fggborr%2fFREEE-VPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.178:8080#%e5%be%b7%e5%9b%bd
@@ -308,8 +309,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNmE2ZGQwNS0zNGRiLTQ5YmMtODIxZi1lNzhkNjZjZTQ
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMmMwYTNmNC1lOGNlLTRkOGUtODQyOS04YWJmZmY2YzBjN2I=@chiyu.myfczy169.top:57329#%e8%8b%b1%e5%9b%bd%e4%b8%ad%e8%bd%ac+03-1B
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNmE2ZGQwNS0zNGRiLTQ5YmMtODIxZi1lNzhkNjZjZTQwNTg=@chiyu.myfczy169.top:21071#%e8%b6%8a%e5%8d%97%e4%b8%ad%e8%bd%ac+01-1A
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMmMwYTNmNC1lOGNlLTRkOGUtODQyOS04YWJmZmY2YzBjN2I=@chiyu.myfczy169.top:21071#%e8%b6%8a%e5%8d%97%e4%b8%ad%e8%bd%ac+01-1B
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTc1ZDY2Zi03Y2Y1LTQ3YWEtODNiZS1hOGU5NjljZGJlMmQ=@rk1.boost1.top:40000#%e4%b8%ad%e5%9b%bd_%e7%94%b1%e5%bf%ab%e5%98%b4%e7%a7%91%e6%8a%80%e6%8f%90%e4%be%9b%ef%bc%9akkzui.com161
-
 
 ```
 

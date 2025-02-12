@@ -15,38 +15,49 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: hong-kong.keenvpn.me, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: taiwan-2.keenvpn.me, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: sgp.fastsoonlink.com, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, tfo: false}
-  - {name: "🇹🇼 [openproxylist.com] ss-TW", server: 2.58.241.42, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, tfo: false}
-  - {name: "[openproxylist.com] trojan-IE", server: 52.50.145.255, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国, server: 38.110.1.202, port: 8008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
-  - {name: 🇺🇸 _美国, server: 151.101.0.155, port: 80, client-fingerprint: chrome, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 4Sarina-456, server: 95.164.68.37, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: OTBkYmFk, tfo: false}
-  - {name: CN_speednode_0011, server: dozo01.flztjc.top, port: 6304, client-fingerprint: chrome, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: jp-4-557.flztjc.net, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 04 BAGEVM, server: southvip1.pkyun.xyz, port: 34004, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0de84778-c2da-4b78-bea9-ab491be826fc, tfo: false}
-  - {name: 🇰🇷 KR韩国2, server: naiu-other.05vr9nyqg5.download, port: 13036, client-fingerprint: chrome, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: sgp.fastsoonlink.com, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 103.216.253.197, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, tfo: false}
+  - {name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其, server: tur.fastsoonlink.com, port: 40019, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, tfo: false}
+  - {name: 🇺🇸 _IE_爱尔兰->🇺🇸_US_美国, server: tops-lobster.shiner427.skin, port: 443, client-fingerprint: chrome, type: trojan, password: 65086441068973800, sni: tops-lobster.shiner427.skin, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国, server: mature-flamingo.shiner427.skin, port: 443, client-fingerprint: chrome, type: trojan, password: 65086441068973800, sni: mature-flamingo.shiner427.skin, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 151.101.194.133, port: 80, client-fingerprint: chrome, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn", headers: {Host: telegram-isvvpn.ir}}}
+  - {name: 🇺🇦 _乌克兰, server: 188.191.147.127, port: 31348, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6, tfo: false}
+  - {name: _中国, server: 103.216.253.197, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, tfo: false}
+  - {name: _中国 2, server: 154.90.63.193, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, tfo: false}
+  - {name: CN_speednode_0012, server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com, port: 52149, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 7c28b43c-41c4-4af1-81c4-48690133d1cd, tfo: false}
+  - {name: 🇭🇰 HK 01 ALICE, server: southvip1.pkyun.xyz, port: 34001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 11384504-879d-4bf8-a0cd-72ffd5a134be, tfo: false}
+  - {name: 🇯🇵 JP, server: hk4.998998.best, port: 443, client-fingerprint: chrome, type: vmess, uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/sertgdwe457j?ed=2560", headers: {Host: jp1.zfork.com}}}
   - {name: Relay_-🇸🇬SG_451, server: sgp.fastsoonlink.com, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, tfo: false}
   - {name: 🇬🇧 UK-英国-24, server: 139.162.251.249, port: 31876, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 8103077651, tfo: false}
-  - {name: US_speednode_0082, server: 38.110.1.202, port: 2376, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false}
-  - {name: 🇳🇱 荷兰 IEPL专线NO1, server: qd.needss.top, port: 20014, client-fingerprint: chrome, type: vmess, uuid: ac1c3991-fa85-472d-a944-55c1b5b5bb07, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇵🇹 葡萄牙 IEPL专线NO1, server: qd.needss.top, port: 31001, client-fingerprint: chrome, type: vmess, uuid: ac1c3991-fa85-472d-a944-55c1b5b5bb07, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, client-fingerprint: chrome, type: vmess, uuid: 587e45e3-9fdf-4452-bad3-dc0a98728a04, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, client-fingerprint: chrome, type: vmess, uuid: 587e45e3-9fdf-4452-bad3-dc0a98728a04, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 89.221.224.166, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: NjBlZDlk, tfo: false}
-  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1B, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: 0a18579e-2118-4e9f-b810-5f5cab82cff9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
-  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1D, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: 068a3a6e-244f-48db-9adf-158a0d5e9b33, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
-  - {name: 🇲🇾 马来西亚中转 01-1A, server: chiyu.myfczy169.top, port: 20119, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 68462ce6-43a3-4872-acd6-5e33af4d1d31, tfo: false}
-  - {name: 🇺🇸 美国 099, server: plex.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/racevpn?telegram-", headers: {Host: telegram-isvvpn.ir}}}
+  - {name: 🇺🇸 US 01 GGVISON, server: southvip1.pkyun.xyz, port: 34401, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 11384504-879d-4bf8-a0cd-72ffd5a134be, tfo: false}
+  - {name: 🇺🇸 US美国2 520.8KB/s, server: grateful-lark.shiner427.skin, port: 443, client-fingerprint: chrome, type: trojan, password: 65086441068973800, sni: grateful-lark.shiner427.skin, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 IEPL专线 NO1, server: qd.needss.top, port: 45112, client-fingerprint: chrome, type: vmess, uuid: 9258f089-2484-489e-94f0-65d7541b2593, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, client-fingerprint: chrome, type: vmess, uuid: bb77b726-e899-42c0-aaf5-db31390dc605, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1C, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: d2394a55-404e-45db-8842-38401c08ce10, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1H, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: 176a3d96-2c62-406a-98e1-40dd356c3dd0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1L, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: b0d71687-d3ae-4e9e-93ff-dbff8c46d1c4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇦🇷 阿根廷 IEPL专线NO1, server: i.needss.top, port: 20014, client-fingerprint: chrome, type: vmess, uuid: 9258f089-2484-489e-94f0-65d7541b2593, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1A, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: 44dc2493-1910-4a50-8ce6-aaaf9db91e23, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1E, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: bee41381-7595-4094-98ac-2c7357787da3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1H 2, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: 176a3d96-2c62-406a-98e1-40dd356c3dd0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1M, server: 195.58.49.42, port: 20316, client-fingerprint: chrome, type: vmess, uuid: 73c1b736-8625-4a75-a80f-d102bf6895a5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.58.49.42}}}
+  - {name: 🇫🇷 法国, server: 151.101.0.155, port: 80, client-fingerprint: chrome, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-isvvpn.ir}}}
+  - {name: 🇰🇷 韩国_021120073, server: kr.fastsoonlink.com, port: 40032, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, tfo: false}
   - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: 151.101.194.133, port: 80, client-fingerprint: chrome, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn", headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 其他 532, server: github.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: mianfeifq, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其中转 01-1B, server: chiyu.myfczy169.top, port: 21048, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c3ebd6d1-0567-44f1-a465-9d60e66bde8a, tfo: false}
-  - {name: 🇺🇦 乌克兰_由快嘴科技提供;kkzui.com27, server: 188.191.147.127, port: 31348, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6, tfo: false}
-  - {name: 🇭🇰 香港 特别行政区, server: 103.104.247.47, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.76.60.123, port: 8881, client-fingerprint: chrome, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇵🇹 葡萄牙 IEPL专线NO1, server: qd.needss.top, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 9258f089-2484-489e-94f0-65d7541b2593, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, client-fingerprint: chrome, type: vmess, uuid: bb77b726-e899-42c0-aaf5-db31390dc605, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本中转 01-1B, server: chiyu.myfczy169.top, port: 41473, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 621ef751-6c84-48c4-a7f9-279dadd7612f, tfo: false}
+  - {name: 🇯🇵 日本中转 03-1B, server: chiyu.myfczy169.top, port: 22834, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 621ef751-6c84-48c4-a7f9-279dadd7612f, tfo: false}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: bb77b726-e899-42c0-aaf5-db31390dc605, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇹🇭 泰国 IEPL专线 NO1, server: i.needss.top, port: 30028, client-fingerprint: chrome, type: vmess, uuid: 9258f089-2484-489e-94f0-65d7541b2593, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 特别行政区, server: 154.90.63.193, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, tfo: false}
   - {name: 🇸🇬 新加坡, server: naiu-sg.05vr9nyqg5.download, port: 13028, client-fingerprint: chrome, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇮🇷 伊朗, server: sgp.fastsoonlink.com, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, tfo: false}
+  - {name: 亚太地区 V2CROSS.COM, server: sgp.fastsoonlink.com, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, tfo: false}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 31.58.142.221, port: 8967, client-fingerprint: chrome, type: vmess, uuid: 7d29f1ca-647b-4b4e-b9c8-6beab7133535, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /BONRyKGhDE, headers: {Host: neo.nicme.me}}}
   - {name: 🇬🇧 英国 V2CROSS.COM, server: 185.121.134.12, port: 20315, client-fingerprint: chrome, type: vmess, uuid: 7b733f59-45f9-431b-a8be-365fd80afd89, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 185.121.134.12}}}
-  - {name: 🇻🇳 越南中转 01-1A, server: chiyu.myfczy169.top, port: 21071, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 68462ce6-43a3-4872-acd6-5e33af4d1d31, tfo: false}
+  - {name: 🇬🇧 英国中转 01-1A, server: chiyu.myfczy169.top, port: 26480, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5f32602e-7a22-47e6-a0a8-9a7bb4035ad0, tfo: false}
+  - {name: 🇻🇳 越南_021120006, server: vn.fastsoonlink.com, port: 40021, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -64,36 +75,47 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇹🇼 [openproxylist.com] ss-TW
-      - "[openproxylist.com] trojan-IE"
+      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 _IE_爱尔兰->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇺🇸 _美国
-      - 4Sarina-456
-      - CN_speednode_0011
-      - 🇭🇰 HK 04 BAGEVM
-      - 🇰🇷 KR韩国2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇦 _乌克兰
+      - _中国
+      - _中国 2
+      - CN_speednode_0012
+      - 🇭🇰 HK 01 ALICE
+      - 🇯🇵 JP
       - Relay_-🇸🇬SG_451
       - 🇬🇧 UK-英国-24
-      - US_speednode_0082
-      - 🇳🇱 荷兰 IEPL专线NO1
-      - 🇵🇹 葡萄牙 IEPL专线NO1
-      - 🇹🇼 台湾2
-      - 🇦🇺 澳大利亚原生1
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯-圣彼得堡-015-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-015-1D
-      - 🇲🇾 马来西亚中转 01-1A
-      - 🇺🇸 美国 099
+      - 🇺🇸 US 01 GGVISON
+      - 🇺🇸 US美国2 520.8KB/s
+      - 🇨🇦 加拿大 IEPL专线 NO1
+      - 🇯🇵 日本NO.2
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1H
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1L
+      - 🇦🇷 阿根廷 IEPL专线NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1A
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1E
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1H 2
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1M
+      - 🇫🇷 法国
+      - 🇰🇷 韩国_021120073
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 其他 532
-      - 🇹🇷 土耳其中转 01-1B
-      - 🇺🇦 乌克兰_由快嘴科技提供;kkzui.com27
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇵🇹 葡萄牙 IEPL专线NO1
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本中转 01-1B
+      - 🇯🇵 日本中转 03-1B
+      - 🇹🇼 台湾1
+      - 🇹🇭 泰国 IEPL专线 NO1
       - 🇭🇰 香港 特别行政区
       - 🇸🇬 新加坡
-      - 🇮🇷 伊朗
+      - 亚太地区 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇻🇳 越南中转 01-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇻🇳 越南_021120006
   - name: 📲 电报消息
     type: select
     proxies:
@@ -284,20 +306,26 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 HK 04 BAGEVM
+      - 🇭🇰 HK 01 ALICE
       - 🇭🇰 香港 特别行政区
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 JP
+      - 🇯🇵 日本NO.2
+      - 🇯🇵 日本NO.1
+      - 🇯🇵 日本中转 01-1B
+      - 🇯🇵 日本中转 03-1B
   - name: 🇺🇲 美国节点
     type: select
     proxies:
+      - 🇺🇸 _IE_爱尔兰->🇺🇸_US_美国
       - 🇺🇸 _US_美国
-      - 🇺🇸 _美国
-      - US_speednode_0082
-      - 🇺🇸 美国 099
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 US 01 GGVISON
+      - 🇺🇸 US美国2 520.8KB/s
       - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 V2CROSS.COM
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -306,12 +334,11 @@ proxy-groups:
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇹🇼 [openproxylist.com] ss-TW
-      - 🇹🇼 台湾2
+      - 🇹🇼 台湾1
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 KR韩国2
+      - 🇰🇷 韩国_021120073
   - name: 🎥 奈飞节点
     type: select
     proxies:

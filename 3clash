@@ -15,9 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 156.238.18.163, port: 2095, client-fingerprint: chrome, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: redw.pooriam.ir}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 156.238.18.165, port: 2052, client-fingerprint: chrome, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1, headers: {Host: redw.pooriam.ir}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: qh62onjn.slashdevslashnetslashtun.net, port: 16007, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 0407WKIEIXMTLGC6, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: qh62onjn.slashdevslashnetslashtun.net, port: 16007, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 0407WKIEIXMTLGC6, tfo: false}
   - {name: "@prrofile_purple| AHS -🇺🇸|215.91", server: biiia-vpn-whal.fast.hosting-ip.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: id5---@fe30x, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2056/#id-telegram:--->@fe30x<---", headers: {Host: cat.IR.}}}
   - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 183.236.51.38, port: 41699, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇦 _UA_乌克兰, server: 95.164.68.37, port: 1443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ZDljYmNh, tfo: false}
@@ -83,8 +81,6 @@ proxy-groups:
     type: select
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
       - "@prrofile_purple| AHS -🇺🇸|215.91"
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇦 _UA_乌克兰

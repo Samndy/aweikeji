@@ -18,45 +18,48 @@ proxies:
   - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 183.236.51.38, port: 55754, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 120.232.153.123, port: 51052, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: _中国, server: 183.236.51.38, port: 59554, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 2|🇭🇰3 |  5.8MB/s, server: 183.236.51.38, port: 55754, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 2|🇭🇰3 |  5.8MB/s 2, server: 183.236.51.38, port: 55754, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 2|🇺🇸10 |  4.5MB/s, server: 120.232.153.123, port: 51052, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 中国-香港-F2-001-1K, server: 212.192.12.73, port: 22030, client-fingerprint: chrome, type: vmess, uuid: 5176085c-171f-462a-a5b3-70844c863099, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 中国-香港-F3-001-1J, server: 212.192.13.68, port: 23030, client-fingerprint: chrome, type: vmess, uuid: b0984c27-b3c0-4f76-89da-e8b4e677c3a7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯-莫斯科-F3-001-1H, server: 195.133.5.127, port: 23030, client-fingerprint: chrome, type: vmess, uuid: a87e77b2-c77f-4d8a-84e5-9a30473db418, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.133.5.127}}}
-  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.123, port: 51052, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市 移动_5, server: 183.236.51.38, port: 59554, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: _中国 2, server: 120.198.71.216, port: 40059, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: _中国 3, server: 120.198.71.214, port: 34093, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 2|🇸🇬3 |  1.2MB/s, server: 183.236.51.38, port: 56901, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港, server: 45.196.222.113, port: 33707, client-fingerprint: chrome, type: vmess, uuid: 7b1373cc-f34c-4d12-822c-90e2a3e70658, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: RELAY-104.19.32.0-7958, server: 104.19.32.0, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: xmivideo.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}}
+  - {name: 🇨🇳 广东省广州市 移动_3_2, server: 120.232.153.40, port: 51182, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 广东省广州市 移动_6_2, server: 120.232.153.63, port: 40105, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇨🇳 广东省广州市 移动_7_2, server: 120.232.153.123, port: 51052, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇳 广东省江门市 移动_3, server: 120.234.102.229, port: 31998, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省湛江市 移动_16, server: 120.198.71.216, port: 40059, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇳 湖南省 移动, server: tk.hzlt.tkddns.xyz, port: 22643, client-fingerprint: chrome, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}}
-  - {name: 🇺🇸 美国, server: 107.167.7.8, port: 31000, client-fingerprint: chrome, type: vmess, uuid: bdee202c-8fae-441f-a588-7bc4d3887019, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1742598471721, headers: {Host: www.31878068.xyz}}}
-  - {name: 🇿🇦 南非 V2CROSS.COM_4_1, server: 156.229.48.237, port: 8443, client-fingerprint: chrome, type: vmess, uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dyajvws, headers: {Host: lax2.ibgfw.top}}}
-  - {name: 🇯🇵 日本, server: 156.246.91.239, port: 20091, client-fingerprint: chrome, type: vmess, uuid: 9843569b-4f4e-422d-8006-0889adcc580a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: 156.246.91.239, port: 18744, client-fingerprint: chrome, type: vmess, uuid: b2259281-bad1-499a-bde4-4df89ff286bd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 3, server: 156.246.89.152, port: 24596, client-fingerprint: chrome, type: vmess, uuid: b05fdde3-0efd-4461-ab57-259b44121d57, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 4, server: 156.246.88.103, port: 12152, client-fingerprint: chrome, type: vmess, uuid: a49b4de8-d019-452b-80f6-35333c2aa2e8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港, server: 156.224.78.21, port: 27249, client-fingerprint: chrome, type: vmess, uuid: f993617b-9aa9-411f-85f5-5b7650b8ff45, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 2, server: 120.232.153.40, port: 51182, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国, server: 38.11.49.61, port: 38003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1742598471721, headers: {Host: www.45700497.xyz}}}
+  - {name: 🇺🇸 美国 2, server: 107.167.7.8, port: 31000, client-fingerprint: chrome, type: vmess, uuid: bdee202c-8fae-441f-a588-7bc4d3887019, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1742598471721, headers: {Host: www.31878068.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: ny1dash.890601.pp.ua, port: 2083, client-fingerprint: chrome, type: vmess, uuid: 05965003-8632-43b2-c9c0-12c1f2abff57, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny1sublj, headers: {Host: ny1dash.890601.pp.ua}}}
+  - {name: 🇺🇸 美国 CloudFlare节点_13, server: fk2-bash.890617.xyz, port: 2083, client-fingerprint: chrome, type: vmess, uuid: feddc326-da70-4fab-95a9-8f98be6da633, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fj2-1, headers: {Host: fk2-bash.890617.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点_14_1, server: fk2-bash.890617.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: feddc326-da70-4fab-95a9-8f98be6da633, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fk2-1, headers: {Host: fk2-bash.890617.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点_29, server: support.farsonline24.ir, port: 443, client-fingerprint: chrome, type: vmess, uuid: 0ee20147-b540-45b6-ac30-db65f536c55d, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /57664/@M3HDIO1, headers: {Host: support.farsonline24.ir}}}
+  - {name: 🇺🇸 美国 CloudFlare节点_3_1, server: fk2-bash.890617.xyz, port: 2053, client-fingerprint: chrome, type: vmess, uuid: feddc326-da70-4fab-95a9-8f98be6da633, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fk2-1, headers: {Host: fk2-bash.890617.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点_6_1, server: ny1dash.890601.pp.ua, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 05965003-8632-43b2-c9c0-12c1f2abff57, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny1lj, headers: {Host: ny1dash.890601.pp.ua}}}
+  - {name: 🏳️‍🌈 剩余流量：806.49 GB, server: 5.39.252.72, port: 20031, client-fingerprint: chrome, type: vmess, uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 香港 2, server: 156.224.78.21, port: 27249, client-fingerprint: chrome, type: vmess, uuid: f993617b-9aa9-411f-85f5-5b7650b8ff45, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港 3, server: 120.232.153.40, port: 51182, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, client-fingerprint: chrome, type: vmess, uuid: 7caa4de8-89e1-43a0-9692-cd6e90ce8c53, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 中国-香港-F1-001-1E, server: 212.192.12.56, port: 21030, client-fingerprint: chrome, type: vmess, uuid: 931349cb-6933-4a8f-ae45-1f40432371cc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 212.192.12.56}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: okanc.node-is.green, port: 21114, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, tfo: false}
-  - {name: 🇮🇳 _CN_中国->🇮🇳_IN_印度, server: bsuqian01.dynu.net, port: 56226, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
-  - {name: 0|🇮🇳4 |  5.8MB/s, server: gy01.hunheiydd.xyz, port: 56277, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
-  - {name: 🇭🇰 香港 4, server: qh62onjn.slashdevslashnetslashtun.net, port: 15015, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 6U7N3FEJT62R1YRH, tfo: false}
-  - {name: 🇸🇬 新加坡, server: w72tapyb.slashdevslashnetslashtun.net, port: 16010, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: YH7ZS7TPHVH3226U, tfo: false}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, client-fingerprint: chrome, type: vmess, uuid: 8231a2e8-be38-41ab-b6b1-e3c606503352, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 8231a2e8-be38-41ab-b6b1-e3c606503352, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: _中国 4, server: okanc.node-is.green, port: 21115, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, tfo: false}
+  - {name: 🇭🇰 香港 4, server: w72tapyb.slashdevslashnetslashtun.net, port: 15008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FWSK8RTDJL7R2IJA, tfo: false}
+  - {name: 🇸🇬 新加坡, server: 120.232.150.248, port: 11008, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, tfo: false}
+  - {name: 2|🇮🇳2 |  7.6MB/s, server: gy01.hunheiydd.xyz, port: 56277, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
   - {name: 2|🇷🇺3 |  4.6MB/s, server: bsuqian01.dynu.net, port: 56226, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
+  - {name: 2|🌀24-TR |  1.3MB/s, server: h110vpntr.outlinekeys.net, port: 65262, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: DcFkL3vSe3CceaI3mRfCd0, tfo: false}
+  - {name: 4Sarina-313, server: 62.133.63.21, port: 65262, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: DcFkL3vSe3CceaI3mRfCd0, tfo: false}
   - {name: 🇨🇳 CN-111.62.241.200-040, server: bsuqian01.dynu.net, port: 15375, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
-  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 85.239.151.31, port: 24596, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 2hQK08e2CefwEOKIOnLS0O, tfo: false}
   - {name: 🇭🇰 公益路线1-香港HK 限速50MBPS, server: jg647hf446ghvw.gym0boy.com, port: 49709, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea4a04b7-eb41-47e2-9bf5-95413eadf4f9, tfo: false}
-  - {name: 🇨🇳 广东省广州市 移动_19, server: gy01.hunheiydd.xyz, port: 56277, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
-  - {name: 🇨🇳 广东省深圳市 移动_3, server: agaungzhou01.bumbleshrimp.com, port: 13483, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
+  - {name: 🇨🇳 广东省广州市 移动, server: 183.232.229.164, port: 11002, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, tfo: false}
+  - {name: 🇨🇳 广东省深圳市 移动, server: agaungzhou01.bumbleshrimp.com, port: 13483, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
   - {name: 🇨🇳 广东省湛江市 移动_1, server: jg647hf446ghvw.gym0boy.com, port: 49709, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 630a9504-13b7-4c32-885c-3332bab95df3, tfo: false}
-  - {name: 🇨🇳 河北省 移动(全省通用), server: bsuqian01.dynu.net, port: 56226, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
-  - {name: 🇹🇼 台湾 1, server: gy.666666222.shop, port: 20032, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 948f2978-3c07-4feb-9f31-88001efe82db, tfo: false}
-  - {name: 🇹🇼 台湾01, server: gy.666666222.shop, port: 47564, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 948f2978-3c07-4feb-9f31-88001efe82db, tfo: false}
-  - {name: 🇹🇼 台湾家宽直连 20x, server: hinetiw0k.yooddns.stream, port: 26900, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 546d782f-6838-4a0d-a217-174e75096bb1, tfo: false}
-  - {name: 🇸🇬 新加坡 2, server: okanc.node-is.green, port: 21115, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, tfo: false}
+  - {name: 🇨🇳 广东省肇庆市 中移铁通_3, server: csuzhou01.1cooldns.com, port: 64050, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, tfo: false}
+  - {name: 🇯🇵 日本, server: zf1.10101251.xyz, port: 41705, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f, tfo: false}
+  - {name: 🇨🇳 上海市青浦区 电信, server: 61.172.235.22, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, tfo: false}
+  - {name: 🇹🇼 台湾 1, server: gy.666666222.shop, port: 20032, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f6a0c1cf-78c1-4e45-b9c4-f3c0c9034603, tfo: false}
+  - {name: 🇹🇼 台湾01, server: gy.666666222.shop, port: 47564, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f6a0c1cf-78c1-4e45-b9c4-f3c0c9034603, tfo: false}
+  - {name: 🇭🇰 香港 5, server: xg1.gywanglug.xyz, port: 23987, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: e935efa8-ede3-4fc5-8e2a-7d63b1090452, tfo: false}
+  - {name: 🇭🇰 香港限时开放, server: xg1.gywanglug.xyz, port: 23987, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 597dc9ce-5ce8-4ff5-833b-76cd4e5789e1, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -75,45 +78,48 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - _中国
-      - 2|🇭🇰3 |  5.8MB/s
-      - 2|🇭🇰3 |  5.8MB/s 2
-      - 2|🇺🇸10 |  4.5MB/s
-      - 🇭🇰 中国-香港-F2-001-1K
-      - 🇭🇰 中国-香港-F3-001-1J
-      - 🇷🇺 俄罗斯-莫斯科-F3-001-1H
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动_5
+      - _中国 2
+      - _中国 3
+      - 2|🇸🇬3 |  1.2MB/s
+      - 🇭🇰 香港
+      - RELAY-104.19.32.0-7958
+      - 🇨🇳 广东省广州市 移动_3_2
+      - 🇨🇳 广东省广州市 移动_6_2
+      - 🇨🇳 广东省广州市 移动_7_2
       - 🇨🇳 广东省江门市 移动_3
-      - 🇨🇳 广东省湛江市 移动_16
       - 🇨🇳 湖南省 移动
       - 🇺🇸 美国
-      - 🇿🇦 南非 V2CROSS.COM_4_1
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点_13
+      - 🇺🇸 美国 CloudFlare节点_14_1
+      - 🇺🇸 美国 CloudFlare节点_29
+      - 🇺🇸 美国 CloudFlare节点_3_1
+      - 🇺🇸 美国 CloudFlare节点_6_1
+      - 🏳️‍🌈 剩余流量：806.49 GB
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港NO.2
-      - 🇭🇰 中国-香港-F1-001-1E
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
-      - 0|🇮🇳4 |  5.8MB/s
+      - 🇮🇳 印度1
+      - _中国 4
       - 🇭🇰 香港 4
       - 🇸🇬 新加坡
+      - 2|🇮🇳2 |  7.6MB/s
       - 2|🇷🇺3 |  4.6MB/s
+      - 2|🌀24-TR |  1.3MB/s
+      - 4Sarina-313
       - 🇨🇳 CN-111.62.241.200-040
-      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇭🇰 公益路线1-香港HK 限速50MBPS
-      - 🇨🇳 广东省广州市 移动_19
-      - 🇨🇳 广东省深圳市 移动_3
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省深圳市 移动
       - 🇨🇳 广东省湛江市 移动_1
-      - 🇨🇳 河北省 移动(全省通用)
+      - 🇨🇳 广东省肇庆市 中移铁通_3
+      - 🇯🇵 日本
+      - 🇨🇳 上海市青浦区 电信
       - 🇹🇼 台湾 1
       - 🇹🇼 台湾01
-      - 🇹🇼 台湾家宽直连 20x
-      - 🇸🇬 新加坡 2
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港限时开放
   - name: 📲 电报消息
     type: select
     proxies:
@@ -304,37 +310,38 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 中国-香港-F2-001-1K
-      - 🇭🇰 中国-香港-F3-001-1J
       - 🇭🇰 香港
       - 🇭🇰 香港 2
       - 🇭🇰 香港 3
       - 🇭🇰 香港NO.2
-      - 🇭🇰 中国-香港-F1-001-1E
       - 🇭🇰 香港 4
       - 🇭🇰 公益路线1-香港HK 限速50MBPS
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港限时开放
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
   - name: 🇺🇲 美国节点
     type: select
     proxies:
       - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点_13
+      - 🇺🇸 美国 CloudFlare节点_14_1
+      - 🇺🇸 美国 CloudFlare节点_29
+      - 🇺🇸 美国 CloudFlare节点_3_1
+      - 🇺🇸 美国 CloudFlare节点_6_1
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
       - 🇹🇼 台湾 1
       - 🇹🇼 台湾01
-      - 🇹🇼 台湾家宽直连 20x
   - name: 🇰🇷 韩国节点
     type: select
     proxies:

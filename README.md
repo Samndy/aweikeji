@@ -1,5 +1,5 @@
 
-[老牌机场](https://www.linghunyun.com/#/register?code=KBcl8cHj)4k无压力，支持流媒体，[机场节点列表](https://github.com/ggborr/FREEE-VPN/blob/main/%E7%81%B5%E9%AD%82%E4%BA%91%E8%8A%82%E7%82%B9.pdf)
+[老牌机场](https://www.linghunyun.com/#/register?code=KBcl8cHj)4k无压力，支持流媒体，[机场节点列表](https://github.com/ggborr/FREEE-VPN/blob/main/%E8%8A%82%E7%82%B9%E5%88%97%E8%A1%A8.pdf)
 ****
 
 # 更新时间2025/3/30,20:36

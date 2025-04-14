@@ -5,49 +5,62 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 104.26.12.140, port: 80, type: vmess, uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/s15.html?ed=2048", headers: {Host: 57153929189752025041317163770550.s15.chibaba.filegear-sg.me}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 183.236.51.38, port: 59554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9, server: 120.198.71.214, port: 46345, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港, server: cloudgd.coemn.com, port: 46003, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cloudgd.coemn.com}}, udp: true}
-  - {name: 🇭🇰 香港 2, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 乌克兰 V2CROSS.COM, server: 2.58.87.221, port: 12269, type: vmess, uuid: db85ff0e-c33f-401d-c415-4c7cce135704, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2.58.87.221}}, udp: true}
-  - {name: 套餐到期：2025-04-21, server: 104.26.13.140, port: 80, type: vmess, uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/s15.html?ed=2048", headers: {Host: 686112157149322025041317124887565.s15.chibaba.filegear-sg.me}}, udp: true}
-  - {name: 🇺🇸 美国01_免费, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us01.sh-cloudflare.sbs, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1, server: 0ffb2ad4-supts0-swdlq9-g53t.lza.plebai.net, port: 7612, type: vmess, uuid: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0ffb2ad4-supts0-swdlq9-g53t.lza.plebai.net}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: www.xinjuc.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: hk.freeyyds.dpdns.org}}, udp: true}
-  - {name: 吉林省 移动(全省通用)_2, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: v40.heduian.link}}, udp: true}
-  - {name: 广东省湛江市 移动_1_2, server: 120.198.71.219, port: 51095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.41, port: 44491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 移动 2, server: 183.236.51.38, port: 34652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国90 | ⬇️ 2.9MB/s, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: maXNEtVIP-usA-VP3.nETKH3.SiTE, network: ws, ws-opts: {path: /linkws, headers: {Host: maXNEtVIP-usA-VP3.nETKH3.SiTE}}, udp: true}
-  - {name: 🇺🇸 美国77 | ⬇️ 2.4MB/s, server: 0ffb2ad4-supts0-swdlq9-g53t.lza.plebai.net, port: 7612, type: vmess, uuid: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇺🇸 美国17 | ⬇️ 2.6MB/s, server: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net, port: 5229, type: vmess, uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国1 | ⬇️ 2.5MB/s, server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net, port: 5229, type: vmess, uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港1 | ⬇️ 5.0MB/s, server: 183.236.51.38, port: 42524, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN-120.233.87.213-0091, server: cloudgd.coemn.com, port: 46003, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cloudgd.coemn.com}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: gysz0000.dynu.net, port: 56277, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 120.232.218.246, port: 12210, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 119.188.66.248, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 144.255.36.254, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国, server: 120.232.153.41, port: 46597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE, server: 5.10.246.123, port: 443, type: vmess, uuid: e5462a09-1554-4da9-ae95-75da9bd19638, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pasiyunargo.lzj520hxw.dpdns.org, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: pasiyunargo.lzj520hxw.dpdns.org}}, udp: true}
+  - {name: 🇭🇰 HK-Akile, server: 43.154.34.74, port: 1935, type: vmess, uuid: 2e5bfd4a-0852-4df4-b9e7-9b6f207113b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: djdjjrjjrhk.lzj520hxw.dpdns.org, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: djdjjrjjrhk.lzj520hxw.dpdns.org}}, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 32285145-937c-4799-b732-d09d800acc20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 加拿大5 | ⬇️ 2.4MB/s, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港 3, server: 183.236.51.38, port: 43121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 0|🇺🇸45 |  3.6MB/s, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkws?ed=2560", headers: {Host: maXNEtVIP-usA-VP3.nETKH3.SiTE}}, udp: true}
-  - {name: 0|🇺🇸10 |  2.9MB/s, server: 120.232.153.41, port: 44491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 0|🇭🇰4 |  5.9MB/s, server: 183.236.51.38, port: 42524, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国, server: 120.232.153.40, port: 57852, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f, udp: true}
-  - {name: 🇨🇳 台湾, server: gsyd.aicheetah.lol, port: 33248, type: ss, cipher: chacha20-ietf-poly1305, password: d192a833-b118-4b46-8e54-12cf5025d4cd, udp: true}
-  - {name: 🇯🇵 日本, server: gdlt.aicheetah.lol, port: 27534, type: ss, cipher: chacha20-ietf-poly1305, password: d192a833-b118-4b46-8e54-12cf5025d4cd, udp: true}
-  - {name: 海南省 移动(全省通用), server: 111.29.57.125, port: 52612, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b, udp: true}
-  - {name: 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab, server: 5.189.201.250, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X, udp: true}
-  - {name: 🇬🇧 UK-英国-24, server: 109.74.200.161, port: 49761, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 3725974748, udp: true}
-  - {name: 🇩🇪 DE-德国-50, server: 139.162.176.180, port: 49761, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 3725974748, udp: true}
-  - {name: 0|🇮🇳1 |  5.1MB/s, server: gysz0000.dynu.net, port: 56277, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 13.60.119.104, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 山东省青岛市 联通, server: gysz0000.dynu.net, port: 38340, type: trojan, password: VMhGp5wEIyCDf90T, sni: hk39.work.gd, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本✘鼠鼠 5, server: neatly.superpokemon.com, port: 443, type: trojan, password: Sp46gx5Z783yCZjS2XaaDua9eER33AODpCqYwcx08KSlORAFTNYBFnCe3IyDlz, sni: neatly.superpokemon.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本✘鼠鼠 3, server: bungle.superpokemon.com, port: 443, type: trojan, password: 2zDxCBy3NlalDe3ZO0cpF7FqDnYRa46uygSXYTjAwpE8AR5KeS3CZ98C3axIOS, sni: bungle.superpokemon.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 Amazon数据中心, server: 13.36.157.61, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 广东省肇庆市 中移铁通, server: csuzhou01.1cooldns.com, port: 42303, type: trojan, password: VMhGp5wEIyCDf90T, sni: hk06.run.place, skip-cert-verify: true, udp: true}
-  - {name: 2|🇩🇪12 |  1.9MB/s, server: 194.164.57.9, port: 1935, type: trojan, password: I46LpSIM1f, sni: x4ger-ionos.devefun.net, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港1 | ⬇️ 5.0MB/s, server: 183.236.51.38, port: 42524, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-2P, server: 45.147.201.231, port: 23069, type: vmess, uuid: 657fe0c0-7c13-4f74-ab0b-da3d68c3046b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国20 | ⬇️ 2.4MB/s, server: 119.188.66.248, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+  - {name: 广东省湛江市 移动, server: 120.198.71.216, port: 42259, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 32285145-937c-4799-b732-d09d800acc20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇿 捷克 V2CROSS.COM, server: 185.189.32.179, port: 48737, type: vmess, uuid: 3680a006-d824-4574-90f3-21226dae6903, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国, server: dxv4.pai50288.uk, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4, server: dxv4.pai50288.uk, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.149.75, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: us.insbot.filegear-sg.me}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 3h-poland1.09vpn.com, port: 8443, type: vmess, uuid: a4850481-9b95-430f-9b2d-192d2410b4f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 3h-poland1.09vpn.com}}, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 32285145-937c-4799-b732-d09d800acc20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 山东省 电信_2_2, server: 144.255.36.254, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9, server: 120.198.71.214, port: 46345, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2|🇩🇪6 |  5.5MB/s, server: 85.208.139.31, port: 42037, type: ss, cipher: chacha20-ietf-poly1305, password: q7jwtcA0MmyYi0JddUgXXj, udp: true}
+  - {name: 2|🇷🇺1 |  5.1MB/s, server: 147.45.221.106, port: 46356, type: ss, cipher: chacha20-ietf-poly1305, password: m30QhUjzdUtXi1tsDsF7G1, udp: true}
+  - {name: 4Sarina-287, server: 77.110.106.77, port: 36301, type: ss, cipher: chacha20-ietf-poly1305, password: v0NHlCl2nvVfC8AeZPMffi, udp: true}
+  - {name: 🇩🇪 DE-德国-50, server: 172.104.152.174, port: 49761, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 3725974748, udp: true}
+  - {name: 🇷🇺 RU, server: 5.189.201.250, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X, udp: true}
+  - {name: 🇬🇧 UK-英国-23, server: 109.74.200.150, port: 49761, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 3725974748, udp: true}
+  - {name: 🇺🇸 US-美国-50, server: 45.33.26.49, port: 49761, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 3725974748, udp: true}
+  - {name: 🇭🇰 Hong Kong 04, server: mthk.ppooqq.top, port: 41275, type: ss, cipher: chacha20-ietf-poly1305, password: 14b4e191-c526-49a8-9d92-0dd5749f21ed, udp: true}
+  - {name: 🇯🇵 Japan 01, server: mthk.ppooqq.top, port: 26690, type: ss, cipher: chacha20-ietf-poly1305, password: 14b4e191-c526-49a8-9d92-0dd5749f21ed, udp: true}
+  - {name: 河北省 移动(全省通用)_3, server: bsuqian01.dynu.net, port: 15375, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.110.1.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇯🇵 日本, server: gg21.hangfengjiasu.com, port: 12210, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f, udp: true}
+  - {name: 🇯🇵 日本01-1C, server: gy.tangu.win, port: 38726, type: ss, cipher: chacha20-ietf-poly1305, password: 7a592abf-5561-422c-b594-566fe01b2e49, udp: true}
+  - {name: 🇨🇳 台湾01专线-1A, server: iepl.ytxfx.xyz, port: 45632, type: ss, cipher: chacha20-ietf-poly1305, password: 7dfc2375-b6db-4611-8341-5ff49f0cd5c7, udp: true}
+  - {name: 🇨🇳 台湾01专线-1B, server: iepl.ytxfx.xyz, port: 45632, type: ss, cipher: chacha20-ietf-poly1305, password: 7a592abf-5561-422c-b594-566fe01b2e49, udp: true}
+  - {name: 未知54, server: 92.38.171.215, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR, udp: true}
+  - {name: 🇭🇰 香港 2, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f, udp: true}
+  - {name: 🇭🇰 香港 3, server: 111.29.57.125, port: 52612, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b, udp: true}
+  - {name: 🇭🇰 香港01-1B, server: 183.236.51.166, port: 38708, type: ss, cipher: aes-128-gcm, password: 5a84967c-bd9f-458a-a8c8-327d392e5f0b, udp: true}
+  - {name: 🇭🇰 香港02, server: 183.236.51.167, port: 57717, type: ss, cipher: chacha20-ietf-poly1305, password: 5a84967c-bd9f-458a-a8c8-327d392e5f0b, udp: true}
+  - {name: 🇭🇰 香港06-备用-1A, server: qqa813.198139.xyz, port: 45640, type: ss, cipher: chacha20-ietf-poly1305, password: 7dfc2375-b6db-4611-8341-5ff49f0cd5c7, udp: true}
+  - {name: 🇸🇬 新加坡01, server: 183.236.51.166, port: 22707, type: ss, cipher: chacha20-ietf-poly1305, password: 5a84967c-bd9f-458a-a8c8-327d392e5f0b, udp: true}
+  - {name: 🇸🇬 新加坡01专线-1A, server: iepl.ytxfx.xyz, port: 45636, type: ss, cipher: chacha20-ietf-poly1305, password: 7dfc2375-b6db-4611-8341-5ff49f0cd5c7, udp: true}
+  - {name: 🇸🇬 新加坡01专线-1B, server: iepl.ytxfx.xyz, port: 45636, type: ss, cipher: chacha20-ietf-poly1305, password: 7a592abf-5561-422c-b594-566fe01b2e49, udp: true}
+  - {name: 🇬🇧 英国01-1A, server: gy.tangu.win, port: 45634, type: ss, cipher: chacha20-ietf-poly1305, password: 7dfc2375-b6db-4611-8341-5ff49f0cd5c7, udp: true}
   - {name: 🇦🇺 _澳大利亚, server: 43.167.160.4, port: 443, type: trojan, password: oIwjHDXpKePvYIg8, sni: myvps.cfd, skip-cert-verify: true, udp: true}
+  - {name: "|@PrivateVPNs| AHS -94.24", server: 3.72.123.152, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 2|🇸🇬2 |  1.6MB/s, server: gysz0000.dynu.net, port: 38340, type: trojan, password: VMhGp5wEIyCDf90T, sni: hk39.work.gd, skip-cert-verify: true, udp: true}
+  - {name: 2|🌀19- |  1.4MB/s, server: csuzhou01.1cooldns.com, port: 42303, type: trojan, password: VMhGp5wEIyCDf90T, sni: hk06.run.place, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度, server: www.hk-jd.top, port: 10240, type: trojan, password: b19c4375-d847-4c40-9824-4767c88b5f38, sni: www.hk-jd.top, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚东部（悉尼）2, server: 250407.jichang.my, port: 29978, type: trojan, password: 1ebeff0a-6b43-4585-9fab-97859991f1f7, sni: sydney2.678789.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国中部（首尔）2, server: 250407.jichang.my, port: 47918, type: trojan, password: 1ebeff0a-6b43-4585-9fab-97859991f1f7, sni: seoul2.678789.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -55,46 +68,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: Netflix
     type: select
     proxies:
@@ -103,46 +129,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: HBO
     type: select
     proxies:
@@ -151,46 +190,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: DisneyPlus
     type: select
     proxies:
@@ -199,46 +251,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: YouTube
     type: select
     proxies:
@@ -247,46 +312,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: Bahamut
     type: select
     proxies:
@@ -295,46 +373,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: AI
     type: select
     proxies:
@@ -343,46 +434,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: Telegram
     type: select
     proxies:
@@ -391,46 +495,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: Steam
     type: select
     proxies:
@@ -439,46 +556,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: Microsoft
     type: select
     proxies:
@@ -487,46 +617,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: Apple
     type: select
     proxies:
@@ -535,46 +678,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: 🎯Direct
     type: select
     proxies:
@@ -589,46 +745,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
   - name: ✈️Final
     type: select
     proxies:
@@ -637,46 +806,59 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 乌克兰 V2CROSS.COM
-      - 套餐到期：2025-04-21
-      - 🇺🇸 美国01_免费
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心_1
-      - 🇺🇸 美国 CloudFlare节点
-      - 吉林省 移动(全省通用)_2
-      - 广东省湛江市 移动_1_2
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇸 美国90 | ⬇️ 2.9MB/s
-      - 🇺🇸 美国77 | ⬇️ 2.4MB/s
-      - 🇺🇸 美国17 | ⬇️ 2.6MB/s
-      - 🇺🇸 美国1 | ⬇️ 2.5MB/s
-      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
-      - 🇨🇳 CN-120.233.87.213-0091
-      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
-      - 🇭🇰 香港 3
-      - 0|🇺🇸45 |  3.6MB/s
-      - 0|🇺🇸10 |  2.9MB/s
-      - 0|🇭🇰4 |  5.9MB/s
-      - _中国
-      - 🇭🇰 香港 4
-      - 🇨🇳 台湾
-      - 🇯🇵 日本
-      - 海南省 移动(全省通用)
-      - 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-      - 🇬🇧 UK-英国-24
-      - 🇩🇪 DE-德国-50
-      - 0|🇮🇳1 |  5.1MB/s
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇨🇳 山东省青岛市 联通
-      - 🇯🇵 日本✘鼠鼠 5
-      - 🇯🇵 日本✘鼠鼠 3
-      - 🇺🇸 美国 Amazon数据中心
-      - 广东省肇庆市 中移铁通
-      - 2|🇩🇪12 |  1.9MB/s
+      - _中国
+      - 🇩🇪 DE
+      - 🇭🇰 HK-Akile
+      - 🇦🇺 澳大利亚原生1
+      - 🇨🇦 加拿大5 | ⬇️ 2.4MB/s
+      - 🇭🇰 香港1 | ⬇️ 5.0MB/s
+      - 🇺🇸 美国-拉斯维加斯-002-2P
+      - 🇺🇸 美国20 | ⬇️ 2.4MB/s
+      - 广东省湛江市 移动
+      - 🇰🇷 韩国 专线NO1
+      - 🇨🇿 捷克 V2CROSS.COM
+      - 🇺🇸 美国
+      - 🇺🇸 美国 - 洛杉矶 - QuadraNet Enterprises LLC - 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇯🇵 日本NO.2
+      - 山东省 电信_2_2
+      - 🇭🇰 香港
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 6
+      - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 9
+      - 2|🇩🇪6 |  5.5MB/s
+      - 2|🇷🇺1 |  5.1MB/s
+      - 4Sarina-287
+      - 🇩🇪 DE-德国-50
+      - 🇷🇺 RU
+      - 🇬🇧 UK-英国-23
+      - 🇺🇸 US-美国-50
+      - 🇭🇰 Hong Kong 04
+      - 🇯🇵 Japan 01
+      - 河北省 移动(全省通用)_3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇯🇵 日本
+      - 🇯🇵 日本01-1C
+      - 🇨🇳 台湾01专线-1A
+      - 🇨🇳 台湾01专线-1B
+      - 未知54
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港01-1B
+      - 🇭🇰 香港02
+      - 🇭🇰 香港06-备用-1A
+      - 🇸🇬 新加坡01
+      - 🇸🇬 新加坡01专线-1A
+      - 🇸🇬 新加坡01专线-1B
+      - 🇬🇧 英国01-1A
       - 🇦🇺 _澳大利亚
+      - "|@PrivateVPNs| AHS -94.24"
+      - 2|🇸🇬2 |  1.6MB/s
+      - 2|🌀19- |  1.4MB/s
+      - 🇮🇳 印度
+      - 🇦🇺 澳大利亚东部（悉尼）2
+      - 🇰🇷 韩国中部（首尔）2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯Direct
   - DOMAIN-SUFFIX,ip6-localhost,🎯Direct
@@ -894,6 +1076,22 @@ rules:
   - DOMAIN-SUFFIX,cctv.com,🎯Direct
   - DOMAIN-SUFFIX,cctvpic.com,🎯Direct
   - DOMAIN-SUFFIX,livechina.com,🎯Direct
+  - DOMAIN,auth.wosms.cn,🎯Direct
+  - DOMAIN,config.cmpassport.com,🎯Direct
+  - DOMAIN,enrichgw.10010.com,🎯Direct
+  - DOMAIN,hmrz.wo.cn,🎯Direct
+  - DOMAIN,id.mail.wo.cn,🎯Direct
+  - DOMAIN,log.cmpassport.com,🎯Direct
+  - DOMAIN,log1.cmpassport.com,🎯Direct
+  - DOMAIN,mdn.open.wo.cn,🎯Direct
+  - DOMAIN,nishub1.10010.com,🎯Direct
+  - DOMAIN,opencloud.wostore.cn,🎯Direct
+  - DOMAIN,ye.dun.163yun.com,🎯Direct
+  - DOMAIN-SUFFIX,auth.wo.cn,🎯Direct
+  - DOMAIN-SUFFIX,cmpassport.com,🎯Direct
+  - DOMAIN-SUFFIX,id6.me,🎯Direct
+  - DOMAIN-SUFFIX,mob.com,🎯Direct
+  - DOMAIN-SUFFIX,open.e.189.cn,🎯Direct
   - DOMAIN-SUFFIX,21cn.com,🎯Direct
   - DOMAIN-SUFFIX,didialift.com,🎯Direct
   - DOMAIN-SUFFIX,didiglobal.com,🎯Direct
@@ -902,6 +1100,7 @@ rules:
   - DOMAIN-SUFFIX,edgesrv.com,🎯Direct
   - DOMAIN-SUFFIX,douyu.com,🎯Direct
   - DOMAIN-SUFFIX,douyu.tv,🎯Direct
+  - DOMAIN-SUFFIX,douyucdn.cn,🎯Direct
   - DOMAIN-SUFFIX,douyuscdn.com,🎯Direct
   - DOMAIN-SUFFIX,douyutv.com,🎯Direct
   - DOMAIN-SUFFIX,epicgames.com,🎯Direct

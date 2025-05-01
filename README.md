@@ -3,9 +3,9 @@
 ****
 
 # 更新时间2025/5/1,19:42
-v2ray订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/4V2ray
+v2ray订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/5V2ray
 
-clash订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/4clash
+clash订阅链接https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/5clash
 clash取部分v2ray节点
  
 

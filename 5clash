@@ -15,48 +15,34 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: abc.theyyszmn.sbs, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3d84a668-0588-447b-fbe1-058deb5baf93, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 46.8.126.22, port: 46961, client-fingerprint: chrome, type: vmess, uuid: 43228d71-743c-45f3-91b5-df6e4052d33d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 45.147.201.231, port: 22038, client-fingerprint: chrome, type: vmess, uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 183.238.90.8, port: 39076, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 183.238.90.8, port: 46920, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: 120.232.153.41, port: 44491, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 7, server: 120.198.44.126, port: 47883, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 0|🇺🇸68 |  5.5MB/s|Openai, server: 142.4.116.177, port: 50009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 1|🇫🇷6 |  1.2MB/s|100%|Openai, server: 188.114.97.2, port: 443, client-fingerprint: chrome, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 120.232.153.41, port: 44491, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 183.238.90.8, port: 46920, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 183.238.90.8, port: 41766, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 141.101.120.253, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 1746882891.speed.adl.cccp.freefly.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: 1746882891.speed.adl.cccp.freefly.pp.ua}}}
+  - {name: "[aiboboxx/v2rayfree]2|🇸🇬2 |  5.4MB/s|38%|Disney|Yout...", server: sgfqkqmltcy.site, port: 443, client-fingerprint: chrome, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: sgfqkqmltcy.site}}}
+  - {name: 🇺🇸 美国, server: tk.hzlt.tkddns.xyz, port: 22642, client-fingerprint: chrome, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: zxjp-b.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}}
+  - {name: 2|🇭🇰2 |  1.1MB/s|15%|Disney|Yout..., server: e4d173ea-swd340-sykxcb-1nhp7.hgc1.tcpbbr.net, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 3|🇺🇸122 |  4.3MB/s|29%|Openai, server: 45.147.201.231, port: 20029, client-fingerprint: chrome, type: vmess, uuid: 9c6ad3af-e7a6-4e92-b465-a75cb23e4888, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 45.147.201.231}}}
+  - {name: 3|🇺🇸124 |  1.1MB/s|29%, server: 45.147.201.231, port: 20029, client-fingerprint: chrome, type: vmess, uuid: 6d579896-40eb-400c-89b4-4eef10f2e7a6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 45.147.201.231}}}
   - {name: 🇨🇦 CA, server: v25.heduian.link, port: 30825, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}}
-  - {name: JP_speednode_0161, server: 212.50.251.250, port: 2346, client-fingerprint: chrome, type: vmess, uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /lzjjj, headers: {Host: th.lzj520hxw.dpdns.org}}}
   - {name: 🇺🇸 US, server: tk.hzlt.tkddns.xyz, port: 22643, client-fingerprint: chrome, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}}
-  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, client-fingerprint: chrome, type: vmess, uuid: 2e19f9cc-a05d-43d3-b8e0-5b5d0a30d77f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 大运重卡的爸爸, server: 36.150.215.157, port: 19700, client-fingerprint: chrome, type: vmess, uuid: db1b5367-92d7-4337-90c6-b3b9955d02ba, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇨🇳 CN-111.26.109.79-0086, server: 111.26.109.79, port: 30828, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 CN-54.223.46.105-0108, server: tk.hzlt.tkddns.xyz, port: 22642, client-fingerprint: chrome, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: zxjp-b.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}}
   - {name: 🇺🇸 美国 大运重卡的爸爸, server: 38.54.25.204, port: 55839, client-fingerprint: chrome, type: vmess, uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯 莫斯科JustHost, server: 45.147.201.231, port: 22038, client-fingerprint: chrome, type: vmess, uuid: 12a642c3-924b-482d-a604-23ef3ad7bed5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 45.147.201.231}}}
-  - {name: 🇺🇸 美国 - 西雅圖 - Cnservers LLC - 38, server: 120.198.71.216, port: 52082, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 - 西雅圖 - Cnservers LLC - 39, server: 120.232.153.41, port: 46597, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.71.160, port: 443, client-fingerprint: chrome, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 141.101.120.253, port: 2096, client-fingerprint: chrome, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 1746882891.speed.adl.cccp.freefly.pp.ua}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 120.232.153.63, port: 37805, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: "🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7", server: 59.42.247.189, port: 8004, client-fingerprint: chrome, type: vmess, uuid: ebb3b22f-1485-40a3-aa37-ea7e444c2327, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nmkj, headers: {Host: www.bing.com}}}
-  - {name: 🇯🇵 日本3, server: 183.237.84.53, port: 55002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本V-1F, server: bookmyshow.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: cd3b9a1b-95d9-4cad-ac55-7360e8075c58, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}}
-  - {name: 🇺🇸 圣何塞4-1H, server: xiaoqi.yangmie.online, port: 443, client-fingerprint: chrome, type: vmess, uuid: 20d6e30f-5385-43f3-904e-874763bb6228, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}}
-  - {name: 🇹🇼 台湾, server: dxv4.pai50288.uk, port: 14100, client-fingerprint: chrome, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, client-fingerprint: chrome, type: vmess, uuid: 2e19f9cc-a05d-43d3-b8e0-5b5d0a30d77f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 2, server: xg.dashuai.cyou, port: 19901, client-fingerprint: chrome, type: vmess, uuid: 2e19f9cc-a05d-43d3-b8e0-5b5d0a30d77f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 IEPL专线NO1, server: sd.needss.top, port: 54774, client-fingerprint: chrome, type: vmess, uuid: cc8daf37-e5e6-439a-99e4-a7080f54de9f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 只有爱懂的人才能用用, server: 8.218.244.56, port: 3000, client-fingerprint: chrome, type: vmess, uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 2, server: 111.26.109.79, port: 30828, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇭🇰 香港3, server: 120.198.71.216, port: 35921, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇨🇳 中国 - 成都 - CloudRadium L.L.C - 108, server: 120.232.153.63, port: 37805, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 8, server: gdlt.aicheetah.lol, port: 43450, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d192a833-b118-4b46-8e54-12cf5025d4cd, tfo: false}
-  - {name: "🇺🇸 [Rawdroid/Free-servers]美国 华盛顿Cogent通信公司", server: 38.110.1.146, port: 7002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: 🇯🇵 Akamai-日本 | 移动快乐, server: 139.162.106.142, port: 11359, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: tVPVlUgQhj9i7vHOHij3daCJEUZxctEQ9xoj0WT5A8w=, tfo: false}
-  - {name: 🇭🇰 香港家宽 大运重卡的爸爸, server: 183.236.51.26, port: 39102, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 93f122df-87be-4554-b6cd-4f55da7f619a, tfo: false}
-  - {name: 🇺🇸 US-38.110.1.146-2034, server: 38.110.1.146, port: 8118, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false}
+  - {name: "🇳🇱 [openproxylist.com] ss-NL", server: 147.45.69.81, port: 52466, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: PcSF0kEpWZvhnWaTVJd67X, tfo: false}
+  - {name: 🇨🇳 CN-120.238.97.218-0236, server: gdlt.aicheetah.lol, port: 43450, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d192a833-b118-4b46-8e54-12cf5025d4cd, tfo: false}
   - {name: 🇺🇸 美国 - 塔克維拉 - Wowrack.com - 9, server: cdn-p1-us.youku-dns.com, port: 11511, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77a12a3d-6df0-48c8-a189-b071fcda1456, tfo: false}
-  - {name: 🇺🇸 美国04, server: gya.tangu.win, port: 38722, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: da7913c8-371b-469b-8bcf-b5b6af4f03bf, tfo: false}
-  - {name: 🇹🇼 台湾01专线, server: zf-ct.bgblwow.org, port: 45632, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: da7913c8-371b-469b-8bcf-b5b6af4f03bf, tfo: false}
-  - {name: 🇸🇬 新加坡02, server: gya.tangu.win, port: 45637, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: da7913c8-371b-469b-8bcf-b5b6af4f03bf, tfo: false}
-  - {name: 3|🇺🇸91 |  4.1MB/s|47%|Openai|Gem..., server: eccd74b4-sw7j40-t1bnjq-1krtb.cu.plebai.net, port: 15229, client-fingerprint: chrome, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, sni: eccd74b4-sw7j40-t1bnjq-1krtb.cu.plebai.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 1f279ee7-sw7j40-sxt412-1qrx5.cu.plebai.net, port: 15229, client-fingerprint: chrome, type: trojan, password: f524c600-db8f-11ee-819e-f23c91cfbbc9, sni: 1f279ee7-sw7j40-sxt412-1qrx5.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇩🇪 _DE_德国, server: 3.121.11.241, port: 443, client-fingerprint: chrome, type: trojan, password: 74260665780162200, sni: cuddly-finch.shiner427.skin, skip-cert-verify: false}
+  - {name: 14|CN_speednode_0008, server: gzyd.cg.xxality.cn, port: 35000, client-fingerprint: chrome, type: trojan, password: 09e8b39a-4c09-4df0-a50c-af3bef01567e, sni: cgsg2.hysality.com, skip-cert-verify: false}
+  - {name: 15|CN_speednode_0033, server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, port: 15229, client-fingerprint: chrome, type: trojan, password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d, sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net, skip-cert-verify: false}
+  - {name: 2|🇺🇸10 |  1.3MB/s|46%|Openai|Gem..., server: b5d29914-swb8g0-swy6li-tni2.cu.plebai.net, port: 15229, client-fingerprint: chrome, type: trojan, password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, sni: b5d29914-swb8g0-swy6li-tni2.cu.plebai.net, skip-cert-verify: false}
+  - {name: 3|🇨🇦1 |  2.9MB/s|0%|Youtube|Open..., server: 52.60.142.77, port: 443, client-fingerprint: chrome, type: trojan, password: 74260665780162200, sni: allowing-owl.shiner427.skin, skip-cert-verify: false}
+  - {name: 3|🇺🇸13 |  1.5MB/s|46%|Openai|Gem..., server: 26a33cb5-swb8g0-t1bnjq-1krtb.cu.plebai.net, port: 15229, client-fingerprint: chrome, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, sni: 26a33cb5-swb8g0-t1bnjq-1krtb.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-157.148.96.92-0040, server: 4ef54dd8-swd340-t1bnjq-1krtb.cu.plebai.net, port: 15229, client-fingerprint: chrome, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, sni: 4ef54dd8-swd340-t1bnjq-1krtb.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 纽约市DigitalOcean云公司, server: 138.197.5.103, port: 443, client-fingerprint: chrome, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -76,44 +62,30 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - 0|🇺🇸68 |  5.5MB/s|Openai
-      - 1|🇫🇷6 |  1.2MB/s|100%|Openai
+      - "[aiboboxx/v2rayfree]2|🇸🇬2 |  5.4MB/s|38%|Disney|Yout..."
+      - 🇺🇸 美国
+      - 2|🇭🇰2 |  1.1MB/s|15%|Disney|Yout...
+      - 3|🇺🇸122 |  4.3MB/s|29%|Openai
+      - 3|🇺🇸124 |  1.1MB/s|29%
       - 🇨🇦 CA
-      - JP_speednode_0161
       - 🇺🇸 US
-      - 🇭🇰 香港
-      - 🇯🇵 日本 大运重卡的爸爸
+      - 🇨🇳 CN-111.26.109.79-0086
+      - 🇨🇳 CN-54.223.46.105-0108
       - 🇺🇸 美国 大运重卡的爸爸
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇺🇸 美国 - 西雅圖 - Cnservers LLC - 38
-      - 🇺🇸 美国 - 西雅圖 - Cnservers LLC - 39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
-      - 🇯🇵 日本3
-      - 🇯🇵 日本V-1F
-      - 🇺🇸 圣何塞4-1H
-      - 🇹🇼 台湾
-      - 🇹🇭 泰国NO1
-      - 🇭🇰 香港 2
-      - 🇬🇧 英国 IEPL专线NO1
-      - 只有爱懂的人才能用用
+      - 🇺🇸 美国 2
+      - 🇭🇰 香港3
       - 🇨🇳 中国 - 成都 - CloudRadium L.L.C - 108
-      - 关注https://github.com/ggborr/FREEE-VPN 8
-      - 🇺🇸 [Rawdroid/Free-servers]美国 华盛顿Cogent通信公司
-      - 🇯🇵 Akamai-日本 | 移动快乐
-      - 🇭🇰 香港家宽 大运重卡的爸爸
-      - 🇺🇸 US-38.110.1.146-2034
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇨🇳 CN-120.238.97.218-0236
       - 🇺🇸 美国 - 塔克維拉 - Wowrack.com - 9
-      - 🇺🇸 美国04
-      - 🇹🇼 台湾01专线
-      - 🇸🇬 新加坡02
-      - 3|🇺🇸91 |  4.1MB/s|47%|Openai|Gem...
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇩🇪 _DE_德国
+      - 14|CN_speednode_0008
+      - 15|CN_speednode_0033
+      - 2|🇺🇸10 |  1.3MB/s|46%|Openai|Gem...
+      - 3|🇨🇦1 |  2.9MB/s|0%|Youtube|Open...
+      - 3|🇺🇸13 |  1.5MB/s|46%|Openai|Gem...
+      - 🇨🇳 CN-157.148.96.92-0040
+      - 🇺🇸 美国 纽约市DigitalOcean云公司
   - name: 📲 电报消息
     type: select
     proxies:
@@ -304,43 +276,28 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港家宽 大运重卡的爸爸
+      - 🇭🇰 香港3
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - JP_speednode_0161
-      - 🇯🇵 日本 大运重卡的爸爸
-      - 🇯🇵 日本 - 东京 - STARCLOUD GLOBAL PTE., LTD. - 7
-      - 🇯🇵 日本3
-      - 🇯🇵 日本V-1F
-      - 🇯🇵 Akamai-日本 | 移动快乐
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: select
     proxies:
+      - 🇺🇸 美国
       - 🇺🇸 US
       - 🇺🇸 美国 大运重卡的爸爸
-      - 🇺🇸 美国 - 西雅圖 - Cnservers LLC - 38
-      - 🇺🇸 美国 - 西雅圖 - Cnservers LLC - 39
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 圣何塞4-1H
-      - 🇺🇸 [Rawdroid/Free-servers]美国 华盛顿Cogent通信公司
-      - 🇺🇸 US-38.110.1.146-2034
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 - 塔克維拉 - Wowrack.com - 9
-      - 🇺🇸 美国04
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 纽约市DigitalOcean云公司
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬 新加坡02
+      - DIRECT
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - 🇹🇼 台湾
-      - 🇹🇼 台湾01专线
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
@@ -2941,6 +2898,7 @@ rules:
   - DOMAIN-SUFFIX,10beasts.net,🚀 节点选择
   - DOMAIN-SUFFIX,10conditionsoflove.com,🚀 节点选择
   - DOMAIN-SUFFIX,10musume.com,🚀 节点选择
+  - DOMAIN-SUFFIX,111666.best,🚀 节点选择
   - DOMAIN-SUFFIX,123rf.com,🚀 节点选择
   - DOMAIN-SUFFIX,12bet.com,🚀 节点选择
   - DOMAIN-SUFFIX,12vpn.com,🚀 节点选择
@@ -2970,16 +2928,7 @@ rules:
   - DOMAIN-SUFFIX,1dumb.com,🚀 节点选择
   - DOMAIN-SUFFIX,1e100.net,🚀 节点选择
   - DOMAIN-SUFFIX,1eew.com,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.cloud,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.cz,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.domains,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.education,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.eu,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.limited,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.pl,🚀 节点选择
   - DOMAIN-SUFFIX,1lib.sk,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.to,🚀 节点选择
-  - DOMAIN-SUFFIX,1lib.tw,🚀 节点选择
   - DOMAIN-SUFFIX,1mobile.com,🚀 节点选择
   - DOMAIN-SUFFIX,1mobile.tw,🚀 节点选择
   - DOMAIN-SUFFIX,1point3acres.com,🚀 节点选择
@@ -3003,7 +2952,6 @@ rules:
   - DOMAIN-SUFFIX,24smile.org,🚀 节点选择
   - DOMAIN-SUFFIX,25u.com,🚀 节点选择
   - DOMAIN-SUFFIX,2du5.com,🚀 节点选择
-  - DOMAIN-SUFFIX,2lib.org,🚀 节点选择
   - DOMAIN-SUFFIX,2lipstube.com,🚀 节点选择
   - DOMAIN-SUFFIX,2shared.com,🚀 节点选择
   - DOMAIN-SUFFIX,2waky.com,🚀 节点选择
@@ -3016,7 +2964,6 @@ rules:
   - DOMAIN-SUFFIX,3arabtv.com,🚀 节点选择
   - DOMAIN-SUFFIX,3boys2girls.com,🚀 节点选择
   - DOMAIN-SUFFIX,3d-game.com,🚀 节点选择
-  - DOMAIN-SUFFIX,3lib.net,🚀 节点选择
   - DOMAIN-SUFFIX,3proxy.ru,🚀 节点选择
   - DOMAIN-SUFFIX,3ren.ca,🚀 节点选择
   - DOMAIN-SUFFIX,3tui.net,🚀 节点选择
@@ -3071,7 +3018,6 @@ rules:
   - DOMAIN-SUFFIX,85st.com,🚀 节点选择
   - DOMAIN-SUFFIX,881903.com,🚀 节点选择
   - DOMAIN-SUFFIX,888.com,🚀 节点选择
-  - DOMAIN-SUFFIX,8888.google,🚀 节点选择
   - DOMAIN-SUFFIX,888poker.com,🚀 节点选择
   - DOMAIN-SUFFIX,89-64.org,🚀 节点选择
   - DOMAIN-SUFFIX,8964museum.com,🚀 节点选择
@@ -3336,7 +3282,6 @@ rules:
   - DOMAIN-SUFFIX,arethusa.su,🚀 节点选择
   - DOMAIN-SUFFIX,arlingtoncemetery.mil,🚀 节点选择
   - DOMAIN-SUFFIX,army.mil,🚀 节点选择
-  - DOMAIN-SUFFIX,art1lib.com,🚀 节点选择
   - DOMAIN-SUFFIX,art4tibet1998.org,🚀 节点选择
   - DOMAIN-SUFFIX,arte.tv,🚀 节点选择
   - DOMAIN-SUFFIX,artofpeacefoundation.org,🚀 节点选择
@@ -3373,7 +3318,6 @@ rules:
   - DOMAIN-SUFFIX,atlaspost.com,🚀 节点选择
   - DOMAIN-SUFFIX,atnext.com,🚀 节点选择
   - DOMAIN-SUFFIX,audacy.com,🚀 节点选择
-  - DOMAIN-SUFFIX,audiomack.com,🚀 节点选择
   - DOMAIN-SUFFIX,audionow.com,🚀 节点选择
   - DOMAIN-SUFFIX,authorizeddns.net,🚀 节点选择
   - DOMAIN-SUFFIX,authorizeddns.org,🚀 节点选择
@@ -3406,11 +3350,7 @@ rules:
   - DOMAIN-SUFFIX,azirevpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,azubu.tv,🚀 节点选择
   - DOMAIN-SUFFIX,azurewebsites.net,🚀 节点选择
-  - DOMAIN-SUFFIX,b-ok.africa,🚀 节点选择
-  - DOMAIN-SUFFIX,b-ok.asia,🚀 节点选择
   - DOMAIN-SUFFIX,b-ok.cc,🚀 节点选择
-  - DOMAIN-SUFFIX,b-ok.global,🚀 节点选择
-  - DOMAIN-SUFFIX,b-ok.org,🚀 节点选择
   - DOMAIN-SUFFIX,b0ne.com,🚀 节点选择
   - DOMAIN-SUFFIX,baby-kingdom.com,🚀 节点选择
   - DOMAIN-SUFFIX,babylonbee.com,🚀 节点选择
@@ -3626,18 +3566,9 @@ rules:
   - DOMAIN-SUFFIX,bongacams.com,🚀 节点选择
   - DOMAIN-SUFFIX,boobstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,book.com.tw,🚀 节点选择
-  - DOMAIN-SUFFIX,book4you.org,🚀 节点选择
   - DOMAIN-SUFFIX,bookdepository.com,🚀 节点选择
   - DOMAIN-SUFFIX,bookepub.com,🚀 节点选择
-  - DOMAIN-SUFFIX,bookfi.net,🚀 节点选择
   - DOMAIN-SUFFIX,books.com.tw,🚀 节点选择
-  - DOMAIN-SUFFIX,booksc.eu,🚀 节点选择
-  - DOMAIN-SUFFIX,booksc.me,🚀 节点选择
-  - DOMAIN-SUFFIX,booksc.org,🚀 节点选择
-  - DOMAIN-SUFFIX,booksc.xyz,🚀 节点选择
-  - DOMAIN-SUFFIX,bookshome.info,🚀 节点选择
-  - DOMAIN-SUFFIX,bookshome.net,🚀 节点选择
-  - DOMAIN-SUFFIX,bookshome.world,🚀 节点选择
   - DOMAIN-SUFFIX,booktopia.com.au,🚀 节点选择
   - DOMAIN-SUFFIX,bookwalker.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,boomssr.com,🚀 节点选择
@@ -4027,7 +3958,6 @@ rules:
   - DOMAIN-SUFFIX,clips4sale.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloakpoint.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
-  - DOMAIN-SUFFIX,cloudflare-dns.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloudflare-ipfs.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,cloudfunctions.net,🚀 节点选择
@@ -4070,7 +4000,6 @@ rules:
   - DOMAIN-SUFFIX,coin2co.in,🚀 节点选择
   - DOMAIN-SUFFIX,coinbase.com,🚀 节点选择
   - DOMAIN-SUFFIX,coinbene.com,🚀 节点选择
-  - DOMAIN-SUFFIX,coincarp.com,🚀 节点选择
   - DOMAIN-SUFFIX,coinegg.com,🚀 节点选择
   - DOMAIN-SUFFIX,coinex.com,🚀 节点选择
   - DOMAIN-SUFFIX,coingecko.com,🚀 节点选择
@@ -4087,7 +4016,6 @@ rules:
   - DOMAIN-SUFFIX,com.uk,🚀 节点选择
   - DOMAIN-SUFFIX,comedycentral.com,🚀 节点选择
   - DOMAIN-SUFFIX,comefromchina.com,🚀 节点选择
-  - DOMAIN-SUFFIX,comffvpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,comic-mega.me,🚀 节点选择
   - DOMAIN-SUFFIX,comico.tw,🚀 节点选择
   - DOMAIN-SUFFIX,commandarms.com,🚀 节点选择
@@ -4256,7 +4184,6 @@ rules:
   - DOMAIN-SUFFIX,ddns.net,🚀 节点选择
   - DOMAIN-SUFFIX,ddns.us,🚀 节点选择
   - DOMAIN-SUFFIX,de-sci.org,🚀 节点选择
-  - DOMAIN-SUFFIX,de1lib.org,🚀 节点选择
   - DOMAIN-SUFFIX,deadhouse.org,🚀 节点选择
   - DOMAIN-SUFFIX,deadline.com,🚀 节点选择
   - DOMAIN-SUFFIX,deaftone.com,🚀 节点选择
@@ -4350,6 +4277,7 @@ rules:
   - DOMAIN-SUFFIX,dnvod.tv,🚀 节点选择
   - DOMAIN-SUFFIX,doc.new,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,docs.cfw.lbyczf.com,🚀 节点选择
   - DOMAIN-SUFFIX,docs.new,🚀 节点选择
   - DOMAIN-SUFFIX,doctorvoice.org,🚀 节点选择
@@ -4692,7 +4620,6 @@ rules:
   - DOMAIN-SUFFIX,fangongheike.com,🚀 节点选择
   - DOMAIN-SUFFIX,fanhaodang.com,🚀 节点选择
   - DOMAIN-SUFFIX,fanhaolou.com,🚀 节点选择
-  - DOMAIN-SUFFIX,fani.com,🚀 节点选择
   - DOMAIN-SUFFIX,fanqiang.network,🚀 节点选择
   - DOMAIN-SUFFIX,fanqiang.tk,🚀 节点选择
   - DOMAIN-SUFFIX,fanqiangdang.com,🚀 节点选择
@@ -4708,14 +4635,12 @@ rules:
   - DOMAIN-SUFFIX,fartit.com,🚀 节点选择
   - DOMAIN-SUFFIX,farwestchina.com,🚀 节点选择
   - DOMAIN-SUFFIX,fast.com,🚀 节点选择
-  - DOMAIN-SUFFIX,fast.wistia.com,🚀 节点选择
   - DOMAIN-SUFFIX,fastestvpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,fastpic.ru,🚀 节点选择
   - DOMAIN-SUFFIX,fastssh.com,🚀 节点选择
   - DOMAIN-SUFFIX,faststone.org,🚀 节点选择
   - DOMAIN-SUFFIX,fatakat-n.club,🚀 节点选择
   - DOMAIN-SUFFIX,fatbtc.com,🚀 节点选择
-  - DOMAIN-SUFFIX,favcomic.com,🚀 节点选择
   - DOMAIN-SUFFIX,favotter.net,🚀 节点选择
   - DOMAIN-SUFFIX,favstar.fm,🚀 节点选择
   - DOMAIN-SUFFIX,fawanghuihui.org,🚀 节点选择
@@ -5027,7 +4952,6 @@ rules:
   - DOMAIN-SUFFIX,geekheart.info,🚀 节点选择
   - DOMAIN-SUFFIX,gekikame.com,🚀 节点选择
   - DOMAIN-SUFFIX,gelbooru.com,🚀 节点选择
-  - DOMAIN-SUFFIX,gemini.com,🚀 节点选择
   - DOMAIN-SUFFIX,generated.photos,🚀 节点选择
   - DOMAIN-SUFFIX,genius.com,🚀 节点选择
   - DOMAIN-SUFFIX,geocities.co.jp,🚀 节点选择
@@ -5115,11 +5039,11 @@ rules:
   - DOMAIN-SUFFIX,gmiddle.net,🚀 节点选择
   - DOMAIN-SUFFIX,gmll.org,🚀 节点选择
   - DOMAIN-SUFFIX,gmodules.com,🚀 节点选择
+  - DOMAIN-SUFFIX,gmp4.com,🚀 节点选择
   - DOMAIN-SUFFIX,gmx.net,🚀 节点选择
   - DOMAIN-SUFFIX,gnci.org.hk,🚀 节点选择
   - DOMAIN-SUFFIX,gnews.org,🚀 节点选择
   - DOMAIN-SUFFIX,go-pki.com,🚀 节点选择
-  - DOMAIN-SUFFIX,go-to-library.sk,🚀 节点选择
   - DOMAIN-SUFFIX,go-to-zlibrary.se,🚀 节点选择
   - DOMAIN-SUFFIX,go.sony.com,🚀 节点选择
   - DOMAIN-SUFFIX,go141.com,🚀 节点选择
@@ -5435,6 +5359,7 @@ rules:
   - DOMAIN-SUFFIX,got-game.org,🚀 节点选择
   - DOMAIN-SUFFIX,gotdns.ch,🚀 节点选择
   - DOMAIN-SUFFIX,gotgeeks.com,🚀 节点选择
+  - DOMAIN-SUFFIX,gotquestions.org,🚀 节点选择
   - DOMAIN-SUFFIX,gotrusted.com,🚀 节点选择
   - DOMAIN-SUFFIX,gotw.ca,🚀 节点选择
   - DOMAIN-SUFFIX,gov.taipei,🚀 节点选择
@@ -5507,7 +5432,6 @@ rules:
   - DOMAIN-SUFFIX,gzm.tv,🚀 节点选择
   - DOMAIN-SUFFIX,gzone-anime.info,🚀 节点选择
   - DOMAIN-SUFFIX,h-china.org,🚀 节点选择
-  - DOMAIN-SUFFIX,h-ciyuan.com,🚀 节点选择
   - DOMAIN-SUFFIX,h-moe.com,🚀 节点选择
   - DOMAIN-SUFFIX,h1n1china.org,🚀 节点选择
   - DOMAIN-SUFFIX,h528.com,🚀 节点选择
@@ -5529,6 +5453,7 @@ rules:
   - DOMAIN-SUFFIX,halktv.com.tr,🚀 节点选择
   - DOMAIN-SUFFIX,handcraftedsoftware.org,🚀 节点选择
   - DOMAIN-SUFFIX,hanime.tv,🚀 节点选择
+  - DOMAIN-SUFFIX,hanime1.me,🚀 节点选择
   - DOMAIN-SUFFIX,hanminzu.org,🚀 节点选择
   - DOMAIN-SUFFIX,hanunyi.com,🚀 节点选择
   - DOMAIN-SUFFIX,hao.news,🚀 节点选择
@@ -5624,7 +5549,6 @@ rules:
   - DOMAIN-SUFFIX,hjd2048.com,🚀 节点选择
   - DOMAIN-SUFFIX,hk-pub.com,🚀 节点选择
   - DOMAIN-SUFFIX,hk01.com,🚀 节点选择
-  - DOMAIN-SUFFIX,hk1lib.org,🚀 节点选择
   - DOMAIN-SUFFIX,hk32168.com,🚀 节点选择
   - DOMAIN-SUFFIX,hkacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,hkacg.net,🚀 节点选择
@@ -5706,6 +5630,7 @@ rules:
   - DOMAIN-SUFFIX,hotair.com,🚀 节点选择
   - DOMAIN-SUFFIX,hotav.tv,🚀 节点选择
   - DOMAIN-SUFFIX,hotcoin.com,🚀 节点选择
+  - DOMAIN-SUFFIX,hotcool.tw,🚀 节点选择
   - DOMAIN-SUFFIX,hotels.cn,🚀 节点选择
   - DOMAIN-SUFFIX,hotfrog.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,hotgoo.com,🚀 节点选择
@@ -5797,7 +5722,6 @@ rules:
   - DOMAIN-SUFFIX,hyperrate.com,🚀 节点选择
   - DOMAIN-SUFFIX,hypothes.is,🚀 节点选择
   - DOMAIN-SUFFIX,hyread.com.tw,🚀 节点选择
-  - DOMAIN-SUFFIX,hysteria.network,🚀 节点选择
   - DOMAIN-SUFFIX,i-cable.com,🚀 节点选择
   - DOMAIN-SUFFIX,i-part.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,i-scmp.com,🚀 节点选择
@@ -5835,6 +5759,7 @@ rules:
   - DOMAIN-SUFFIX,identi.ca,🚀 节点选择
   - DOMAIN-SUFFIX,idiomconnection.com,🚀 节点选择
   - DOMAIN-SUFFIX,idlcoyote.com,🚀 节点选择
+  - DOMAIN-SUFFIX,idope.se,🚀 节点选择
   - DOMAIN-SUFFIX,idouga.com,🚀 节点选择
   - DOMAIN-SUFFIX,idreamx.com,🚀 节点选择
   - DOMAIN-SUFFIX,idsam.com,🚀 节点选择
@@ -5983,7 +5908,6 @@ rules:
   - DOMAIN-SUFFIX,isuntv.com,🚀 节点选择
   - DOMAIN-SUFFIX,isupportuyghurs.org,🚀 节点选择
   - DOMAIN-SUFFIX,itaboo.info,🚀 节点选择
-  - DOMAIN-SUFFIX,italian-books.sk,🚀 节点选择
   - DOMAIN-SUFFIX,italiatibet.org,🚀 节点选择
   - DOMAIN-SUFFIX,itasoftware.com,🚀 节点选择
   - DOMAIN-SUFFIX,itemdb.com,🚀 节点选择
@@ -6305,9 +6229,6 @@ rules:
   - DOMAIN-SUFFIX,libertytimes.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,libraryinformationtechnology.com,🚀 节点选择
   - DOMAIN-SUFFIX,libredd.it,🚀 节点选择
-  - DOMAIN-SUFFIX,libsolutions.app,🚀 节点选择
-  - DOMAIN-SUFFIX,libsolutions.domains,🚀 节点选择
-  - DOMAIN-SUFFIX,libsolutions.net,🚀 节点选择
   - DOMAIN-SUFFIX,lidecheng.com,🚀 节点选择
   - DOMAIN-SUFFIX,lifemiles.com,🚀 节点选择
   - DOMAIN-SUFFIX,lighten.org.tw,🚀 节点选择
@@ -6416,7 +6337,6 @@ rules:
   - DOMAIN-SUFFIX,m-team.cc,🚀 节点选择
   - DOMAIN-SUFFIX,m.me,🚀 节点选择
   - DOMAIN-SUFFIX,m8008.com,🚀 节点选择
-  - DOMAIN-SUFFIX,ma1lib.org,🚀 节点选择
   - DOMAIN-SUFFIX,macgamestore.com,🚀 节点选择
   - DOMAIN-SUFFIX,macrovpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,macts.com.tw,🚀 节点选择
@@ -6451,7 +6371,6 @@ rules:
   - DOMAIN-SUFFIX,mansion.com,🚀 节点选择
   - DOMAIN-SUFFIX,mansionpoker.com,🚀 节点选择
   - DOMAIN-SUFFIX,manta.com,🚀 节点选择
-  - DOMAIN-SUFFIX,manwa.me,🚀 节点选择
   - DOMAIN-SUFFIX,manyvoices.news,🚀 节点选择
   - DOMAIN-SUFFIX,maplew.com,🚀 节点选择
   - DOMAIN-SUFFIX,marc.info,🚀 节点选择
@@ -6604,6 +6523,7 @@ rules:
   - DOMAIN-SUFFIX,mirrormedia.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,mirrormedia.mg,🚀 节点选择
   - DOMAIN-SUFFIX,missav.com,🚀 节点选择
+  - DOMAIN-SUFFIX,missav.ws,🚀 节点选择
   - DOMAIN-SUFFIX,mist.vip,🚀 节点选择
   - DOMAIN-SUFFIX,mit.edu,🚀 节点选择
   - DOMAIN-SUFFIX,mitao.com.tw,🚀 节点选择
@@ -6693,6 +6613,7 @@ rules:
   - DOMAIN-SUFFIX,msn.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,mstdn.social,🚀 节点选择
   - DOMAIN-SUFFIX,mswe1.org,🚀 节点选择
+  - DOMAIN-SUFFIX,mt.co.kr,🚀 节点选择
   - DOMAIN-SUFFIX,mthruf.com,🚀 节点选择
   - DOMAIN-SUFFIX,mtw.tl,🚀 节点选择
   - DOMAIN-SUFFIX,mubi.com,🚀 节点选择
@@ -6901,6 +6822,9 @@ rules:
   - DOMAIN-SUFFIX,nightlife141.com,🚀 节点选择
   - DOMAIN-SUFFIX,nightswatch.top,🚀 节点选择
   - DOMAIN-SUFFIX,nike.com,🚀 节点选择
+  - DOMAIN-SUFFIX,nikke-en.com,🚀 节点选择
+  - DOMAIN-SUFFIX,nikke-jp.com,🚀 节点选择
+  - DOMAIN-SUFFIX,nikke-kr.com,🚀 节点选择
   - DOMAIN-SUFFIX,nikkei.com,🚀 节点选择
   - DOMAIN-SUFFIX,ninecommentaries.com,🚀 节点选择
   - DOMAIN-SUFFIX,ning.com,🚀 节点选择
@@ -6922,6 +6846,7 @@ rules:
   - DOMAIN-SUFFIX,nobel.se,🚀 节点选择
   - DOMAIN-SUFFIX,nobelprize.org,🚀 节点选择
   - DOMAIN-SUFFIX,nobodycanstop.us,🚀 节点选择
+  - DOMAIN-SUFFIX,nodeloc.com,🚀 节点选择
   - DOMAIN-SUFFIX,nodeseek.com,🚀 节点选择
   - DOMAIN-SUFFIX,nodesnoop.com,🚀 节点选择
   - DOMAIN-SUFFIX,nofile.io,🚀 节点选择
@@ -6935,6 +6860,7 @@ rules:
   - DOMAIN-SUFFIX,nordstromrack.com,🚀 节点选择
   - DOMAIN-SUFFIX,nordvpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,nos.nl,🚀 节点选择
+  - DOMAIN-SUFFIX,notebooklm.google,🚀 节点选择
   - DOMAIN-SUFFIX,notepad-plus-plus.org,🚀 节点选择
   - DOMAIN-SUFFIX,nottinghampost.com,🚀 节点选择
   - DOMAIN-SUFFIX,novelasia.com,🚀 节点选择
@@ -7087,7 +7013,6 @@ rules:
   - DOMAIN-SUFFIX,openallweb.com,🚀 节点选择
   - DOMAIN-SUFFIX,openbase.com,🚀 节点选择
   - DOMAIN-SUFFIX,opendemocracy.net,🚀 节点选择
-  - DOMAIN-SUFFIX,opendesktop.org,🚀 节点选择
   - DOMAIN-SUFFIX,opendn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,openervpn.in,🚀 节点选择
   - DOMAIN-SUFFIX,openid.net,🚀 节点选择
@@ -7295,6 +7220,7 @@ rules:
   - DOMAIN-SUFFIX,pkuanvil.com,🚀 节点选择
   - DOMAIN-SUFFIX,placemix.com,🚀 节点选择
   - DOMAIN-SUFFIX,play-asia.com,🚀 节点选择
+  - DOMAIN-SUFFIX,play.google,🚀 节点选择
   - DOMAIN-SUFFIX,playboy.com,🚀 节点选择
   - DOMAIN-SUFFIX,playboyplus.com,🚀 节点选择
   - DOMAIN-SUFFIX,player.fm,🚀 节点选择
@@ -7445,6 +7371,7 @@ rules:
   - DOMAIN-SUFFIX,pure18.com,🚀 节点选择
   - DOMAIN-SUFFIX,pureapk.com,🚀 节点选择
   - DOMAIN-SUFFIX,pureconcepts.net,🚀 节点选择
+  - DOMAIN-SUFFIX,puredns.org,🚀 节点选择
   - DOMAIN-SUFFIX,pureinsight.org,🚀 节点选择
   - DOMAIN-SUFFIX,purepdf.com,🚀 节点选择
   - DOMAIN-SUFFIX,purevpn.com,🚀 节点选择
@@ -7480,6 +7407,7 @@ rules:
   - DOMAIN-SUFFIX,qiwen.lu,🚀 节点选择
   - DOMAIN-SUFFIX,qixianglu.cn,🚀 节点选择
   - DOMAIN-SUFFIX,qkshare.com,🚀 节点选择
+  - DOMAIN-SUFFIX,qmp4.com,🚀 节点选择
   - DOMAIN-SUFFIX,qmzdd.com,🚀 节点选择
   - DOMAIN-SUFFIX,qoos.com,🚀 节点选择
   - DOMAIN-SUFFIX,qpoe.com,🚀 节点选择
@@ -7660,12 +7588,14 @@ rules:
   - DOMAIN-SUFFIX,ruanyifeng.com,🚀 节点选择
   - DOMAIN-SUFFIX,rukor.org,🚀 节点选择
   - DOMAIN-SUFFIX,rule34.xxx,🚀 节点选择
+  - DOMAIN-SUFFIX,rule34video.com,🚀 节点选择
   - DOMAIN-SUFFIX,rumble.com,🚀 节点选择
   - DOMAIN-SUFFIX,runbtx.com,🚀 节点选择
   - DOMAIN-SUFFIX,rushbee.com,🚀 节点选择
   - DOMAIN-SUFFIX,rusvpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,ruten.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,rutracker.net,🚀 节点选择
+  - DOMAIN-SUFFIX,rutracker.org,🚀 节点选择
   - DOMAIN-SUFFIX,rutube.ru,🚀 节点选择
   - DOMAIN-SUFFIX,ruyiseek.com,🚀 节点选择
   - DOMAIN-SUFFIX,rxhj.net,🚀 节点选择
@@ -7685,7 +7615,6 @@ rules:
   - DOMAIN-SUFFIX,safeguarddefenders.com,🚀 节点选择
   - DOMAIN-SUFFIX,safervpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,safety.google,🚀 节点选择
-  - DOMAIN-SUFFIX,sagernet.org,🚀 节点选择
   - DOMAIN-SUFFIX,saintyculture.com,🚀 节点选择
   - DOMAIN-SUFFIX,saiq.me,🚀 节点选择
   - DOMAIN-SUFFIX,sakuralive.com,🚀 节点选择
@@ -7780,7 +7709,6 @@ rules:
   - DOMAIN-SUFFIX,sfshibao.com,🚀 节点选择
   - DOMAIN-SUFFIX,sftindia.org,🚀 节点选择
   - DOMAIN-SUFFIX,sftuk.org,🚀 节点选择
-  - DOMAIN-SUFFIX,sg1lib.org,🚀 节点选择
   - DOMAIN-SUFFIX,sgwritings.com,🚀 节点选择
   - DOMAIN-SUFFIX,sgzhan.com,🚀 节点选择
   - DOMAIN-SUFFIX,shadeyouvpn.com,🚀 节点选择
@@ -7856,16 +7784,13 @@ rules:
   - DOMAIN-SUFFIX,simplecd.org,🚀 节点选择
   - DOMAIN-SUFFIX,simpleproductivityblog.com,🚀 节点选择
   - DOMAIN-SUFFIX,simpleswap.io,🚀 节点选择
+  - DOMAIN-SUFFIX,simplex.chat,🚀 节点选择
   - DOMAIN-SUFFIX,sina.com.hk,🚀 节点选择
   - DOMAIN-SUFFIX,sina.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,sinchew.com.my,🚀 节点选择
   - DOMAIN-SUFFIX,singaporepools.com.sg,🚀 节点选择
   - DOMAIN-SUFFIX,singfortibet.com,🚀 节点选择
-  - DOMAIN-SUFFIX,singlelogin.app,🚀 节点选择
-  - DOMAIN-SUFFIX,singlelogin.me,🚀 节点选择
-  - DOMAIN-SUFFIX,singlelogin.re,🚀 节点选择
   - DOMAIN-SUFFIX,singlelogin.se,🚀 节点选择
-  - DOMAIN-SUFFIX,singlelogin.site,🚀 节点选择
   - DOMAIN-SUFFIX,singpao.com.hk,🚀 节点选择
   - DOMAIN-SUFFIX,singtao.ca,🚀 节点选择
   - DOMAIN-SUFFIX,singtao.com,🚀 节点选择
@@ -7986,7 +7911,6 @@ rules:
   - DOMAIN-SUFFIX,sosad.fun,🚀 节点选择
   - DOMAIN-SUFFIX,sosreader.com,🚀 节点选择
   - DOMAIN-SUFFIX,sostibet.org,🚀 节点选择
-  - DOMAIN-SUFFIX,sotwe.com,🚀 节点选择
   - DOMAIN-SUFFIX,sou-tong.org,🚀 节点选择
   - DOMAIN-SUFFIX,soubory.com,🚀 节点选择
   - DOMAIN-SUFFIX,soul-plus.net,🚀 节点选择
@@ -8043,7 +7967,6 @@ rules:
   - DOMAIN-SUFFIX,ssglobal.me,🚀 节点选择
   - DOMAIN-SUFFIX,ssh91.com,🚀 节点选择
   - DOMAIN-SUFFIX,ssl443.org,🚀 节点选择
-  - DOMAIN-SUFFIX,ssm.fun,🚀 节点选择
   - DOMAIN-SUFFIX,sspanel.net,🚀 节点选择
   - DOMAIN-SUFFIX,sspanel.org,🚀 节点选择
   - DOMAIN-SUFFIX,sspro.ml,🚀 节点选择
@@ -8113,6 +8036,7 @@ rules:
   - DOMAIN-SUFFIX,stumbleupon.com,🚀 节点选择
   - DOMAIN-SUFFIX,stupidvideos.com,🚀 节点选择
   - DOMAIN-SUFFIX,stweetly.com,🚀 节点选择
+  - DOMAIN-SUFFIX,subhd.tv,🚀 节点选择
   - DOMAIN-SUFFIX,substack.com,🚀 节点选择
   - DOMAIN-SUFFIX,successfn.com,🚀 节点选择
   - DOMAIN-SUFFIX,sueddeutsche.de,🚀 节点选择
@@ -8264,6 +8188,7 @@ rules:
   - DOMAIN-SUFFIX,teepr.com,🚀 节点选择
   - DOMAIN-SUFFIX,tehrantimes.com,🚀 节点选择
   - DOMAIN-SUFFIX,telecomspace.com,🚀 节点选择
+  - DOMAIN-SUFFIX,telega.one,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
   - DOMAIN-SUFFIX,telegram-cdn.org,🚀 节点选择
   - DOMAIN-SUFFIX,telegram.dog,🚀 节点选择
@@ -8273,6 +8198,7 @@ rules:
   - DOMAIN-SUFFIX,telegramdownload.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegraph.co.uk,🚀 节点选择
   - DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
+  - DOMAIN-SUFFIX,tellapart.com,🚀 节点选择
   - DOMAIN-SUFFIX,tellme.pw,🚀 节点选择
   - DOMAIN-SUFFIX,tenacy.com,🚀 节点选择
   - DOMAIN-SUFFIX,tenor.com,🚀 节点选择
@@ -8286,6 +8212,7 @@ rules:
   - DOMAIN-SUFFIX,tfhub.dev,🚀 节点选择
   - DOMAIN-SUFFIX,tfiflve.com,🚀 节点选择
   - DOMAIN-SUFFIX,tg-me.com,🚀 节点选择
+  - DOMAIN-SUFFIX,tg.dev,🚀 节点选择
   - DOMAIN-SUFFIX,tgfcer.com,🚀 节点选择
   - DOMAIN-SUFFIX,tgstat.com,🚀 节点选择
   - DOMAIN-SUFFIX,thaicn.com,🚀 节点选择
@@ -8349,8 +8276,8 @@ rules:
   - DOMAIN-SUFFIX,thlib.org,🚀 节点选择
   - DOMAIN-SUFFIX,thomasbernhard.org,🚀 节点选择
   - DOMAIN-SUFFIX,thongdreams.com,🚀 节点选择
-  - DOMAIN-SUFFIX,thotsbay.tv,🚀 节点选择
   - DOMAIN-SUFFIX,threadreaderapp.com,🚀 节点选择
+  - DOMAIN-SUFFIX,threads.com,🚀 节点选择
   - DOMAIN-SUFFIX,threads.net,🚀 节点选择
   - DOMAIN-SUFFIX,threatchaos.com,🚀 节点选择
   - DOMAIN-SUFFIX,throughnightsfire.com,🚀 节点选择
@@ -8488,6 +8415,7 @@ rules:
   - DOMAIN-SUFFIX,tngrnow.com,🚀 节点选择
   - DOMAIN-SUFFIX,tngrnow.net,🚀 节点选择
   - DOMAIN-SUFFIX,tnp.org,🚀 节点选择
+  - DOMAIN-SUFFIX,tnt-ea.com,🚀 节点选择
   - DOMAIN-SUFFIX,to-porno.com,🚀 节点选择
   - DOMAIN-SUFFIX,togetter.com,🚀 节点选择
   - DOMAIN-SUFFIX,toh.info,🚀 节点选择
@@ -8726,6 +8654,7 @@ rules:
   - DOMAIN-SUFFIX,twttr.com,🚀 节点选择
   - DOMAIN-SUFFIX,twurl.nl,🚀 节点选择
   - DOMAIN-SUFFIX,twyac.org,🚀 节点选择
+  - DOMAIN-SUFFIX,tx.me,🚀 节点选择
   - DOMAIN-SUFFIX,txxx.com,🚀 节点选择
   - DOMAIN-SUFFIX,tycool.com,🚀 节点选择
   - DOMAIN-SUFFIX,typekit.net,🚀 节点选择
@@ -9170,6 +9099,7 @@ rules:
   - DOMAIN-SUFFIX,wireguard.com,🚀 节点选择
   - DOMAIN-SUFFIX,wisdompubs.org,🚀 节点选择
   - DOMAIN-SUFFIX,wisevid.com,🚀 节点选择
+  - DOMAIN-SUFFIX,wistia.com,🚀 节点选择
   - DOMAIN-SUFFIX,withgoogle.com,🚀 节点选择
   - DOMAIN-SUFFIX,withyoutube.com,🚀 节点选择
   - DOMAIN-SUFFIX,witnessleeteaching.com,🚀 节点选择
@@ -9447,12 +9377,12 @@ rules:
   - DOMAIN-SUFFIX,yyjlymb.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,yysub.net,🚀 节点选择
   - DOMAIN-SUFFIX,yzzk.com,🚀 节点选择
+  - DOMAIN-SUFFIX,z-lib.fm,🚀 节点选择
+  - DOMAIN-SUFFIX,z-lib.fo,🚀 节点选择
   - DOMAIN-SUFFIX,z-lib.gd,🚀 节点选择
-  - DOMAIN-SUFFIX,z-lib.gs,🚀 节点选择
+  - DOMAIN-SUFFIX,z-lib.gl,🚀 节点选择
   - DOMAIN-SUFFIX,z-lib.io,🚀 节点选择
   - DOMAIN-SUFFIX,z-lib.org,🚀 节点选择
-  - DOMAIN-SUFFIX,z-lib.ps,🚀 节点选择
-  - DOMAIN-SUFFIX,z-library.se,🚀 节点选择
   - DOMAIN-SUFFIX,z-library.sk,🚀 节点选择
   - DOMAIN-SUFFIX,zacebook.com,🚀 节点选择
   - DOMAIN-SUFFIX,zalmos.com,🚀 节点选择
@@ -9509,12 +9439,10 @@ rules:
   - DOMAIN-SUFFIX,zippyshare.com,🚀 节点选择
   - DOMAIN-SUFFIX,zkaip.com,🚀 节点选择
   - DOMAIN-SUFFIX,zkiz.com,🚀 节点选择
-  - DOMAIN-SUFFIX,zlib.life,🚀 节点选择
-  - DOMAIN-SUFFIX,zlibcdn.com,🚀 节点选择
-  - DOMAIN-SUFFIX,zlibcdn2.com,🚀 节点选择
   - DOMAIN-SUFFIX,zmedia.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,zmw.cn,🚀 节点选择
   - DOMAIN-SUFFIX,zodgame.us,🚀 节点选择
+  - DOMAIN-SUFFIX,zodgame.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,zoho.com,🚀 节点选择
   - DOMAIN-SUFFIX,zomobo.net,🚀 节点选择
   - DOMAIN-SUFFIX,zonaeuropa.com,🚀 节点选择

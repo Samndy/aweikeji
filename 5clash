@@ -8,40 +8,43 @@ proxies:
   - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 185.146.173.25, port: 80, type: vmess, uuid: d70f5f8e-7694-4dff-95ef-cc1472e315dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560", headers: {Host: google.whatsapp.snapp.torob.basalam.netbazchanell.ir.}}, udp: true}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-b.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: 120.198.71.216, port: 52082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国, server: 120.234.102.229, port: 42174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国 2, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 2025年5月18日_2_2, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0015, server: 120.198.71.219, port: 44915, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN-111.26.109.79-0013, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇨🇳 CN-120.253.244.100-0089, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: 🇷🇺 俄罗斯 莫斯科JustHost, server: 45.147.201.231, port: 23088, type: vmess, uuid: 2e25f44d-57e4-4cf4-9675-e0b42a422635, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.147.201.231}}, udp: true}
-  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 移动 2, server: 183.236.51.38, port: 30052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 移动 3, server: 183.236.51.38, port: 39919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 移动 4, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 移动 5, server: 183.236.51.38, port: 49121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 广东省湛江市 移动, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国, server: 183.236.51.38, port: 49121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2, server: gtm1.ktmwan.net, port: 12898, type: vmess, uuid: d104131e-4428-4eb8-8fca-c55be550492f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: gtm1.ktmwan.net, network: ws, ws-opts: {path: /, headers: {Host: gtm1.ktmwan.net}}, udp: true}
-  - {name: 🇺🇸 美国 3, server: n1737850919.ryjml.cn, port: 443, type: vmess, uuid: 224840e7-bde6-473a-b824-20ea10b91448, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1737850919.ryjml.cn, network: ws, ws-opts: {path: /, headers: {Host: n1737850919.ryjml.cn}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: www.visa.com.tw, port: 443, type: vmess, uuid: d0eb0f6f-68a8-4ece-c33f-73c5d71ac3a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/zedware-network/korea-telecom/?ed=2560", headers: {Host: kt-icn-2.ecp.dpdns.org}}, udp: true}
-  - {name: 🇯🇵 日本, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港, server: 120.198.71.216, port: 35921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇭🇰 香港 2, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 7, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: aes-256-gcm, password: 4KGHWKCKQAJOVPHO, udp: true}
-  - {name: LV-62.60.234.92-0890, server: 62.60.234.92, port: 53579, type: ss, cipher: chacha20-ietf-poly1305, password: pCFflDgNn5C89IMA8mt9cg, udp: true}
-  - {name: 🇵🇱 PL-45.43.137.114-0441, server: 45.43.137.114, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wZEYrB25eLpiLhB27u7cuLDoRL6jhZMfCxrsrMvOxcS2EMGbvWiJdK2itiWUHAQ=, udp: true}
-  - {name: 🇷🇺 RU-195.58.49.92-0105, server: 195.58.49.92, port: 2015, type: ss, cipher: aes-256-gcm, password: 560b7d65c1f4b12a, udp: true}
-  - {name: 🇷🇺 RU-195.58.49.92-0648, server: 195.58.49.92, port: 2015, type: ss, cipher: aes-256-gcm, password: 560b7d65c1f4b12a, udp: true}
+  - {name: 🇭🇰 香港 3, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港 4, server: 43.247.134.85, port: 47010, type: vmess, uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本3, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国4, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-b.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
+  - {name: 🇺🇸 美国, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇺🇸 美国 2, server: 120.232.153.123, port: 50352, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 3, server: 183.236.51.38, port: 49121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 4, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 广东省中山市 移动 2, server: 120.198.44.126, port: 47883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 广东省中山市 移动, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 移动, server: 183.236.51.38, port: 30052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 移动 2, server: 183.236.51.38, port: 39919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 移动 3, server: 183.236.51.38, port: 39919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN-120.253.244.100-0089, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: 🇨🇳 CN-120.198.71.147-0005, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: 🇨🇳 CN-111.26.109.79-0022, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 CN-111.26.109.79-0013, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: CN_speednode_0015, server: 120.198.71.219, port: 44915, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 2025年5月18日_2_2, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn..., server: 183.236.51.38, port: 49291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 |日本, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国, server: 120.234.102.229, port: 42174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国 2, server: 183.238.90.8, port: 41766, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@v2ray1_ng| AHS -🇫🇮|134.79", server: 185.146.173.25, port: 80, type: vmess, uuid: d70f5f8e-7694-4dff-95ef-cc1472e315dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560", headers: {Host: google.whatsapp.snapp.torob.basalam.netbazchanell.ir.}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: aes-256-gcm, password: 4KGHWKCKQAJOVPHO, udp: true}
+  - {name: 🇭🇰 香港 5, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
+  - {name: 🇯🇵 日本, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18010, type: ss, cipher: aes-256-gcm, password: HO86LQ8KH31JNMBQ, udp: true}
+  - {name: 🇺🇸 美国 5, server: jsyd.piaomiaoxu.net, port: 46131, type: ss, cipher: aes-256-gcm, password: dd1e562a-a0fc-4d03-91f1-2268bb153df6, udp: true}
+  - {name: 🇺🇸 美国 6, server: 120.233.147.197, port: 23340, type: ss, cipher: chacha20-ietf-poly1305, password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5, udp: true}
   - {name: 🇫🇷 法国, server: 195.154.54.171, port: 13355, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 🇺🇸 美国 4, server: jsyd.piaomiaoxu.net, port: 46131, type: ss, cipher: aes-256-gcm, password: dd1e562a-a0fc-4d03-91f1-2268bb153df6, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 185.126.237.58, port: 20027, type: ss, cipher: aes-256-gcm, password: HYQMWU0UJBGRZSB2, udp: true}
-  - {name: 🇨🇳 CN中国3, server: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, port: 15229, type: trojan, password: b55123f4-0ba2-11f0-a2ef-f23c91cfbbc9, sni: d700ff89-swvls0-t5w83q-1slpx.cu.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: "🇵🇱 [openproxylist.com] ss-PL", server: 45.43.137.114, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wZEYrB25eLpiLhB27u7cuLDoRL6jhZMfCxrsrMvOxcS2EMGbvWiJdK2itiWUHAQ=, udp: true}
+  - {name: 🇺🇸 美国 7, server: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net, port: 15229, type: trojan, password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9, sni: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: 广东省 联通, server: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net, port: 15229, type: trojan, password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9, sni: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -50,39 +53,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: Netflix
     type: select
     proxies:
@@ -92,39 +98,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: HBO
     type: select
     proxies:
@@ -134,39 +143,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: DisneyPlus
     type: select
     proxies:
@@ -176,39 +188,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: YouTube
     type: select
     proxies:
@@ -218,39 +233,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: Bahamut
     type: select
     proxies:
@@ -260,39 +278,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: AI
     type: select
     proxies:
@@ -302,39 +323,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: Telegram
     type: select
     proxies:
@@ -344,39 +368,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: Steam
     type: select
     proxies:
@@ -386,39 +413,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: Microsoft
     type: select
     proxies:
@@ -428,39 +458,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: Apple
     type: select
     proxies:
@@ -470,39 +503,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: 🎯Direct
     type: select
     proxies:
@@ -518,39 +554,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
   - name: ✈️Final
     type: select
     proxies:
@@ -560,39 +599,42 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 关注https://github.com/ggborr/FREEE-VPN 6
-      - _中国
-      - _中国 2
-      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
-      - 🇯🇵 2025年5月18日_2_2
-      - CN_speednode_0015
-      - 🇨🇳 CN-111.26.109.79-0013
-      - 🇨🇳 CN-120.253.244.100-0089
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
-      - 广东省湛江市 移动
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇯🇵 日本3
+      - 🇺🇸 美国4
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 关注https://github.com/ggborr/FREEE-VPN 7
-      - LV-62.60.234.92-0890
-      - 🇵🇱 PL-45.43.137.114-0441
-      - 🇷🇺 RU-195.58.49.92-0105
-      - 🇷🇺 RU-195.58.49.92-0648
-      - 🇫🇷 法国
       - 🇺🇸 美国 4
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 CN中国3
+      - 广东省中山市 移动 2
+      - 广东省中山市 移动
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 广东省广州市 移动 3
+      - 🇨🇳 CN-120.253.244.100-0089
+      - 🇨🇳 CN-120.198.71.147-0005
+      - 🇨🇳 CN-111.26.109.79-0022
+      - 🇨🇳 CN-111.26.109.79-0013
+      - CN_speednode_0015
+      - 3|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 2025年5月18日_2_2
+      - 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+      - 🇯🇵 |日本
+      - _中国
+      - _中国 2
+      - "@v2ray1_ng| AHS -🇫🇮|134.79"
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 香港 5
+      - 🇯🇵 日本
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇫🇷 法国
+      - 🇵🇱 [openproxylist.com] ss-PL
+      - 🇺🇸 美国 7
+      - 广东省 联通
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯Direct
   - DOMAIN-SUFFIX,ip6-localhost,🎯Direct

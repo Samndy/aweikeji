@@ -5,44 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 5a86c3b1-surog0-t26vr3-1likw.cm5.p5pv.com, port: 17234, type: vmess, uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com, port: 17232, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 5a86c3b1-surog0-t26vr3-1likw.cm5.p5pv.com, port: 17234, type: vmess, uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: _中国, server: 120.198.71.216, port: 46159, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国 2, server: 120.232.153.41, port: 41491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国 3, server: 120.234.102.229, port: 49174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国 4, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 2025年5月31日_2, server: 183.238.90.8, port: 41766, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 3|🇺🇸62 |  3.3MB/s|Openai|Gemini, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国 2, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国 3, server: 120.232.153.41, port: 41491, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国 4, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0008, server: 02c32b60-sudhc0-sva30v-au6.d.volczijie.com, port: 3684, type: vmess, uuid: 1b609740-eec2-11ef-8543-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0025, server: fe15251f-sunz40-tbpkla-1otc2.cm5.p5pv.com, port: 17233, type: vmess, uuid: 0114339c-488d-11ee-8792-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN-111.26.109.79-0005, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
   - {name: 🇨🇳 CN-111.26.109.79-0023, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇨🇳 CN-111.26.109.79-0026, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇺🇸 美国, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001-1A, server: 45.147.201.231, port: 20051, type: vmess, uuid: 1ef23f1c-f7c0-475d-a920-fa9ca12b5a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇳 广东省广州市 移动, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 广东省江门市 移动, server: 120.234.102.229, port: 49174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 广东省湛江市 移动, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国3, server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com, port: 17232, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络, server: xcvfgt6.999165.xyz, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xcvfgt6.999165.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 2, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇺🇸 美国 3, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇺🇸 美国 4, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港, server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net, port: 15229, type: vmess, uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2, server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net, port: 15229, type: vmess, uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 3, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: b3abf6c7-swq1s0-sxd0pj-1rgsa.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 096d1c9a-9e52-11ef-87a8-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b3abf6c7-swq1s0-sxd0pj-1rgsa.hgc1.tcpbbr.net}}, udp: true}
+  - {name: 🇺🇸 美国 2, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇺🇸 美国 3, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: 🇯🇵 日本3, server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com, port: 17233, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 未知120 90.1KB/s, server: 178.239.144.40, port: 13000, type: vmess, uuid: 3e53f3cb-bb35-c6be-d955-c53f5bd7c709, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 178.22.121.98, port: 1091, type: vmess, uuid: 6ef3b433-eea7-4e5d-95a5-c5f742ce2fb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: 6EZ5QKFX60AVSUYT, udp: true}
+  - {name: 🇯🇵 2025年5月31日_51, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 0S43J3FD6L7IEKGQ, udp: true}
   - {name: 🇯🇵 2025年5月31日_52, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: aes-256-gcm, password: 4KGHWKCKQAJOVPHO, udp: true}
-  - {name: 🇳🇱 NL-9.163.232.180-0256, server: 9.163.232.180, port: 1490, type: ss, cipher: chacha20-ietf-poly1305, password: ojcP36n1SouDcnBg9EOZP8, udp: true}
-  - {name: 🇺🇸 美国 5, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 0S43J3FD6L7IEKGQ, udp: true}
-  - {name: 🇯🇵 日本, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: 6EZ5QKFX60AVSUYT, udp: true}
-  - {name: 🇭🇰 香港 4, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
-  - {name: 🇭🇰 香港 5, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: ENYGONDU94UW1G6X, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 7, server: bring-glove-shine.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bring-glove-shine.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 8, server: 94.131.20.3, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bring-glove-shine.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 9, server: 158fbba2-sx4v40-t8dih2-9kd8.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 8bd4eef0-e4ad-11ef-b717-f23c913c8d2b, sni: 158fbba2-sx4v40-t8dih2-9kd8.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 V2CROSS.COM, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 V2CROSS.COM 2, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 V2CROSS.COM 3, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -56,35 +49,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: Netflix
     type: select
     proxies:
@@ -99,35 +85,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: HBO
     type: select
     proxies:
@@ -142,35 +121,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: DisneyPlus
     type: select
     proxies:
@@ -185,35 +157,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: YouTube
     type: select
     proxies:
@@ -228,35 +193,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: Bahamut
     type: select
     proxies:
@@ -271,35 +229,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: AI
     type: select
     proxies:
@@ -314,35 +265,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: Telegram
     type: select
     proxies:
@@ -357,35 +301,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: Steam
     type: select
     proxies:
@@ -400,35 +337,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: Microsoft
     type: select
     proxies:
@@ -443,35 +373,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: Apple
     type: select
     proxies:
@@ -486,35 +409,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: 🎯Direct
     type: select
     proxies:
@@ -535,35 +451,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
   - name: ✈️Final
     type: select
     proxies:
@@ -578,35 +487,28 @@ proxy-groups:
       - _中国 2
       - _中国 3
       - _中国 4
-      - 🇯🇵 2025年5月31日_2
-      - 3|🇺🇸62 |  3.3MB/s|Openai|Gemini
       - CN_speednode_0008
       - CN_speednode_0025
-      - 🇨🇳 CN-111.26.109.79-0005
       - 🇨🇳 CN-111.26.109.79-0023
-      - 🇨🇳 CN-111.26.109.79-0026
       - 🇺🇸 美国
-      - 🇺🇸 美国-拉斯维加斯-001-1A
       - 🇨🇳 广东省广州市 移动
       - 广东省江门市 移动
-      - 广东省湛江市 移动
       - 🇰🇷 韩国3
-      - 科技网络
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
+      - 🇯🇵 日本3
+      - 未知120 90.1KB/s
       - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇮🇷 伊朗 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇯🇵 2025年5月31日_51
       - 🇯🇵 2025年5月31日_52
-      - 🇳🇱 NL-9.163.232.180-0256
-      - 🇺🇸 美国 5
-      - 🇯🇵 日本
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 关注https://github.com/ggborr/FREEE-VPN 9
+      - 乌克兰 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 乌克兰 V2CROSS.COM 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯Direct
   - DOMAIN-SUFFIX,ip6-localhost,🎯Direct

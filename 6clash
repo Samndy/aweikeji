@@ -7,32 +7,52 @@ external-controller: :9090
 proxies:
   - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 183.236.51.38, port: 41302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: ip.sb, port: 443, type: vmess, uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usshs.atlen.dpdns.org, network: ws, ws-opts: {path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess, headers: {Host: usshs.atlen.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 _美国, server: ip.sb, port: 443, type: vmess, uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess, headers: {Host: usshs.atlen.dpdns.org}}, udp: true}
-  - {name: _中国, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}, udp: true}
-  - {name: 🇨🇳 CN-111.26.109.79-1441, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}, udp: true}
-  - {name: RELAY-172.67.158.71-0655, server: www.xinjuc.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: hk.freeyyds.dpdns.org}}, udp: true}
-  - {name: RELAY-172.67.191.174-4908, server: OOoOOOooOp.222769.XYZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ooooooooop.222769.xyz, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: OOoOOOooOp.222769.XYZ}}, udp: true}
-  - {name: 🇺🇸 美国, server: ssSSSD.00890604.Xyz, port: 443, type: vmess, uuid: c7919150-946e-4383-af57-65d01d101f51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9Vn0NRIFjaNIuRODgEtuBg2FAYIX, headers: {Host: sssssd.00890604.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 2, server: xxxcvfgt6.huangshang.dpdns.org, port: 443, type: vmess, uuid: 91565d37-e81a-479d-9cb0-9cb2d86cea2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /w8kFMmZlXlyP0d3nfCNbqCRr57Xa, headers: {Host: xxxcvfgt6.huangshang.dpdns.org}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 120.232.153.41, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 183.236.51.38, port: 46921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 183.236.51.38, port: 41191, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: 120.234.102.229, port: 41174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 7, server: 120.198.71.214, port: 31180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "@ShadowProxy66| AHS -🚩|14.55", server: 104.17.223.18, port: 80, type: vmess, uuid: ff2d17c6-0d96-4801-a270-9dba8334f8c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q2.19kAla.co}}, udp: true}
+  - {name: "@ShadowProxy66| AHS -🚩|15.87", server: 104.26.13.9, port: 80, type: vmess, uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q4.19kAla.co}}, udp: true}
+  - {name: "@ShadowProxy66| AHS -🚩|16.27", server: 172.67.22.14, port: 80, type: vmess, uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q4.19kAla.co}}, udp: true}
+  - {name: _中国, server: 120.198.71.216, port: 35021, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国 2, server: 183.236.51.38, port: 51652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国 3, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}, udp: true}
+  - {name: CN_speednode_0025, server: 120.198.71.214, port: 40175, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN-111.26.109.79-1534, server: 111.26.109.79, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: dDDddDDdDDDCF.666470.xyz, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: dddddddddddcf.666470.xyz, network: ws, ws-opts: {path: /yZ6ou0sUqPR6MznS, headers: {Host: dddddddddddcf.666470.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: sssxcvfgty.999834.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: sssxcvfgty.999834.xyz, network: ws, ws-opts: {path: /TetDjP6oSiF3sGVHqPd73hl, headers: {Host: sssxcvfgty.999834.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 3333r567.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, headers: {Host: 3333r567.11890604.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: CcCccCCcCCcCV.999864.xYz, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yZ6ou0sUqPR6MznS, headers: {Host: ccccccccccccv.999864.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: edcvfgt6.999834.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TetDjP6oSiF3sGVHqPd73hl, headers: {Host: edcvfgt6.999834.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: eERRRty6.999824.xyz, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: eerrrty6.999824.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: pppppPpPPl.999864.xyz, port: 443, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yZ6ou0sUqPR6MznS, headers: {Host: pppppppppl.999864.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: SSxXZASw.999824.Xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: ssxxzasw.999824.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: sxcccvgbhnju.999834.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TetDjP6oSiF3sGVHqPd73hl, headers: {Host: sxcccvgbhnju.999834.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 10, server: XSssDcVFgt.444652.XyZ, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: xsssdcvfgt.444652.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 11, server: xxxcvfbghy7.222767.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TetDjP6oSiF3sGVHqPd73hl, headers: {Host: xxxcvfbghy7.222767.xyz}}, udp: true}
+  - {name: 🇭🇰 香港5, server: 120.234.102.229, port: 41174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5 2, server: 43.247.135.170, port: 46210, type: vmess, uuid: d1eca706-1aae-42d3-bab0-69995d7b023d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 8, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
+  - {name: "🇳🇱 [openproxylist.com] ss-NL", server: 77.246.102.112, port: 60117, type: ss, cipher: chacha20-ietf-poly1305, password: Y1hjiUmSgucgzYYJ0WtqwW, udp: true}
+  - {name: "🇳🇱 [openproxylist.com] ss-NL 2", server: 78.46.226.140, port: 60051, type: ss, cipher: chacha20-ietf-poly1305, password: VvTUk5LjFSWlZfhSr0wvCg, udp: true}
   - {name: 15|US_speednode_0146, server: 112.54.160.36, port: 30232, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇩🇪 DE-德国-56, server: 139.162.160.33, port: 48487, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6048687045, udp: true}
-  - {name: 🇨🇳 CN-120.198.71.135-0590, server: 120.198.71.135, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: 🇨🇳 CN-36.151.194.51-0573, server: 36.151.194.51, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: IR-193.142.30.152-0914, server: 193.142.30.152, port: 10107, type: ss, cipher: aes-256-gcm, password: YzY1MzFlYzQyYmY2MTdiMTA3OTVmOTQ2YTE3MDg0, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 62.133.60.217, port: 34218, type: ss, cipher: chacha20-ietf-poly1305, password: WTW3IKzimgbaBa0jELvP7R, udp: true}
-  - {name: 🇰🇷 韩国, server: 112.54.161.141, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇯🇵 日本, server: jp2asdfghjtyhj.aeccssssss.xyz, port: 57805, type: ss, cipher: chacha20-ietf-poly1305, password: 0991bb00-5a25-4c42-8205-153787512b5b, udp: true}
+  - {name: 🇮🇷 4FreeIran-20, server: h110vpnde.outlinekeys.net, port: 21712, type: ss, cipher: chacha20-ietf-poly1305, password: 4PPB3BcuhNwF4DOSiqAPXe, udp: true}
+  - {name: AR_speednode_0007, server: 38.54.45.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_speednode_0026, server: iepl.pro.7353.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
+  - {name: CN_speednode_0027, server: iepl.pro.8775.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
+  - {name: CN_speednode_0032, server: relay001.xiaoniuyun.cc, port: 44001, type: ss, cipher: chacha20-ietf-poly1305, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, udp: true}
+  - {name: 🇩🇪 DE-德国-56, server: 172.105.95.236, port: 48487, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6048687045, udp: true}
+  - {name: 🇬🇧 UK-英国-24, server: 178.79.171.207, port: 48487, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6048687045, udp: true}
+  - {name: 🇺🇸 US-美国-55, server: 45.33.116.141, port: 48487, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6048687045, udp: true}
+  - {name: 🇨🇳 CN-120.198.71.135-0103, server: 120.198.71.135, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: 🇨🇳 CN-120.198.71.135-0760, server: 120.198.71.135, port: 64931, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: 🇨🇳 CN-36.151.194.51-0604, server: 36.151.194.51, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: 🇨🇳 CN-36.151.194.51-0827, server: 36.151.194.51, port: 64931, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: 🇷🇺 俄罗斯 莫斯科Relcom网络, server: 194.87.196.7, port: 50120, type: ss, cipher: aes-256-gcm, password: 1aa23ecefeba6669, udp: true}
   - {name: 🇯🇵 日本5, server: 112.54.160.36, port: 30232, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
   - {name: 🇨🇳 台湾, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇭🇰 香港, server: 111.45.33.5, port: 30017, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇭🇰 香港 2, server: 120.232.220.156, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇭🇰 香港 3, server: 156.251.179.238, port: 58697, type: ss, cipher: chacha20-ietf-poly1305, password: 08293b204707, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: _中国 2, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 14|CN_speednode_0023, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 3, server: 120.233.44.201, port: 21181, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k31.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean数据中心, server: 188.166.245.158, port: 12677, type: ss, cipher: chacha20-ietf-poly1305, password: 1U53AUf85w9ZyrCb05SsKq, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -40,31 +60,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: Netflix
     type: select
     proxies:
@@ -73,31 +113,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: HBO
     type: select
     proxies:
@@ -106,31 +166,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: DisneyPlus
     type: select
     proxies:
@@ -139,31 +219,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: YouTube
     type: select
     proxies:
@@ -172,31 +272,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: Bahamut
     type: select
     proxies:
@@ -205,31 +325,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: AI
     type: select
     proxies:
@@ -238,31 +378,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: Telegram
     type: select
     proxies:
@@ -271,31 +431,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: Steam
     type: select
     proxies:
@@ -304,31 +484,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: Microsoft
     type: select
     proxies:
@@ -337,31 +537,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: Apple
     type: select
     proxies:
@@ -370,31 +590,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: 🎯Direct
     type: select
     proxies:
@@ -409,31 +649,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: ✈️Final
     type: select
     proxies:
@@ -442,31 +702,51 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 _美国
-      - _中国
-      - 🇨🇳 CN-111.26.109.79-1441
-      - RELAY-172.67.158.71-0655
-      - RELAY-172.67.191.174-4908
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 15|US_speednode_0146
-      - 🇩🇪 DE-德国-56
-      - 🇨🇳 CN-120.198.71.135-0590
-      - 🇨🇳 CN-36.151.194.51-0573
-      - IR-193.142.30.152-0914
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇰🇷 韩国
-      - 🇯🇵 日本
-      - 🇯🇵 日本5
-      - 🇨🇳 台湾
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - "@ShadowProxy66| AHS -🚩|14.55"
+      - "@ShadowProxy66| AHS -🚩|15.87"
+      - "@ShadowProxy66| AHS -🚩|16.27"
+      - _中国
       - _中国 2
-      - 14|CN_speednode_0023
-      - 🇺🇸 美国 3
+      - _中国 3
+      - CN_speednode_0025
+      - 🇨🇳 CN-111.26.109.79-1534
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇭🇰 香港5
+      - 🇭🇰 香港5 2
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - 🇳🇱 [openproxylist.com] ss-NL 2
+      - 15|US_speednode_0146
+      - 🇮🇷 4FreeIran-20
+      - AR_speednode_0007
+      - CN_speednode_0026
+      - CN_speednode_0027
+      - CN_speednode_0032
+      - 🇩🇪 DE-德国-56
+      - 🇬🇧 UK-英国-24
+      - 🇺🇸 US-美国-55
+      - 🇨🇳 CN-120.198.71.135-0103
+      - 🇨🇳 CN-120.198.71.135-0760
+      - 🇨🇳 CN-36.151.194.51-0604
+      - 🇨🇳 CN-36.151.194.51-0827
+      - 🇷🇺 俄罗斯 莫斯科Relcom网络
+      - 🇯🇵 日本5
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡 DigitalOcean数据中心
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯Direct
   - DOMAIN-SUFFIX,ip6-localhost,🎯Direct

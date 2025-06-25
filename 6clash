@@ -5,42 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 120.198.71.214, port: 31180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 120.232.153.41, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 183.236.51.38, port: 46921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 183.236.51.38, port: 41191, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国, server: 120.198.71.216, port: 35021, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 183.236.51.38, port: 46921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 183.236.51.38, port: 41191, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: 120.198.71.214, port: 40175, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 7, server: 120.198.71.214, port: 31180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0182, server: 172.67.22.14, port: 80, type: vmess, uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: q4.19kAla.co}}, udp: true}
-  - {name: 🇨🇳 CN-111.26.109.79-1676, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001-1B, server: 45.147.201.231, port: 20065, type: vmess, uuid: e7b26b2c-a1df-46bc-a080-e095bc874bb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇰🇷 韩国, server: 45.141.136.234, port: 49815, type: vmess, uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US, server: 85.198.23.63, port: 52262, type: vmess, uuid: af5a0d0c-c898-4a51-ba6a-47179d483e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN-111.26.109.79-1795, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
   - {name: 🇭🇰 香港, server: 120.234.102.229, port: 41174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 15|US_speednode_0146, server: 112.54.160.36, port: 30232, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇨🇦 CA-加拿大-54, server: 172.105.22.134, port: 19796, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 7322145551, udp: true}
-  - {name: 🇩🇪 DE-德国-56, server: 139.162.163.183, port: 19796, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 7322145551, udp: true}
-  - {name: 🇮🇳 IN-印度-47, server: 194.195.116.229, port: 19796, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 7322145551, udp: true}
-  - {name: 🇬🇧 UK-英国-24, server: 151.236.222.31, port: 19796, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 7322145551, udp: true}
-  - {name: US_speednode_0182 2, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
-  - {name: 🇺🇸 US-美国-55, server: 104.200.20.131, port: 19796, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 7322145551, udp: true}
-  - {name: 🇨🇳 CN-120.198.71.135-0511, server: 120.198.71.135, port: 59662, type: ss, cipher: aes-256-gcm, password: e22b89ae-6996-4824-ac31-610ac7349e6a, udp: true}
-  - {name: 🇨🇳 CN-218.204.188.10-0447, server: 218.204.188.10, port: 44721, type: ss, cipher: aes-256-gcm, password: 781bb54c-f089-48df-8102-01288a81eb10, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 8, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
   - {name: 🇨🇳 CN-36.151.194.51-0351, server: 36.151.194.51, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: 🇺🇸 美国, server: zf2.10101251.xyz, port: 30725, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: 🇯🇵 日本5, server: 120.232.206.14, port: 30032, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇯🇵 日本5 2, server: 112.54.160.36, port: 30232, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
   - {name: 🇨🇳 台湾, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇨🇳 台湾 2, server: 120.232.206.57, port: 30018, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 🇭🇰 香港 2, server: 111.45.33.5, port: 30002, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 7, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: xd-js.timiwc.com, port: 59599, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k62.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: _中国 2, server: 36.156.184.33, port: 21332, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k65.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: _中国 3, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 广东省 移动, server: 120.233.44.201, port: 21079, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k32.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: 未知102, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-74.8MB/s, server: 120.233.44.201, port: 21056, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k14.tudou211.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -50,37 +31,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: Netflix
     type: select
     proxies:
@@ -91,37 +53,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: HBO
     type: select
     proxies:
@@ -132,37 +75,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: DisneyPlus
     type: select
     proxies:
@@ -173,37 +97,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: YouTube
     type: select
     proxies:
@@ -214,37 +119,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: Bahamut
     type: select
     proxies:
@@ -255,37 +141,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: AI
     type: select
     proxies:
@@ -296,37 +163,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: Telegram
     type: select
     proxies:
@@ -337,37 +185,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: Steam
     type: select
     proxies:
@@ -378,37 +207,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: Microsoft
     type: select
     proxies:
@@ -419,37 +229,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: Apple
     type: select
     proxies:
@@ -460,37 +251,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: 🎯Direct
     type: select
     proxies:
@@ -507,37 +279,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
   - name: ✈️Final
     type: select
     proxies:
@@ -548,37 +301,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - _中国
-      - 🇨🇳 CN
-      - US_speednode_0182
-      - 🇨🇳 CN-111.26.109.79-1676
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇰🇷 韩国
-      - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 15|US_speednode_0146
-      - 🇨🇦 CA-加拿大-54
-      - 🇩🇪 DE-德国-56
-      - 🇮🇳 IN-印度-47
-      - 🇬🇧 UK-英国-24
-      - US_speednode_0182 2
-      - 🇺🇸 US-美国-55
-      - 🇨🇳 CN-120.198.71.135-0511
-      - 🇨🇳 CN-218.204.188.10-0447
-      - 🇨🇳 CN-36.151.194.51-0351
-      - 🇺🇸 美国
-      - 🇯🇵 日本5
-      - 🇯🇵 日本5 2
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 2
       - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 🇨🇳 CN
+      - 🇺🇸 US
+      - 🇨🇳 CN-111.26.109.79-1795
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 8
+      - 🇨🇳 CN-36.151.194.51-0351
+      - 🇨🇳 台湾
       - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国_3_6
-      - _中国 2
-      - _中国 3
-      - 广东省 移动
-      - 未知102
+      - 🇨🇳 江苏省 移动
+      - 中转节点-74.8MB/s
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯Direct
   - DOMAIN-SUFFIX,ip6-localhost,🎯Direct

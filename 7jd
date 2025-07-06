@@ -5,20 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: OOoOOOooOp.222769.XYZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: OOoOOOooOp.222769.XYZ}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: awetdfgn_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market?ed=1024", headers: {Host: mgcdn8.hfhfb.homes}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: cloudgetservice2.mcloudservice.site, port: 443, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blazE-GEr-248.blAZeClOuDmaiN.sitE}}, udp: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 5.160.197.78, port: 17564, type: vmess, uuid: aa7dd96b0a7d81db2e71553abe192620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US, server: cloudgetservice2.mcloudservice.site, port: 443, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: blazE-GEr-248.blAZeClOuDmaiN.sitE}}, udp: true}
-  - {name: 🇺🇸 US 2, server: aazxsdE.003330333.XYz, port: 443, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: aazxsde.003330333.xyz, network: ws, ws-opts: {path: /SXjq8YlnGNBlbnEsM, headers: {Host: aazxsde.003330333.xyz}}, udp: true}
-  - {name: 🇺🇸 US 3, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ssssssssssssfffffffgh.2032.pp.ua, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: onecat-us.03ezhg0qsa.download, port: 25024, type: vmess, uuid: "onecat-us.03ezhg0qsa.download:25024?type=tcp&encryption=auto#%E6%9C%AA%E7%9F%A5", alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: dddddddddd4.222560.xyz, port: 80, type: vmess, uuid: "dddddddddd4.222560.xyz:80?type=ws&encryption=auto&host=dddddddddd4.222560.xyz&path=%2FiXfi0mMmPYp9UA6Y34zWUk6JUQ#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-3.87MB%2Fs", alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ, headers: {Host: dddddddddd4.222560.xyz}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: v28.heduian.link, port: 30828, type: vmess, uuid: "v28.heduian.link:30828?type=ws&encryption=auto#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-16.0MB%2Fs", alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v28.heduian.link}}, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 183.236.51.38, port: 41302, type: vmess, uuid: "183.236.51.38:41302?type=tcp&encryption=auto#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-182.7KB%2Fs", alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 183.236.51.38, port: 36519, type: vmess, uuid: "183.236.51.38:36519?type=tcp&encryption=auto#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-737.0KB%2Fs", alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-3.45MB/s, server: sssssssw.222560.xyz, port: 80, type: vmess, uuid: "sssssssw.222560.xyz:80?type=ws&encryption=auto&host=sssssssw.222560.xyz&path=%2FiXfi0mMmPYp9UA6Y34zWUk6JUQ#%E7%BE%8E%E5%9B%BD-3.45MB%2Fs", alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ, headers: {Host: sssssssw.222560.xyz}}, udp: true}
   - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.131.27, port: 2053, type: vmess, uuid: 350e2b01-d410-44a6-90ba-6483f1062972, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak2d4.89060004.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: awetdfgn_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market?ed=1024", headers: {Host: mgcdn8.hfhfb.homes}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: sssssssxxxx.2032.pp.ua}}, udp: true}
-  - {name: 🇺🇸 US 4, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
+  - {name: 🇺🇸 US, server: aazxsdE.003330333.XYz, port: 443, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: aazxsde.003330333.xyz, network: ws, ws-opts: {path: /SXjq8YlnGNBlbnEsM, headers: {Host: aazxsde.003330333.xyz}}, udp: true}
   - {name: 🇰🇷 韩国, server: h.cm2.xiaomi-api.xyz, port: 19852, type: ss, cipher: chacha20-ietf-poly1305, password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e, udp: true}
-  - {name: 🇸🇬 新加坡, server: sg.opensocks.site, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YjFmZ, udp: true}
+  - {name: US_70 | ⬇️ 5.5MB/s, server: 103.104.247.45, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: US_102 | ⬇️ 10.3MB/s, server: 45.87.175.183, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -27,16 +24,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: Netflix
     type: select
     proxies:
@@ -46,16 +40,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: HBO
     type: select
     proxies:
@@ -65,16 +56,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: DisneyPlus
     type: select
     proxies:
@@ -84,16 +72,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: YouTube
     type: select
     proxies:
@@ -103,16 +88,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: Bahamut
     type: select
     proxies:
@@ -122,16 +104,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: AI
     type: select
     proxies:
@@ -141,16 +120,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: Telegram
     type: select
     proxies:
@@ -160,16 +136,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: Steam
     type: select
     proxies:
@@ -179,16 +152,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: Microsoft
     type: select
     proxies:
@@ -198,16 +168,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: Apple
     type: select
     proxies:
@@ -217,16 +184,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: 🎯Direct
     type: select
     proxies:
@@ -242,16 +206,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
   - name: ✈️Final
     type: select
     proxies:
@@ -261,16 +222,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - 🇺🇸 US 3
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇺🇸 美国-3.45MB/s
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 US 4
-      - 🇨🇳 广东省广州市 电信
+      - 🇺🇸 US
       - 🇰🇷 韩国
-      - 🇸🇬 新加坡
+      - US_70 | ⬇️ 5.5MB/s
+      - US_102 | ⬇️ 10.3MB/s
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯Direct
   - DOMAIN-SUFFIX,ip6-localhost,🎯Direct

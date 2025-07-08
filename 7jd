@@ -15,14 +15,14 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇺🇸 US, server: 18.194.185.25, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 US 2, server: 18.194.185.25, port: 22223, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 关注https://github.com/ggborr/FREEE-VPN, server: pr.fastsoonlink.com, port: 40030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 103.104.247.45, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: US_70 | ⬇️ 5.5MB/s, server: 103.104.247.45, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false}
-  - {name: 🇸🇬 SG新加坡2 1.9MB/s, server: 178.128.63.62, port: 49580, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Dfm20PJVnAjfzFoyAKTRcG, tfo: false}
-  - {name: 🇭🇰 香港, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇩🇪 DE, server: 185.189.58.195, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RK9KSYZ2M1R31PY9, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: pr.fastsoonlink.com, port: 40030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.3.189, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cc2d4.89060004.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: JJJjjjjjmMMmM.4444926.XYZ, port: 443, client-fingerprint: chrome, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: jjjjjjjjmmmmm.4444926.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: SSSxXcvFtY.444752.Xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: sssxxcvfty.444752.xyz}}}
+  - {name: 🇨🇦 CA, server: 104.21.3.189, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cc2d4.89060004.xyz}}}
+  - {name: CN_speednode_0008, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16010, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: J1X0DNP20UK1WWBF, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -38,14 +38,14 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇺🇸 US
-      - 🇺🇸 US 2
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - US_70 | ⬇️ 5.5MB/s
-      - 🇸🇬 SG新加坡2 1.9MB/s
-      - 🇭🇰 香港
-      - 🇩🇪 DE
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇨🇦 CA
+      - CN_speednode_0008
   - name: 📲 电报消息
     type: select
     proxies:
@@ -236,7 +236,7 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 香港
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -244,13 +244,13 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 US
-      - 🇺🇸 US 2
-      - US_70 | ⬇️ 5.5MB/s
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬 SG新加坡2 1.9MB/s
+      - DIRECT
   - name: 🇨🇳 台湾节点
     type: select
     proxies:

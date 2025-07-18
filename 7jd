@@ -5,28 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 3.76.156.12, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 3.76.156.12, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
-  - {name: 🇳🇱 NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
-  - {name: 🇦🇺 澳大利亚, server: 203.32.26.81, port: 19028, type: ss, cipher: aes-256-gcm, password: 1928aa4d6e3c8df3}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 152.53.2.128, port: 34045, type: ss, cipher: aes-256-gcm, password: TG:@Enkelte_notif&&TG:@Notif_Chat}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 103.15.91.171, port: 52327, type: ss, cipher: aes-256-gcm, password: atjgsJXmcv}
-  - {name: 🇨🇳 CN-183.232.70.139-0491, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
-  - {name: 🇨🇳 CN-183.232.70.139-0496, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}}
-  - {name: 🇨🇳 CN-183.232.70.139-0981, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}}
-  - {name: 🇭🇰 HK-218.250.80.28-5033, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}}
-  - {name: 🇨🇳 TW-118.167.6.91-6862, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: RELAY-172.67.131.27-0263, server: cc2dash.89060004.xyz, port: 2096, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cc2d1.89060004.xyz, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}}
-  - {name: RELAY-172.67.193.50-0632, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
-  - {name: 🇺🇸 美国 057, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
-  - {name: 🇺🇸 美国 057 2, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}}
-  - {name: 🇺🇸 美国 061, server: sSsdCVfBGNjkI.931.PP.Ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: sSsdCVfBGNjkI.931.PP.Ua}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 152.53.2.128, port: 34045, type: ss, cipher: aes-256-gcm, password: TG:@Enkelte_notif&&TG:@Notif_Chat}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 45.151.72.141, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: AMF4JasKqxu3NPfxG1mODb}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 78.153.131.96, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7jvHHF5SaFob}
+  - {name: 🇦🇹 奥地利, server: 152.53.2.128, port: 34045, type: ss, cipher: aes-256-gcm, password: TG:@Enkelte_notif&&TG:@Notif_Chat}
+  - {name: VN-160.19.78.75-0328, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
+  - {name: TR-62.133.63.212-0294, server: 62.133.63.212, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb}
+  - {name: 🇳🇱 NL-92.112.126.90-0209, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
+  - {name: "[openproxylist.com] ss-VN", server: 103.163.218.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: "🇸🇬 [openproxylist.com] ss-SG", server: 188.166.220.70, port: 37708, type: ss, cipher: chacha20-ietf-poly1305, password: 24Wk2NSszrfHn22zem1lYV}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: https://github.com/ALIILAPRO/v2rayNG-Config, port: 433, type: vmess, uuid: Free, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: hyttttesgvvxb2.jkhkgj.xyz, port: 80, type: vmess, uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market/jp1?ed=512", headers: {Host: file.dingtalk.com}}}
+  - {name: 缇庡浗 059, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: sssssssxxxx.2032.pp.ua}}}
+  - {name: 缇庡浗 057, server: FffvvVbnhJui8.222560.XYz, port: 443, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mlyR5tmcKx3hweBopuhWEbIX, headers: {Host: FffvvVbnhJui8.222560.XYz}}}
   - {name: 🇺🇸 美国 CloudFlare节点, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: SSsXXXCvBnmjKi.931.Pp.uA, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0FhUkqQUdxOhMB9JsgTazwz9, headers: {Host: sssxxxcvbnmjki.931.pp.ua}}}
-  - {name: 缇庡浗 001, server: www.hdmoli.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.freeyyds.dpdns.org}}}
-  - {name: 缇庡浗 057, server: FffvvVbnhJui8.222560.XYz, port: 443, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mlyR5tmcKx3hweBopuhWEbIX, headers: {Host: FffvvVbnhJui8.222560.XYz}}}
-  - {name: 缇庡浗 059, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: sssssssxxxx.2032.pp.ua}}}
+  - {name: 🇺🇸 美国 063, server: wwwe3.11890604.xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: wwwe3.11890604.xyz}}}
+  - {name: 🇺🇸 美国 062, server: JJJjjjjjmMMmM.4444926.XYZ, port: 443, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: jjjjjjjjmmmmm.4444926.xyz}}}
+  - {name: 🇺🇸 美国 061, server: sSsdCVfBGNjkI.931.PP.Ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: sSsdCVfBGNjkI.931.PP.Ua}}}
+  - {name: 🇺🇸 美国 061 2, server: sSsdCVfBGNjkI.931.PP.Ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: sSsdCVfBGNjkI.931.PP.Ua}}}
+  - {name: 🇺🇸 美国 059, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: sssssssxxxx.2032.pp.ua}}}
+  - {name: 🇺🇸 美国 057, server: FffvvVbnhJui8.222560.XYz, port: 443, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mlyR5tmcKx3hweBopuhWEbIX, headers: {Host: FffvvVbnhJui8.222560.XYz}}}
+  - {name: RELAY-172.67.131.27-0263, server: cc2dash.89060004.xyz, port: 2096, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cc2d1.89060004.xyz, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}}
+  - {name: RELAY-104.19.13.166-0960, server: awetdfgn_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market?ed=1024", headers: {Host: mgcdn9.hfhfb.homes}}}
+  - {name: 🇨🇳 TW-118.167.6.91-6862, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇨🇳 TW-111.247.41.35-0991, server: ssssssssvae2.jkhkgj.xyz, port: 80, type: vmess, uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market/hk?ed=512", headers: {Host: file.dingtalk.com}}}
+  - {name: 🇭🇰 HK-218.250.80.28-5033, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}}
+  - {name: 🇭🇰 HK-1.65.250.171-5022, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v7.heduian.link}}}
+  - {name: 🇨🇳 CN-183.232.70.139-0491, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
+  - {name: 🇨🇳 CN-155.102.56.5-0310, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2bd0c9d7-f239-437e-a1e1-6cf830af2a1a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us01.sh-cloudflare.sbs, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
+  - {name: 🇨🇳 TW-111.247.41.35-0984, server: twjxlnnoljxc2.jkhkgj.xyz, port: 80, type: vmess, uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market/us1?ed=512", headers: {Host: file.dingtalk.com}}}
+  - {name: "🇰🇷 [openproxylist.com] vmess-KR", server: 202.79.160.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.32278117.xyz}}}
+  - {name: "🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国", server: hyttttesgvvxb2.jkhkgj.xyz, port: 80, type: vmess, uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market/jp1?ed=512", headers: {Host: file.dingtalk.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,26 +46,37 @@ proxy-groups:
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -63,26 +85,37 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -91,26 +124,37 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -118,26 +162,37 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -145,26 +200,37 @@ proxy-groups:
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -172,26 +238,37 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -200,26 +277,37 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,26 +332,37 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇳🇱 NL
-      - 🇦🇺 澳大利亚
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 🇦🇹 奥地利
+      - VN-160.19.78.75-0328
+      - TR-62.133.63.212-0294
+      - 🇳🇱 NL-92.112.126.90-0209
+      - "[openproxylist.com] ss-VN"
+      - 🇸🇬 [openproxylist.com] ss-SG
       - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇨🇳 CN-183.232.70.139-0491
-      - 🇨🇳 CN-183.232.70.139-0496
-      - 🇨🇳 CN-183.232.70.139-0981
-      - 🇭🇰 HK-218.250.80.28-5033
-      - 🇨🇳 TW-118.167.6.91-6862
-      - RELAY-172.67.131.27-0263
-      - RELAY-172.67.193.50-0632
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 057 2
-      - 🇺🇸 美国 061
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 缇庡浗 059
+      - 缇庡浗 057
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 缇庡浗 001
-      - 缇庡浗 057
-      - 缇庡浗 059
+      - 🇺🇸 美国 063
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 061 2
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 057
+      - RELAY-172.67.131.27-0263
+      - RELAY-104.19.13.166-0960
+      - 🇨🇳 TW-118.167.6.91-6862
+      - 🇨🇳 TW-111.247.41.35-0991
+      - 🇭🇰 HK-218.250.80.28-5033
+      - 🇭🇰 HK-1.65.250.171-5022
+      - 🇨🇳 CN-183.232.70.139-0491
+      - 🇨🇳 CN-155.102.56.5-0310
+      - 🇨🇳 TW-111.247.41.35-0984
+      - 🇰🇷 [openproxylist.com] vmess-KR
+      - 🇺🇸 [ermaozi/get_subscribe]🇨🇳_CN_中国->🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -16,7 +16,6 @@ proxies:
   - {name: 🇭🇰 HK-219.79.206.110-5069, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}}
   - {name: 🇺🇸 美国, server: SSsXXXCvBnmjKi.931.Pp.uA, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0FhUkqQUdxOhMB9JsgTazwz9, headers: {Host: sssxxxcvbnmjki.931.pp.ua}}}
   - {name: 🇺🇸 美国 059, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: sssssssxxxx.2032.pp.ua}}}
-  - {name: 🇺🇸 美国 061, server: sSsdCVfBGNjkI.931.PP.Ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: sSsdCVfBGNjkI.931.PP.Ua}}}
   - {name: 🇺🇸 美国 062, server: JJJjjjjjmMMmM.4444926.XYZ, port: 443, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: jjjjjjjjmmmmm.4444926.xyz}}}
   - {name: 🇺🇸 美国 062 2, server: 2606:4700:3033::Ac43:B96b, port: 443, type: vmess, uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sssxcvfgty.00890604.xyz, network: ws, ws-opts: {path: /cG5dtVKOSrHwPit2OdWk0KwirdY, headers: {Host: sssxcvfgty.00890604.xyz}}}
   - {name: 🇺🇸 美国 063, server: wwwe3.11890604.xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: wwwe3.11890604.xyz}}}
@@ -24,10 +23,11 @@ proxies:
   - {name: 🇺🇸 美国 CloudFlare节点, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1d3.988988.shop}}}
   - {name: 🇺🇸 美国 2, server: 2606:4700:3033::Ac43:B96b, port: 443, type: vmess, uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sssxcvfgty.00890604.xyz, network: ws, ws-opts: {path: /cG5dtVKOSrHwPit2OdWk0KwirdY, headers: {Host: sssxcvfgty.00890604.xyz}}}
   - {name: 🇺🇸 美国 3, server: dDdDdDdddDDDDyUUUIO.4444926.XyZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: dddddddddddddyuuuio.4444926.xyz, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: dddddddddddddyuuuio.4444926.xyz}}}
-  - {name: 🇿🇦 南非 V2CROSS.COM, server: 102.177.189.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}}
   - {name: 🇭🇰 香港, server: 14269f63-t049s0-t1kmeg-mv7m.hk3.p5pv.com, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
   - {name: "🇺🇸 [openproxylist.com] ss-US", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T}
+  - {name: "[openproxylist.com] ss-PT", server: 31.129.22.32, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: GTIZXGoe0wkt}
+  - {name: 🇩🇰 丹麦 V2CROSS.COM, server: fastcup.net, port: 80, type: vmess, uuid: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -45,7 +45,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -53,10 +52,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -74,7 +74,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -82,10 +81,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -103,7 +103,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -111,10 +110,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
@@ -131,7 +131,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -139,10 +138,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -159,7 +159,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -167,10 +166,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -187,7 +187,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -195,10 +194,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -216,7 +216,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -224,10 +223,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -261,7 +261,6 @@ proxy-groups:
       - 🇭🇰 HK-219.79.206.110-5069
       - 🇺🇸 美国
       - 🇺🇸 美国 059
-      - 🇺🇸 美国 061
       - 🇺🇸 美国 062
       - 🇺🇸 美国 062 2
       - 🇺🇸 美国 063
@@ -269,10 +268,11 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇿🇦 南非 V2CROSS.COM
       - 🇭🇰 香港
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 🇺🇸 [openproxylist.com] ss-US
+      - "[openproxylist.com] ss-PT"
+      - 🇩🇰 丹麦 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

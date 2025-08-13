@@ -5,19 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: cc2dash.89060004.xyz, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2d3.89060004.xyz}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: awes35lesl.blhao0o.dpdns.org, port: 12027, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1d3.988988.shop}}}
-  - {name: 🇩🇰 丹麦, server: csgo.com, port: 80, type: vmess, uuid: a134e3de-b25a-4020-9998-05fa6b715f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: awes35lesl.blhao0o.dpdns.org, port: 12027, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: awes35lesl.blhao0o.dpdns.org, port: 12004, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
   - {name: 🇯🇵 日本, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇭🇰 香港, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇺🇸 美国 064, server: 172.67.165.122, port: 443, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SHToRcqfiraYkzOdf, headers: {Host: pppploiu.4444936.xyz}}}
-  - {name: 🇺🇸 美国 062, server: cc2dash.89060004.xyz, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}}
-  - {name: 🇺🇸 美国 061, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /4Bp70NdrJV3xr1D40NK, headers: {Host: xcvfgt6.999854.xyz}}}
-  - {name: 🇺🇸 美国 061 2, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /4Bp70NdrJV3xr1D40NK, headers: {Host: xcvfgt6.999854.xyz}}}
+  - {name: 🇩🇰 丹麦, server: csgo.com, port: 80, type: vmess, uuid: a134e3de-b25a-4020-9998-05fa6b715f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: cc2dash.89060004.xyz, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2d3.89060004.xyz}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1d3.988988.shop}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: arm.netmud.click, port: 5542, type: vmess, uuid: b4b6640f-3e33-472b-9069-e359d54056ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 050, server: FFfffffFffFFkkKkkKL.4444926.xYZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: ffffffffffffkkkkkkl.4444926.xyz}}}
+  - {name: 🇺🇸 美国 055, server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: tttttttttgggghhhnmk.iran2035.dpdns.org}}}
   - {name: 🇺🇸 美国 060, server: dddfffvvbnhju.931.pp.ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: dddfffvvbnhju.931.pp.ua}}}
-  - {name: 🇰🇷 韩国, server: mm.huawei-api.top, port: 19852, type: ss, cipher: chacha20-ietf-poly1305, password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e}
+  - {name: 🇺🇸 美国 061, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /4Bp70NdrJV3xr1D40NK, headers: {Host: xcvfgt6.999854.xyz}}}
+  - {name: 🇺🇸 美国 062, server: cc2dash.89060004.xyz, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}}
+  - {name: 🇺🇸 美国 064, server: 172.67.165.122, port: 443, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SHToRcqfiraYkzOdf, headers: {Host: pppploiu.4444936.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: www.speedtest.net, port: 443, type: vmess, uuid: e2fb28b8-a457-4bd2-801e-56fdcccbd88e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkwsss, headers: {Host: blaze-cana-126.blazeservers1.site}}}
+  - {name: 亚太地区 V2CROSS.COM, server: awes35lesl.blhao0o.dpdns.org, port: 12014, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,17 +29,20 @@ proxy-groups:
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -45,17 +51,20 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -64,17 +73,20 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
@@ -82,17 +94,20 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -100,17 +115,20 @@ proxy-groups:
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -118,17 +136,20 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -137,17 +158,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,17 +196,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇯🇵 日本
+      - 🇩🇰 丹麦
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇩🇰 丹麦
-      - 🇯🇵 日本
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 062
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 061 2
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 关注https://github.com/ggborr/FREEE-VPN 6
+      - 🇺🇸 美国 050
+      - 🇺🇸 美国 055
       - 🇺🇸 美国 060
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 061
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国 064
+      - 🇺🇸 美国 CloudFlare节点
+      - 亚太地区 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,27 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: awes35lesl.blhao0o.dpdns.org, port: 12027, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: awes35lesl.blhao0o.dpdns.org, port: 12004, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: fk1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk1.620720.xyz}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: fk2.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk2.620720.xyz}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: fk3.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk3.620720.xyz}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: www.speedtest.net, port: 443, type: vmess, uuid: b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkwss, headers: {Host: BLaZE-fRA-64.BLaZECLOuD.sitE}}}
-  - {name: 🇭🇰 香港, server: 43.247.135.176, port: 44470, type: vmess, uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 064, server: 172.67.165.122, port: 443, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SHToRcqfiraYkzOdf, headers: {Host: pppploiu.4444936.xyz}}}
-  - {name: 🇺🇸 美国 061, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /4Bp70NdrJV3xr1D40NK, headers: {Host: xcvfgt6.999854.xyz}}}
-  - {name: 🇺🇸 美国 060, server: dddfffvvbnhju.931.pp.ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: dddfffvvbnhju.931.pp.ua}}}
-  - {name: RELAY-172.67.197.47-0327, server: fk2.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk2.620720.xyz}}}
-  - {name: RELAY-104.21.23.231-1181, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}}
-  - {name: RELAY-104.16.228.91-1188, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}}
-  - {name: 🇯🇵 日本, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇭🇰 香港 2, server: 183.240.245.239, port: 42272, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: JP_speednode_0094, server: 172.104.98.192, port: 43722, type: vmess, uuid: 71dc43f8-dc50-4bb6-93e2-95dd5149d7fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司", server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: cc2dash.89060004.xyz, port: 2096, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2d1.89060004.xyz}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: cc2dash.89060004.xyz, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2d3.89060004.xyz}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: test.flha.ru, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 6, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1d3.988988.shop}}}
   - {name: "🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点", server: sj3.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj3.620720.xyz}}}
-  - {name: "🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2", server: u1.huvicloud.com, port: 443, type: vmess, uuid: 04ddf6fd-2d5c-46ae-aa6c-6983a8c73725, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /04ddf6fd-2d5c-46ae-aa6c-6983a8c73725, headers: {Host: u1.huvicloud.com}}}
-  - {name: "🇩🇪 [openproxylist.com] vmess-DE", server: fk3.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk3.620720.xyz}}}
-  - {name: "🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国", server: dl01.armod.top, port: 443, type: vmess, uuid: cd11391b-9f7a-4478-b624-3a1d5d81d426, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: "🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司", server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 61b076a8-2755-4f0e-ab3b-a41eb75fb24b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 61b076a8-2755-4f0e-ab3b-a41eb75fb24b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 064, server: 172.67.165.122, port: 443, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SHToRcqfiraYkzOdf, headers: {Host: pppploiu.4444936.xyz}}}
+  - {name: 🇭🇰 香港, server: 43.247.135.176, port: 44470, type: vmess, uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 7, server: awes35lesl.blhao0o.dpdns.org, port: 12027, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 8, server: awes35lesl.blhao0o.dpdns.org, port: 12004, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -38,21 +31,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -65,21 +51,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -92,21 +71,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -118,21 +90,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -144,21 +109,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -170,21 +128,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -197,21 +148,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -240,21 +184,14 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 4
       - 关注https://github.com/ggborr/FREEE-VPN 5
       - 关注https://github.com/ggborr/FREEE-VPN 6
-      - 🇭🇰 香港
-      - 🇺🇸 美国 064
-      - 🇺🇸 美国 061
-      - 🇺🇸 美国 060
-      - RELAY-172.67.197.47-0327
-      - RELAY-104.21.23.231-1181
-      - RELAY-104.16.228.91-1188
-      - 🇯🇵 日本
-      - 🇭🇰 香港 2
-      - JP_speednode_0094
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
       - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点
-      - 🇺🇸 [Rawdroid/Free-servers]美国 CloudFlare节点 2
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇺🇸 [ermaozi/get_subscribe]🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
+      - 🇰🇷 韩国 专线NO2
+      - 🇨🇳 台湾1
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港
+      - 关注https://github.com/ggborr/FREEE-VPN 7
+      - 关注https://github.com/ggborr/FREEE-VPN 8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

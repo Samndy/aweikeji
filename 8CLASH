@@ -5,18 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: awes35lesl.blhao0o.dpdns.org, port: 12006, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: HK_speednode_0009, server: 203.184.246.7, port: 24229, type: vmess, uuid: 50b9297e-c728-46c0-de4b-36ddf8948007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: HK_speednode_0010, server: 203.184.246.211, port: 51043, type: vmess, uuid: c05b241c-0de2-4959-b3a0-ec3df5bfda99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: HK_speednode_0011, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}}
-  - {name: TW_speednode_0017, server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_speednode_0024, server: 66.253.5.58, port: 40083, type: vmess, uuid: 19003217-0407-43d5-bf22-9aa642469a83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: vps.zh3.top, port: 15986, type: vmess, uuid: bd55f595-10fc-4950-9c3a-6e33c58275f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.zh3.top}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: u1.huvicloud.com, port: 443, type: vmess, uuid: 04ddf6fd-2d5c-46ae-aa6c-6983a8c73725, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /04ddf6fd-2d5c-46ae-aa6c-6983a8c73725, headers: {Host: u1.huvicloud.com}}}
+  - {name: 🇺🇸 美国, server: fastcup.net, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 🇺🇸 美国 2, server: pubg.ac, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: c71s5.portablesubmarines.com, port: 10893, type: vmess, uuid: 05c7ecaa-056c-4bc1-8553-09c80636f61d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 HK-119.237.29.204-0719, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
   - {name: 🇭🇰 HK-116.49.109.153-0280, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇭🇰 香港, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}}
-  - {name: 🇸🇬 新加坡, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇭🇰 HK-112.120.140.40-4924, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}}
+  - {name: 🇭🇰 HK-112.120.140.40-0718, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,16 +22,13 @@ proxy-groups:
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -43,16 +37,13 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -61,16 +52,13 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,16 +66,13 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -95,16 +80,13 @@ proxy-groups:
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -112,16 +94,13 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -130,16 +109,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,16 +140,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - HK_speednode_0009
-      - HK_speednode_0010
-      - HK_speednode_0011
-      - TW_speednode_0017
-      - US_speednode_0024
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇭🇰 HK-119.237.29.204-0719
       - 🇭🇰 HK-116.49.109.153-0280
-      - 🇭🇰 香港
-      - 🇸🇬 新加坡
+      - 🇭🇰 HK-112.120.140.40-4924
+      - 🇭🇰 HK-112.120.140.40-0718
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

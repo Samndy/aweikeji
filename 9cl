@@ -5,77 +5,109 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: awes35lesl.blhao0o.dpdns.org, port: 12023, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: aflzzul.meiquankongjian.com, port: 52513, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}}
   - {name: 🇸🇬 新加坡, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 🇺🇸 美国, server: awes35lesl.blhao0o.dpdns.org, port: 12026, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e}
-  - {name: 🇺🇸 美国 2, server: entrance03.qqa678.cc, port: 47083, type: ss, cipher: aes-256-gcm, password: e0c4345e-f943-4a45-977b-514fdec6ffe9}
+  - {name: 🇭🇰 香港, server: 43.247.134.80, port: 28677, type: vmess, uuid: f9575b63-7410-4c76-88db-91c24a429ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 HK-1.36.252.85-5140, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}}
+  - {name: 🇺🇸 美国, server: entrance03.qqa678.cc, port: 47083, type: ss, cipher: aes-256-gcm, password: e0c4345e-f943-4a45-977b-514fdec6ffe9}
+  - {name: LB_84, server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,10 +130,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇭🇰 HK-1.36.252.85-5140
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - LB_84
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

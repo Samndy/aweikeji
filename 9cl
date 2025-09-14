@@ -5,28 +5,52 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 62.146.235.193, port: 28011, type: vmess, uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram%40ShadowProxy66", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 2, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 3, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegramU0001F1E8U0001F1F3", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 4, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 5, server: 188.42.88.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 6, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 7, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 8, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 9, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 10, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 11, server: 192.200.160.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 12, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 13, server: 194.76.18.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇺🇸 美国 14, server: 195.13.44.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇪🇸 西班牙, server: 185.251.81.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇪🇸 西班牙 2, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇬🇧 英国, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
-  - {name: 🇬🇧 英国 2, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 43.247.134.211, port: 46981, type: vmess, uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}}
+  - {name: 🇺🇸 美国, server: 183.240.245.242, port: 33331, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.192.15.73, port: 25152, type: vmess, uuid: c67ce191-466b-4a31-ae19-5ec886e4302b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 212.192.15.73}}}
+  - {name: "🇸🇬 [openproxylist.com] vmess-SG", server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: 4be5eae6-09fb-4dcb-b495-c131f55e5192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 8449ea5931e8a52bf20cb5c763196970.mobgslb.tbcache.com}}}
+  - {name: "🇭🇰 [openproxylist.com] vmess-HK", server: t.cnmjcn.cyou, port: 16622, type: vmess, uuid: 4be5eae6-09fb-4dcb-b495-c131f55e5192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 8449ea5931e8a52bf20cb5c763196970.mobgslb.tbcache.com}}}
+  - {name: 🇺🇸 美国 2, server: 111.253.193.61, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 068a81a9-8935-4483-b2e3-996459e0d555}
+  - {name: 🇭🇰 HK香港4 38.8KB/s, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: "🇳🇱 [openproxylist.com] ss-NL", server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram%f0%9f%87%a8%f0%9f%87%b3", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇬🇧 英国, server: 185.156.19.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇬🇧 英国 2, server: 188.244.122.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇬🇧 英国 3, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇬🇧 英国 4, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇸🇬 新加坡, server: 185.18.184.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram%f0%9f%87%a8%f0%9f%87%b3", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇪🇸 西班牙, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 3, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 4, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram%40ShadowProxy66", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 5, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 6, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegramU0001F1E8U0001F1F3", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 7, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 8, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 9, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 10, server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 11, server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 12, server: 188.164.248.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 13, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 14, server: 188.42.88.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 15, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 16, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 17, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 18, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 19, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 20, server: 192.200.160.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 21, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 22, server: 194.76.18.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 23, server: 195.13.44.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 24, server: 195.13.44.87, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 25, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 26, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2f%e7%94%b1%e9%9b%b6%e5%bc%80%e5%a7%8b", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 27, server: 199.181.197.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 28, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 29, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 30, server: 209.46.30.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram, headers: {Host: ocost-dy.wmlefl.cc}}}
+  - {name: 🇺🇸 美国 31, server: 209.46.30.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2fTelegram", headers: {Host: ocost-dy.wmlefl.cc}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,10 +59,21 @@ proxy-groups:
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -51,10 +86,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -63,10 +111,21 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -79,10 +138,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -91,10 +163,21 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -107,10 +190,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
   - name: 📲 电报信息
     type: select
     proxies:
@@ -118,10 +214,21 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -134,10 +241,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -145,10 +265,21 @@ proxy-groups:
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -161,10 +292,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -172,10 +316,21 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -188,10 +343,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -200,10 +368,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -216,10 +395,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,10 +436,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇺🇸 美国
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇸🇬 [openproxylist.com] vmess-SG
+      - 🇭🇰 [openproxylist.com] vmess-HK
+      - 🇺🇸 美国 2
+      - 🇭🇰 HK香港4 38.8KB/s
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇬🇧 英国 3
+      - 🇬🇧 英国 4
+      - 🇸🇬 新加坡
+      - 🇪🇸 西班牙
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
       - 🇺🇸 美国 5
@@ -260,10 +463,23 @@ proxy-groups:
       - 🇺🇸 美国 12
       - 🇺🇸 美国 13
       - 🇺🇸 美国 14
-      - 🇪🇸 西班牙
-      - 🇪🇸 西班牙 2
-      - 🇬🇧 英国
-      - 🇬🇧 英国 2
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇺🇸 美国 18
+      - 🇺🇸 美国 19
+      - 🇺🇸 美国 20
+      - 🇺🇸 美国 21
+      - 🇺🇸 美国 22
+      - 🇺🇸 美国 23
+      - 🇺🇸 美国 24
+      - 🇺🇸 美国 25
+      - 🇺🇸 美国 26
+      - 🇺🇸 美国 27
+      - 🇺🇸 美国 28
+      - 🇺🇸 美国 29
+      - 🇺🇸 美国 30
+      - 🇺🇸 美国 31
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

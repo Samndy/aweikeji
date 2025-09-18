@@ -5,23 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: test3.flha.ru, port: 80, type: vmess, uuid: 9a81340d-f81b-4c76-8abb-f4d305c535c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: test3.flha.ru, network: ws, ws-opts: {path: /9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess, headers: {Host: test3.flha.ru}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 216.167.89.158, port: 25854, type: vmess, uuid: a247ec2b-b296-42bb-8553-61a593d20092, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 45.144.235.103, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: aE5rFdxzG8GQf5TAQhZhRA}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}}
-  - {name: 🇭🇰 香港, server: 149.104.15.178, port: 21201, type: vmess, uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国, server: 193.124.24.247, port: 6506, type: vmess, uuid: c53d41d1-7d56-43ce-9994-408780c6476a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇩🇪 DE-57.129.28.216-7499, server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}}
-  - {name: 🇩🇪 DE-57.129.28.215-0925, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
-  - {name: 🇩🇪 DE-57.129.28.212-7055, server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}}
-  - {name: 🇺🇸 US, server: 216.167.32.129, port: 54838, type: vmess, uuid: b96a0b00-8349-4dcb-9bac-8c215082badd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "🇭🇰 [openproxylist.com] vmess-HK", server: t.cnmjcn.cyou, port: 16622, type: vmess, uuid: 743dbce9-ec7d-49dd-b9d6-3b1a151e729f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f604066249a784d694db65d3ebf5d60c.mobgslb.tbcache.com}}}
-  - {name: "🇩🇪 [openproxylist.com] vmess-DE", server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}}
-  - {name: "🇩🇪 [openproxylist.com] vmess-DE 2", server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}}
-  - {name: 🇯🇵 日本, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 43.156.224.60, port: 50512, type: vmess, uuid: 05c83256-cc7b-4356-a6de-a2e4d4e6c184, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: pub.ap-wifi6.xyz, port: 64018, type: vmess, uuid: 7ae7fbc5-3994-3b9a-9053-544b84540aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: api.jquery.com, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /us.kkp.me.eu.org/aa, headers: {Host: admin.kasrax.ir}}}
+  - {name: 🇫🇷 法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国, server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tttttttttgggghhhnmk.iran2035.dpdns.org, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: tttttttttgggghhhnmk.iran2035.dpdns.org}}}
+  - {name: 🇺🇸 美国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2001:bc8:32d7:302::10}}}
+  - {name: 🇺🇸 美国 3, server: 183.240.245.251, port: 39595, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 4, server: 183.240.180.3, port: 34141, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 5, server: FFFFfFFvvBgnh.iRAn2035.DpDnS.OrG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: FFFFfFFvvBgnh.iRAn2035.DpDnS.OrG}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.174.60, port: 25158, type: vmess, uuid: 32807277-6527-4bd0-a5b6-de6375496707, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.144.174.60}}}
+  - {name: 🇭🇰 香港, server: 183.240.180.47, port: 52512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 2, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: TR, server: 83.217.9.210, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oC9c1kPkYbkg}
   - {name: 🇺🇸 US🇺🇸, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx}
-  - {name: 🇷🇺 RU, server: ss.80808.sbs, port: 20, type: ss, cipher: aes-256-gcm, password: a4VtqRwhj6gWbHwL4Jt26w}
-  - {name: "🇩🇪 [openproxylist.com] ss-DE", server: desrv.ssvpnapp.win, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: fe166c5b3465540f}
+  - {name: 🇺🇸 美国 6, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,20 +29,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -54,20 +50,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -77,20 +71,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
   - name: 📲 电报信息
     type: select
     proxies:
@@ -99,20 +91,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -121,20 +111,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -143,20 +131,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -166,20 +152,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,20 +189,18 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 香港
+      - 🇫🇷 法国
       - 🇺🇸 美国
-      - 🇩🇪 DE-57.129.28.216-7499
-      - 🇩🇪 DE-57.129.28.215-0925
-      - 🇩🇪 DE-57.129.28.212-7055
-      - 🇺🇸 US
-      - 🇭🇰 [openproxylist.com] vmess-HK
-      - 🇩🇪 [openproxylist.com] vmess-DE
-      - 🇩🇪 [openproxylist.com] vmess-DE 2
-      - 🇯🇵 日本
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - TR
       - 🇺🇸 US🇺🇸
-      - 🇷🇺 RU
-      - 🇩🇪 [openproxylist.com] ss-DE
+      - 🇺🇸 美国 6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

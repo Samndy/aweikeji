@@ -6,12 +6,18 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 关注https://github.com/ggborr/FREEE-VPN, server: hhhju89.890603.xyz, port: 443, type: vmess, uuid: dc2f5557-6fc4-4ff7-989a-c2cf98c08029, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Qxh31nnaaZyYUIu7137, headers: {Host: hhhju89.890603.xyz}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 46.29.34.205, port: 59956, type: vmess, uuid: ca0c9937-58a6-44ea-9111-a6abac267d0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: hhhju89.890603.xyz, port: 443, type: vmess, uuid: dc2f5557-6fc4-4ff7-989a-c2cf98c08029, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Qxh31nnaaZyYUIu7137, headers: {Host: hhhju89.890603.xyz}}}
+  - {name: 🇩🇪 DE-57.129.28.215-0663, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
+  - {name: 🇩🇪 DE-57.129.28.63-7201, server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}}
   - {name: 🇭🇰 HK-116.49.85.64-0260, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
   - {name: 🇭🇰 HK-116.49.85.64-0261, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}}
-  - {name: 🇩🇪 DE-57.129.28.63-7201, server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}}
-  - {name: 🇩🇪 DE-57.129.28.215-0663, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
-  - {name: 🇺🇸 美国, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
-  - {name: "🇺🇸 [Rawdroid/Free-servers]美国", server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
+  - {name: 🇦🇹 奥地利 V2CROSS.COM, server: 46.29.34.205, port: 22947, type: vmess, uuid: d7291fc4-1702-4826-8fe1-ab301b1c8f82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
+  - {name: 🇺🇸 美国 2, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}}
+  - {name: 🇺🇸 美国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2001:bc8:32d7:302::10}}}
+  - {name: 🇭🇰 香港, server: 103.224.80.45, port: 32026, type: vmess, uuid: 1193769d-bea4-4f0e-bab7-70640e1a0b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 2, server: 103.30.78.138, port: 35436, type: vmess, uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -19,12 +25,18 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -32,12 +44,18 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -45,48 +63,72 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -94,12 +136,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -123,12 +171,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇩🇪 DE-57.129.28.63-7201
       - 🇭🇰 HK-116.49.85.64-0260
       - 🇭🇰 HK-116.49.85.64-0261
-      - 🇩🇪 DE-57.129.28.63-7201
-      - 🇩🇪 DE-57.129.28.215-0663
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇺🇸 美国
-      - 🇺🇸 [Rawdroid/Free-servers]美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

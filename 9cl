@@ -4,14 +4,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: a.lyazzz.online, port: 41317, type: vmess, uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}}
-  - {name: 未知4, server: https://github.com/ALIILAPRO/v2rayNG-Config, port: 433, type: vmess, uuid: Free, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 日本, server: a.lyazzz.online, port: 41315, type: vmess, uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: pl.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 77.83.245.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: X2ocJWZohXrE}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 185.138.88.36, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: POaiVNMig8KH}
-  - {name: 🇷🇴 RO罗马尼亚 353.4KB/s, server: 77.83.245.169, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: X2ocJWZohXrE}
-  - {name: 🇺🇸 US美国6, server: uk-03.allhubb.info, port: 8443, type: trojan, password: 1ce1df7962f71c6f, skip-cert-verify: true}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: repuestoslibertad.cl.repuestoslibertad.cl, port: 43548, type: ss, cipher: chacha20-ietf-poly1305, password: UMmOaUhjmMpXFrFfIqP2Jp}
+  - {name: 🇺🇸 美国, server: 2606:4700:3030::6815:4001, port: 80, type: vmess, uuid: 681eda16-e94d-439c-9067-b55db0c0543f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 4496a55e-a4bc-c238-2c1e-5e66f7b0829c.8900604.xyz}}}
+  - {name: 美國, server: 73E42019-c820-A66a-011E-f11937232ec1.89890604.XYz, port: 443, type: vmess, uuid: c2633560-5acb-4dd3-9c22-9a6c2fd212e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 73e42019-C820-A66A-011E-f11937232EC1.89890604.xYZ, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 73e42019-C820-A66A-011E-f11937232EC1.89890604.xYZ}}}
+  - {name: 🇯🇵 日本, server: 45.159.51.189, port: 25980, type: vmess, uuid: 8e2c0dcf-b621-4513-8781-4c686f5d5b6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 美國 2, server: iaplsg.91king.win, port: 21004, type: ss, cipher: aes-256-gcm, password: 14837141-5001-4d21-9a25-52feb9967302}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -19,13 +16,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -33,13 +27,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -47,52 +38,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -100,13 +79,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,13 +106,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 未知4
+      - 🇺🇸 美国
+      - 美國
       - 🇯🇵 日本
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇴 RO罗马尼亚 353.4KB/s
-      - 🇺🇸 US美国6
+      - 美國 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -4,21 +4,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: cn01.365cloud8754.com, port: 6018, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: cn01.365cloud8754.com, port: 6041, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: efan8998.efan-dns78655.com, port: 6004, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇰🇷 韩国, server: 210.109.205.158, port: 55879, type: vmess, uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US 158 | ⬇️ 10.78 MB/s, server: 64.69.40.135, port: 41185, type: vmess, uuid: 9ba1c290-2f90-4fe7-efab-390af3dfd498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US 082 | ⬇️ 2.06 M, server: 38.34.24.195, port: 14447, type: vmess, uuid: 089abe0d-b5d5-44dd-9143-5a17c6c32e7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US, server: 192.3.109.156, port: 36032, type: vmess, uuid: b2c5a45b-46c6-4d55-8d70-a9ec91b5a5d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US 2, server: 216.167.36.2, port: 30439, type: vmess, uuid: 196f1bca-2c5e-40d3-f7de-4a7212383ec7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US 3, server: 216.167.41.132, port: 24764, type: vmess, uuid: c67e5337-78af-4179-dce2-a95a61889b68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US 4, server: 216.167.44.228, port: 58914, type: vmess, uuid: 14d66eeb-18d3-4380-a011-846db7580df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: CN_speednode_0007, server: efan8998.efan-dns78655.com, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司", server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}}
-  - {name: 🇺🇸 US 5, server: 213.111.132.100, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: UEz3lCgyrS2nL9xJAgboy1}
-  - {name: SE_1|2.4MB/s, server: 78.40.117.109, port: 37538, type: ss, cipher: chacha20-ietf-poly1305, password: RP767jpZVarzQ0iI0vbTuA}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇨🇳 台湾省台北市 V2CROSS.COM, server: 46.3.26.12, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}}
+  - {name: 🇺🇸 美国 728, server: 47.83.10.70, port: 53544, type: vmess, uuid: e7b88e16-7480-4ec1-e1f2-523b45462467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 003, server: 220.92.146.161, port: 50001, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}}
+  - {name: 🇺🇸 US, server: 198.23.148.39, port: 16082, type: vmess, uuid: f96e94b6-1d90-4984-9388-66295fcb27e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 US 2, server: 198.23.148.39, port: 16082, type: vmess, uuid: f96e94b6-1d90-4984-9388-66295fcb27e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 US 3, server: promo18v.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t}
+  - {name: 🇳🇱 NL, server: 194.135.46.13, port: 1419, type: ss, cipher: chacha20-ietf-poly1305, password: EacZIMFwmMCR6dWqN5Ah0c}
+  - {name: IR_speednode_0014, server: 95.81.85.102, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: oGOnNFGhv1SAL5rKSYCdVv}
+  - {name: AZ_speednode_0004, server: 180.149.44.105, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 3pze4lyj8FFdDixOkf2K2oQ4rHX7Vq9xC9uKwBgvQYDNxLf8}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,20 +22,16 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,20 +39,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -68,80 +56,64 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -149,20 +121,16 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,20 +154,16 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇭🇰 香港
-      - 🇰🇷 韩国
-      - 🇺🇸 US 158 | ⬇️ 10.78 MB/s
-      - 🇺🇸 US 082 | ⬇️ 2.06 M
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇨🇳 台湾省台北市 V2CROSS.COM
+      - 🇺🇸 美国 728
+      - 🇰🇷 韩国 003
       - 🇺🇸 US
       - 🇺🇸 US 2
       - 🇺🇸 US 3
-      - 🇺🇸 US 4
-      - CN_speednode_0007
-      - 🇭🇰 [Rawdroid/Free-servers]香港 电讯盈科有限公司
-      - 🇺🇸 US 5
-      - SE_1|2.4MB/s
+      - 🇳🇱 NL
+      - IR_speednode_0014
+      - AZ_speednode_0004
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

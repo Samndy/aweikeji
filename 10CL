@@ -4,125 +4,69 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: y-v1.888988866.xyz, port: 443, type: vmess, uuid: a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb, headers: {Host: y-v1.888988866.xyz}}}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: dfes.bcymanuscript.top, port: 38318, type: ss, cipher: aes-128-gcm, password: ba7bb62d-e5e2-42f6-ab7e-57baf5e95a4b}
-  - {name: 🇺🇸 美国 761, server: 46.3.26.12, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}}
-  - {name: 🇺🇸 美国 790, server: 172.67.209.79, port: 443, type: vmess, uuid: 91362cdb-81f8-4fd3-9b9f-2b24a8146a25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ODznTT5fgkUw3VH0GJ, headers: {Host: ggggbbhyuuui.999834.xyz}}}
-  - {name: 🇭🇰 香港, server: 43.247.134.213, port: 18366, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 2, server: 43.247.134.213, port: 18366, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 3, server: 43.247.134.213, port: 18366, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 上海, server: entrance03.qqa678.cc, port: 47081, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e}
-  - {name: 🇨🇳 上海2, server: entrance02.qqa678.cc, port: 47081, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e}
-  - {name: 🇭🇰 HK香港6, server: entrance04.qqa678.cc, port: 47081, type: ss, cipher: aes-256-gcm, password: e9b0fa0b-72fb-4993-a251-9f518512fec8}
+  - {name: 🇺🇸 US 324, server: node4.rtxconfigz.com, port: 443, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@Malinda6104, headers: {Host: node4.rtxconfigz.com}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 12.kill704.win, port: 44232, type: ss, cipher: chacha20-ietf-poly1305, password: 0490e538-74a0-4a3c-99ee-7ac91d026890}
+  - {name: 🇭🇰 HK香港, server: entrance02.qqa678.cc, port: 47084, type: ss, cipher: aes-256-gcm, password: e9b0fa0b-72fb-4993-a251-9f518512fec8}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,16 +89,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 美国 761
-      - 🇺🇸 美国 790
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 上海
-      - 🇨🇳 上海2
-      - 🇭🇰 HK香港6
+      - 🇭🇰 HK香港
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

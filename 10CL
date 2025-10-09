@@ -4,69 +4,157 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US 324, server: node4.rtxconfigz.com, port: 443, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@Malinda6104, headers: {Host: node4.rtxconfigz.com}}}
   - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 12.kill704.win, port: 44232, type: ss, cipher: chacha20-ietf-poly1305, password: 0490e538-74a0-4a3c-99ee-7ac91d026890}
-  - {name: 🇭🇰 HK香港, server: entrance02.qqa678.cc, port: 47084, type: ss, cipher: aes-256-gcm, password: e9b0fa0b-72fb-4993-a251-9f518512fec8}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 12.kill704.win, port: 44232, type: ss, cipher: chacha20-ietf-poly1305, password: 0490e538-74a0-4a3c-99ee-7ac91d026890}
+  - {name: "|@ripaojiedian", server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}}
+  - {name: 🇺🇸 US 324, server: node4.rtxconfigz.com, port: 443, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@Malinda6104, headers: {Host: node4.rtxconfigz.com}}}
+  - {name: 🇭🇰 HK-220.246.184.252-0243, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}}
+  - {name: 🇺🇸 美国, server: node4.rtxconfigz.com, port: 443, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@Malinda6104, headers: {Host: node4.rtxconfigz.com}}}
+  - {name: 🇺🇸 美国 832, server: 46.3.26.12, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}}
+  - {name: 🇯🇵 日本, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 149.104.15.178, port: 34310, type: vmess, uuid: 114b2416-9c29-4a7c-81ea-2b14e7a5588c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: kf5uhgscrdl73kmihv8c.appsworld.shop, port: 21791, type: vmess, uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cbf7f6acabd0dde4bef067580c126fed77a00de7, headers: {Host: www.baidu.com}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: 103.30.78.138, port: 35436, type: vmess, uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 832 2, server: 36.156.102.84, port: 1572, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心, server: 160.16.236.32, port: 449, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -89,9 +177,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US 324
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇭🇰 HK香港
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - "|@ripaojiedian"
+      - 🇺🇸 US 324
+      - 🇭🇰 HK-220.246.184.252-0243
+      - 🇺🇸 美国
+      - 🇺🇸 美国 832
+      - 🇯🇵 日本
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
+      - 🇭🇰 香港 电讯盈科有限公司 4
+      - 🇺🇸 美国 832 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,14 +5,27 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, tfo: false}
-  - {name: 🇸🇬 新加坡, server: oksl.cfapps.ap21.hana.ondemand.com, port: 443, type: vmess, uuid: cb94c83d-50cf-4a68-ba03-c6ed757df1f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /laoluo, headers: {Host: oksl.cfapps.ap21.hana.ondemand.com}}, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 45.87.175.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 45.87.175.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 45.87.175.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 45.87.175.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, tfo: false}
+  - {name: 🇭🇰 HK, server: 8.217.127.167, port: 57858, type: vmess, uuid: d1226e33-e569-4f9b-a25d-a53da9e7deb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048", headers: {Host: 8.217.127.167}}, tfo: false}
+  - {name: 🇯🇵 JP, server: 8.211.164.215, port: 20522, type: vmess, uuid: 73193cce-7ca1-4b08-93ff-4ee8b0147374, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram_@sswia, headers: {Host: 8.211.164.215}}, tfo: false}
+  - {name: 🇺🇸 US, server: e8c46690-90d1-8c68-db2c-35ca7bda3680.925.qzz.io, port: 443, type: vmess, uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e7JS5ETJeA85VyjPCYXwETL, headers: {Host: e8c46690-90d1-8c68-db2c-35ca7bda3680.925.qzz.io}}, tfo: false}
+  - {name: 🇭🇰 HK-119.237.2.70-0278, server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com}}, tfo: false}
+  - {name: 🇭🇰 HK-47.238.109.55-5872, server: 47.238.109.55, port: 41928, type: vmess, uuid: 6630fa8a-d681-49ef-8103-9516de7e5476, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
+  - {name: 🇭🇰 HK-8.218.175.64-5826, server: 8.218.175.64, port: 51377, type: vmess, uuid: 45bfcaaa-f3db-4e93-8164-4203eaa2a2cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
+  - {name: 🇲🇾 马来西亚 吉隆坡阿里云, server: 47.250.177.194, port: 20522, type: vmess, uuid: 3e0e1d63-e6dc-4306-b354-46d5a549f576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram_@sswia, headers: {Host: 47.250.177.194}}, tfo: false}
+  - {name: 🇲🇾 马来西亚 吉隆坡阿里云 2, server: 47.250.45.234, port: 43063, type: vmess, uuid: c77f48f5-4be3-4461-b52b-49998e7b897b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, tfo: false}
+  - {name: 🇺🇸 美国 045, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, tfo: false}
   - {name: 🇯🇵 日本, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, tfo: false}
-  - {name: 🇺🇸 美国 893, server: y-v1.888988866.xyz, port: 443, type: vmess, uuid: a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /a397bd18-5a5f-4a5a-bf03-ed5bc1a990eb, headers: {Host: y-v1.888988866.xyz}}, tfo: false}
-  - {name: 🇺🇸 美国 028, server: 38.12.83.217, port: 30002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇧🇬 保加利亚 002, server: 185.250.38.63, port: 550, type: vmess, uuid: 0c6abb66-660e-4db9-9e64-3a2625639278, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US, server: 71.19.148.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, tfo: false}
-  - {name: 🇭🇰 香港 特别行政区, server: tuntro001.instconn.com, port: 443, type: trojan, password: ef269dbc-0486-451f-b94b-d0c354bc3f1c, sni: awshk.686911.xyz, skip-cert-verify: true, tfo: false}
+  - {name: 🇯🇵 日本 | JPN 2, server: entrance02.qqa678.cc, port: 47083, type: vmess, uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港, server: 43.247.135.17, port: 41522, type: vmess, uuid: ea897b9a-0894-4f17-ab5b-7e059678734d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇨🇳 中国 阿里云, server: 8.218.26.234, port: 55566, type: vmess, uuid: 520a5072-76ec-4c37-8e25-02cf61b04889, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048", headers: {Host: 8.218.26.234}}, tfo: false}
+  - {name: IR 0, server: 151.242.251.152, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: 🇳🇱 NL, server: 151.242.251.133, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
+  - {name: 🇯🇵 日本 2, server: 36.156.102.84, port: 1920, type: trojan, password: e9368912c4ed6046dca6949229cbff02, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,13 +33,26 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -34,13 +60,26 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -48,52 +87,104 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -101,13 +192,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -131,13 +235,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - 🇺🇸 美国 893
-      - 🇺🇸 美国 028
-      - 🇧🇬 保加利亚 002
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 关注https://github.com/ggborr/FREEE-VPN 3
+      - 关注https://github.com/ggborr/FREEE-VPN 4
+      - 关注https://github.com/ggborr/FREEE-VPN 5
+      - 🇭🇰 HK
+      - 🇯🇵 JP
       - 🇺🇸 US
-      - 🇭🇰 香港 特别行政区
+      - 🇭🇰 HK-119.237.2.70-0278
+      - 🇭🇰 HK-47.238.109.55-5872
+      - 🇭🇰 HK-8.218.175.64-5826
+      - 🇲🇾 马来西亚 吉隆坡阿里云
+      - 🇲🇾 马来西亚 吉隆坡阿里云 2
+      - 🇺🇸 美国 045
+      - 🇯🇵 日本
+      - 🇯🇵 日本 | JPN 2
+      - 🇭🇰 香港
+      - 🇨🇳 中国 阿里云
+      - IR 0
+      - 🇳🇱 NL
+      - 🇯🇵 日本 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

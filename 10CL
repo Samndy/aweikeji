@@ -1,121 +1,168 @@
-port: 7890
-socks-port: 7891
+mixed-port: 7890
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 185.93.173.60, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 47.254.246.254, port: 46475, type: vmess, uuid: dd46cb03-d0fd-430b-b877-499ba1857287, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 47.254.246.254, port: 22222, type: vmess, uuid: 0c2ef25f-c73b-4db0-d5e0-efd26c07ee91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "🇦🇺 [openproxylist.com] vmess-AU", server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 212.192.15.176, port: 25169, type: vmess, uuid: 890b54b4-53bf-4758-9abc-5dd8c8ba529a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 212.192.15.176}}, tfo: false}
-  - {name: 🇯🇵 日本, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, tfo: false}
-  - {name: 🇭🇰 香港, server: 43.247.135.17, port: 41522, type: vmess, uuid: ea897b9a-0894-4f17-ab5b-7e059678734d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: KZ🇰🇿, server: 109.61.39.28, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, tfo: false}
-  - {name: TW_speednode_0042, server: 36.234.111.35, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, tfo: false}
+  - {name: 🇯🇵 日本, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 212.192.15.176, port: 25169, type: vmess, uuid: 890b54b4-53bf-4758-9abc-5dd8c8ba529a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 212.192.15.176}}}
+  - {name: 🇺🇸 US 1, server: ladder.lybc.site, port: 443, type: vmess, uuid: 449d50e8-ccfd-4e92-b0d7-6794447efb66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /449d50e8-ccfd-4e92-b0d7-6794447efb66, headers: {Host: ladder.lybc.site}}}
+  - {name: 🇺🇸 US 185, server: ladder.lybc.site, port: 443, type: vmess, uuid: 449d50e8-ccfd-4e92-b0d7-6794447efb66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /449d50e8-ccfd-4e92-b0d7-6794447efb66, headers: {Host: ladder.lybc.site}}}
+  - {name: 🇭🇰 HK-112.118.248.94-1166, server: be4fe2f9-t3gn40-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
+  - {name: 🇺🇸 美国 806, server: 73E42019-c820-A66a-011E-f11937232ec1.89890604.XYz, port: 443, type: vmess, uuid: c2633560-5acb-4dd3-9c22-9a6c2fd212e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 73e42019-C820-A66A-011E-f11937232EC1.89890604.xYZ}}}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: TW_speednode_0060, server: 125.231.82.112, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 9a9dc807-d040-4bec-9e00-c7ebe712717e}
+  - {name: TW_speednode_0061, server: 36.235.0.122, port: 10133, type: ss, cipher: chacha20-ietf-poly1305, password: a7d8b05e-d5ab-4ee2-89c3-983c8cbab06b}
+  - {name: TW_speednode_0063, server: 114.46.81.116, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: add8049a-647b-43fc-8de1-97b9261c6be5}
+  - {name: TW_speednode_0065, server: 114.46.77.45, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: 9a9dc807-d040-4bec-9e00-c7ebe712717e}
+  - {name: TW_speednode_0069, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: 719adfec-6f6a-468b-a693-61c00002ab9f}
+  - {name: TW_speednode_0072, server: 114.46.76.16, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: add8049a-647b-43fc-8de1-97b9261c6be5}
+  - {name: TW_speednode_0087, server: 118.170.222.232, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: a7d8b05e-d5ab-4ee2-89c3-983c8cbab06b}
+  - {name: 🇵🇱 PL-45.144.51.66-5478, server: pl.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,15 +185,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇦🇺 [openproxylist.com] vmess-AU
-      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇯🇵 日本
-      - 🇭🇰 香港
-      - KZ🇰🇿
-      - TW_speednode_0042
+      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 US 1
+      - 🇺🇸 US 185
+      - 🇭🇰 HK-112.118.248.94-1166
+      - 🇺🇸 美国 806
+      - 关注https://github.com/ggborr/FREEE-VPN
+      - TW_speednode_0060
+      - TW_speednode_0061
+      - TW_speednode_0063
+      - TW_speednode_0065
+      - TW_speednode_0069
+      - TW_speednode_0072
+      - TW_speednode_0087
+      - 🇵🇱 PL-45.144.51.66-5478
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

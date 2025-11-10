@@ -5,16 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 1762596741.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: i5z5l83j3.speed.ydnxya.cccp.useraaca.pp.ua}}, tfo: false}
-  - {name: 🇰🇷 KR韩国, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 HK香港, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 HK, server: hk3.web3sp.com, port: 50039, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, tfo: false}
-  - {name: 🇯🇵 JP, server: jp9.web3sp.com, port: 50189, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, tfo: false}
-  - {name: 🇺🇸 US美国, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, tfo: false}
-  - {name: 🇸🇬 SG, server: sg2.web3sp.com, port: 50239, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, tfo: false}
-  - {name: 🇺🇸 US美国 2, server: sl.fgmcx.top, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, tfo: false}
-  - {name: 🇺🇸 美国, server: 117.172.176.22, port: 373, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: 🇯🇵 日本 东京SAKURA数据中心, server: 153.121.44.99, port: 1328, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 185.146.173.117, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, tfo: false}
+  - {name: 🇩🇪 德国 26, server: 185.146.173.117, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, tfo: false}
+  - {name: 🇩🇪 德国 33, server: 141.101.121.250, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, tfo: false}
+  - {name: "🇳🇱 [openproxylist.com] ss-NL", server: 195.66.27.81, port: 11746, type: ss, cipher: chacha20-ietf-poly1305, password: DaiJfYM6WoCXmBbF69QFR0, tfo: false}
+  - {name: TR 039, server: 62.133.63.230, port: 1580, type: ss, cipher: chacha20-ietf-poly1305, password: KgcKQpFCkXnOJXceV68o12, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,15 +17,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -38,15 +28,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -54,60 +39,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -115,15 +80,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,15 +107,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇰🇷 KR韩国
-      - 🇭🇰 HK香港
-      - 🇭🇰 HK
-      - 🇯🇵 JP
-      - 🇺🇸 US美国
-      - 🇸🇬 SG
-      - 🇺🇸 US美国 2
-      - 🇺🇸 美国
-      - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇩🇪 德国 26
+      - 🇩🇪 德国 33
+      - 🇳🇱 [openproxylist.com] ss-NL
+      - TR 039
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

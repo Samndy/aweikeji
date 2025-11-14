@@ -5,19 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 146.19.49.251, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, tfo: false}
-  - {name: 🇬🇧 GB英国, server: 47.245.106.193, port: 22433, type: vmess, uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 114.98.183.61, port: 47083, type: vmess, uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, tfo: false}
+  - {name: 🇯🇵 日本, server: 114.98.183.61, port: 47083, type: vmess, uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港7, server: onecat-jp.03ezhg0qsa.download, port: 25007, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 US美国, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 US美国 2, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, tfo: false}
+  - {name: 🇷🇺 RU俄罗斯, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP, tfo: false}
   - {name: 🇭🇰 HK香港, server: sl.fgmcx.top, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, tfo: false}
-  - {name: 🇭🇰 HK香港 2, server: 210.16.183.120, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, tfo: false}
+  - {name: 🇭🇰 HK香港 2, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇭🇰 HK香港 3, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇭🇰 HK香港 4, server: sl.fgmcx.top, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, tfo: false}
-  - {name: 🇭🇰 HK香港 5, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 HK香港2 151.4KB/s, server: 58.152.110.9, port: 443, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US美国, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US美国3, server: 117.172.176.25, port: 4054, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: 185.146.173.24, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, tfo: false}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM 2, server: 185.146.173.82, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,17 +24,15 @@ proxy-groups:
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -45,17 +41,15 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -64,17 +58,15 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -82,17 +74,15 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -100,17 +90,15 @@ proxy-groups:
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -118,17 +106,15 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -137,17 +123,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,17 +156,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇬🇧 GB英国
+      - 🇯🇵 日本
+      - 🇭🇰 香港7
+      - 🇺🇸 US美国
+      - 🇺🇸 US美国 2
+      - 🇷🇺 RU俄罗斯
       - 🇭🇰 HK香港
       - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
       - 🇭🇰 HK香港 4
-      - 🇭🇰 HK香港 5
-      - 🇭🇰 HK香港2 151.4KB/s
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国3
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇸🇪 瑞典 V2CROSS.COM 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

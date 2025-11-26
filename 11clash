@@ -5,29 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, tfo: false}
-  - {name: 🇺🇸 US美国, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, tfo: false}
-  - {name: 🇭🇰 HK-154.21.201.83-1481, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, tfo: false}
-  - {name: 🇺🇸 美国 科罗拉多州NTT(美国)通信公司, server: 216.167.107.61, port: 44805, type: vmess, uuid: f7d62526-9e06-455e-82bd-241d368002e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, tfo: false}
+  - {name: "🇯🇵 [openproxylist.com] vmess-JP", server: n1744454498.lie5d.cyou, port: 443, type: vmess, uuid: cd26abca-0d84-43d0-8f69-9c1143b569e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1744454498.lie5d.cyou}}, tfo: false}
+  - {name: 🇸🇬 SG 005 | ⬇️ 2MB/s, server: 144.48.180.187, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 SG 014 | ⬇️ 9MB/s, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇳🇱 荷兰 05, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 23.27.28.15, port: 80, type: vmess, uuid: MoJia-@iranpwner-telegram, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 91.228.186.242, port: 15639, type: vmess, uuid: e7516690-ce2a-4647-9013-d47eec6e71eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "🇯🇵 [openproxylist.com] ss-JP", server: 103.75.118.125, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh, tfo: false}
+  - {name: "🇳🇱 [openproxylist.com] ss-NL", server: 213.176.16.77, port: 7022, type: ss, cipher: chacha20-ietf-poly1305, password: 8HtC7rj6NfZncXYvAjDV5t, tfo: false}
   - {name: "🇸🇬 [openproxylist.com] ss-SG", server: 167.150.100.115, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz, tfo: false}
+  - {name: "[openproxylist.com] ss-TR", server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: depjSbjv2Uql6W4Vge7sDf, tfo: false}
+  - {name: _CN_中国, server: wangcai.singdns.com, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, tfo: false}
+  - {name: 🇩🇪 _DE_德国, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
+  - {name: 🇫🇷 _FR_法国, server: 146.19.49.251, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6, tfo: false}
   - {name: 🇷🇺 _RU_俄罗斯, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP, tfo: false}
   - {name: 🇺🇸 _US_美国, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, tfo: false}
   - {name: 4Sarina-621, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, tfo: false}
-  - {name: SE 018 | ⬇️ 1MB/s, server: 78.40.116.178, port: 34094, type: ss, cipher: chacha20-ietf-poly1305, password: yo6h9qkhwz8UJoTZCRtoSi, tfo: false}
-  - {name: 🇺🇸 US美国11, server: wangcai.singdns.com, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, tfo: false}
-  - {name: LT-45.87.175.177-0180, server: 45.87.175.177, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: 🇳🇱 荷兰 | NLD, server: 213.176.16.77, port: 7022, type: ss, cipher: chacha20-ietf-poly1305, password: 8HtC7rj6NfZncXYvAjDV5t, tfo: false}
-  - {name: 🇳🇱 荷兰 | NLD 8, server: 5.129.214.186, port: 6403, type: ss, cipher: chacha20-ietf-poly1305, password: HWNsKy61qPyoDtrEYEtZuk, tfo: false}
+  - {name: NO🇳🇴 | @VPNineh | 174.1, server: 89.46.233.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XeGAcwaviWxXzg87AwvnE6gWbhHHGwwB, tfo: false}
+  - {name: 🇵🇱 PL🇵🇱 | @VPNineh | 169.26, server: 45.15.126.19, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 6Ts2ZDTQAf3hkFoB8AFufDwsGrlF4e2t, tfo: false}
+  - {name: 🇺🇸 _US_美国 2, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, tfo: false}
+  - {name: 🇺🇸 _US_美国 3, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, tfo: false}
   - {name: 🇭🇷 克罗地亚 | HRV, server: 185.156.110.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn, tfo: false}
-  - {name: 🇲🇩 摩尔多瓦 | MDA 2, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, tfo: false}
   - {name: 🇹🇷 土耳其 | TUR 3, server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: depjSbjv2Uql6W4Vge7sDf, tfo: false}
   - {name: 🇪🇸 西班牙 | ESP, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, tfo: false}
-  - {name: 🇭🇰 香港, server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: _CN_中国 2, server: psg2-ag.t.sgateway.link, port: 5223, type: trojan, password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS, sni: pod-kr-g1.psusercontent.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 _US_美国 4, server: jp3.t.sgateway.link, port: 5223, type: trojan, password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS, sni: pod-jp-z1.psusercontent.com, skip-cert-verify: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -36,27 +39,30 @@ proxy-groups:
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -65,27 +71,30 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -94,27 +103,30 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -122,27 +134,30 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -150,27 +165,30 @@ proxy-groups:
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -178,27 +196,30 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -207,27 +228,30 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,27 +276,30 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US美国
-      - 🇭🇰 HK-154.21.201.83-1481
-      - 🇺🇸 美国 科罗拉多州NTT(美国)通信公司
-      - 🇺🇸 美国
+      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 🇸🇬 SG 005 | ⬇️ 2MB/s
+      - 🇸🇬 SG 014 | ⬇️ 9MB/s
+      - 🇳🇱 荷兰 05
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇯🇵 [openproxylist.com] ss-JP
+      - 🇳🇱 [openproxylist.com] ss-NL
       - 🇸🇬 [openproxylist.com] ss-SG
+      - "[openproxylist.com] ss-TR"
+      - _CN_中国
+      - 🇩🇪 _DE_德国
+      - 🇫🇷 _FR_法国
       - 🇷🇺 _RU_俄罗斯
       - 🇺🇸 _US_美国
       - 4Sarina-621
-      - SE 018 | ⬇️ 1MB/s
-      - 🇺🇸 US美国11
-      - LT-45.87.175.177-0180
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 8
+      - NO🇳🇴 | @VPNineh | 174.1
+      - 🇵🇱 PL🇵🇱 | @VPNineh | 169.26
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
       - 🇭🇷 克罗地亚 | HRV
-      - 🇲🇩 摩尔多瓦 | MDA 2
       - 🇹🇷 土耳其 | TUR 3
       - 🇪🇸 西班牙 | ESP
-      - 🇭🇰 香港
+      - _CN_中国 2
+      - 🇺🇸 _US_美国 4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

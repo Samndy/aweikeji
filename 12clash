@@ -5,20 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 58.152.18.78, port: 443, type: trojan, password: 79314e99f0a473fe86efc7827942ad00, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: d9864c5f-sv6hs0-sv75lj-1swf9.hk3.p5pv.com, port: 80, type: vmess, uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, tfo: false}
-  - {name: 🇺🇸 美国 802, server: gggggggggggggg.222769.xyz, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: gggggggggggggg.222769.xyz}}, tfo: false}
-  - {name: 🇺🇸 美国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 科技网络 🇩🇪, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 GB英国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182", server: 45e91290-t6uv40-tg8syu-1nyy5.hk3.p5pv.com, port: 80, type: vmess, uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, tfo: false}
-  - {name: NO🇳🇴 | @VPNineh | 401.48, server: 89.46.233.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XeGAcwaviWxXzg87AwvnE6gWbhHHGwwB, tfo: false}
-  - {name: 🇳🇱 NL🇳🇱 | @VPNineh | 152.13, server: 82.38.31.187, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: "🇷🇺 [openproxylist.com] ss-RU", server: 45.139.26.173, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: d9864c5f-sv6hs0-sv75lj-1swf9.hk3.p5pv.com, port: 80, type: vmess, uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, tfo: false}
+  - {name: 🇺🇸 美国 266, server: bbbbbbbbb.222769.xyz, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: bbbbbbbbb.222769.xyz}}, tfo: false}
+  - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港 2, server: 45e91290-t6uv40-tg8syu-1nyy5.hk3.p5pv.com, port: 80, type: vmess, uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, tfo: false}
+  - {name: 🇨🇳 中国 V2CROSS.COM, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇪🇸 ES, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, tfo: false}
+  - {name: 🇷🇺 俄罗斯, server: clr.ducks.tel, port: 17846, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, tfo: false}
+  - {name: 🇺🇸 美国 266 2, server: clr.ducks.tel, port: 17847, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 907560230, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,19 +20,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -46,19 +34,13 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,76 +48,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -143,19 +101,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,23 +131,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇺🇸 美国 802
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 科技网络 🇩🇪
-      - 🇬🇧 GB英国
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
-      - 🇭🇰 [ermaozi/get_subscribe]🇭🇰 香港家宽 182
-      - NO🇳🇴 | @VPNineh | 401.48
-      - 🇳🇱 NL🇳🇱 | @VPNineh | 152.13
-      - 🇷🇺 [openproxylist.com] ss-RU
+      - 🇺🇸 美国 266
+      - 🇭🇰 香港
+      - 🇭🇰 香港 2
+      - 🇨🇳 中国 V2CROSS.COM
+      - 🇪🇸 ES
+      - 🇷🇺 俄罗斯
+      - 🇺🇸 美国 266 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,internal,🎯 全球直连
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
@@ -203,6 +150,7 @@ rules:
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,169.254.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
@@ -576,7 +524,6 @@ rules:
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitemeter.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitescout.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sitetag.us,🛑 全球拦截
@@ -1428,9 +1375,7 @@ rules:
   - DOMAIN-SUFFIX,log.mix.sina.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,mobileads.dx.cn,🍃 应用净化
   - DOMAIN-SUFFIX,newspush.sinajs.cn,🍃 应用净化
-  - DOMAIN-SUFFIX,pay.mobile.sina.cn,🍃 应用净化
   - DOMAIN-SUFFIX,sax.mobile.sina.cn,🍃 应用净化
-  - DOMAIN-SUFFIX,sax.sina.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,saxd.sina.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,🍃 应用净化
   - DOMAIN-SUFFIX,sdkapp.uve.weibo.com,🍃 应用净化
@@ -1831,7 +1776,6 @@ rules:
   - DOMAIN-SUFFIX,dol.tianyaui.cn,🍃 应用净化
   - DOMAIN-SUFFIX,dw.xcar.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,e.nexac.com,🍃 应用净化
-  - DOMAIN-SUFFIX,eq.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,exp.17wo.cn,🍃 应用净化
   - DOMAIN-SUFFIX,game.51yund.com,🍃 应用净化
   - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🍃 应用净化
@@ -1848,7 +1792,6 @@ rules:
   - DOMAIN-SUFFIX,mobileads.msn.com,🍃 应用净化
   - DOMAIN-SUFFIX,n.cosbot.cn,🍃 应用净化
   - DOMAIN-SUFFIX,newton-api.ele.me,🍃 应用净化
-  - DOMAIN-SUFFIX,ozone.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,pdl.gionee.com,🍃 应用净化
   - DOMAIN-SUFFIX,pica-juicy.picacomic.com,🍃 应用净化
   - DOMAIN-SUFFIX,pixel.wp.com,🍃 应用净化
@@ -1861,7 +1804,6 @@ rules:
   - DOMAIN-SUFFIX,res.gwifi.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,🍃 应用净化
   - DOMAIN-SUFFIX,sta.ganji.com,🍃 应用净化
-  - DOMAIN-SUFFIX,stat.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,stat.it168.com,🍃 应用净化
   - DOMAIN-SUFFIX,stats.chinaz.com,🍃 应用净化
   - DOMAIN-SUFFIX,stats.developingperspective.com,🍃 应用净化
@@ -1869,7 +1811,6 @@ rules:
   - DOMAIN-SUFFIX,tracker.yhd.com,🍃 应用净化
   - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
-  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
   - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
@@ -2086,6 +2027,7 @@ rules:
   - DOMAIN,copilot-proxy.githubusercontent.com,🌍 国外媒体
   - DOMAIN,gemini.google.com,🌍 国外媒体
   - DOMAIN,generativelanguage.googleapis.com,🌍 国外媒体
+  - DOMAIN,notebooklm.google.com,🌍 国外媒体
   - DOMAIN,sydney.bing.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ai.azure.com,🌍 国外媒体
   - DOMAIN-SUFFIX,anthropic.com,🌍 国外媒体
@@ -2093,6 +2035,7 @@ rules:
   - DOMAIN-SUFFIX,bard.google.com,🌍 国外媒体
   - DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
   - DOMAIN-SUFFIX,claude.ai,🌍 国外媒体
+  - DOMAIN-SUFFIX,claude.com,🌍 国外媒体
   - DOMAIN-SUFFIX,claudeusercontent.com,🌍 国外媒体
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
   - DOMAIN-SUFFIX,copilot.cloud.microsoft,🌍 国外媒体
@@ -2107,6 +2050,7 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
   - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
   - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,jetbrains.ai,🌍 国外媒体
   - DOMAIN-SUFFIX,makersuite.google.com,🌍 国外媒体
   - DOMAIN-SUFFIX,meta.ai,🌍 国外媒体
   - DOMAIN-SUFFIX,mistral.ai,🌍 国外媒体
@@ -2116,6 +2060,7 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
   - DOMAIN-SUFFIX,perplexity.ai,🌍 国外媒体
   - DOMAIN-SUFFIX,sora.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,x.ai,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
@@ -2678,6 +2623,7 @@ rules:
   - DOMAIN-SUFFIX,1e100.net,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,app-measurement.net,🚀 节点选择
+  - DOMAIN-SUFFIX,c.gle,🚀 节点选择
   - DOMAIN-SUFFIX,g.co,🚀 节点选择
   - DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
   - DOMAIN-SUFFIX,goo.gl,🚀 节点选择
@@ -2757,6 +2703,7 @@ rules:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,storage.live.com,🚀 节点选择
   - DOMAIN-SUFFIX,storage.msn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,microsoftpersonalcontent.com,🚀 节点选择
   - DOMAIN-KEYWORD,porn,🚀 节点选择
   - DOMAIN-SUFFIX,8teenxxx.com,🚀 节点选择
   - DOMAIN-SUFFIX,ahcdn.com,🚀 节点选择
@@ -2920,6 +2867,7 @@ rules:
   - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
   - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabachengdun.com,🎯 全球直连
   - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
@@ -2938,6 +2886,7 @@ rules:
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
   - DOMAIN-SUFFIX,ele.me,🎯 全球直连
+  - DOMAIN-SUFFIX,elemecdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
   - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
   - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
@@ -2945,6 +2894,7 @@ rules:
   - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
   - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcdn.cn,🎯 全球直连
   - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
@@ -3274,6 +3224,7 @@ rules:
   - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
   - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
   - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
+  - DOMAIN-SUFFIX,asklink.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
   - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连

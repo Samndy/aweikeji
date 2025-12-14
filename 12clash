@@ -5,17 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com, port: 80, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com}}, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 62.133.60.43, port: 36456, type: ss, cipher: chacha20-ietf-poly1305, password: lXk5EGzRVYDjYqcWC5FwD3, tfo: false}
   - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: e1417ad9-t6r5s0-t7pjgr-11p9g.hk3.p5pv.com, port: 80, type: vmess, uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e1417ad9-t6r5s0-t7pjgr-11p9g.hk3.p5pv.com}}, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP, tfo: false}
-  - {name: 🇺🇸 US美国, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US美国 2, server: zyipv6.pai50288.uk, port: 55588, type: ss, cipher: aes-128-gcm, password: XMj65epCcyjN6DSqz0W0VLlZWaW+XLQdMftFQIXff6s=, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇫🇷 法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, tfo: false}
   - {name: 🇺🇸 美国 266, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 801, server: GgGgGGgGggggGg.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: gggggggggggggg.222769.xyz}}, tfo: false}
-  - {name: 🇺🇸 美国 804, server: NnnNNNnNnNNNNN.222769.xYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: nnnnnnnnnnnnnn.222769.xyz}}, tfo: false}
+  - {name: 🇺🇸 US美国, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "[openproxylist.com] ss-KZ", server: 94.198.220.183, port: 64674, type: ss, cipher: chacha20-ietf-poly1305, password: s8LbJCgUiGXeCKVc63tHJP, tfo: false}
+  - {name: "[openproxylist.com] ss-FI", server: 77.83.247.206, port: 18284, type: ss, cipher: aes-128-gcm, password: tijsjk3iwzc6b10azb0y, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,14 +22,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -42,14 +36,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -59,14 +50,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -75,14 +63,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -91,14 +76,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -107,14 +89,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -124,14 +103,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -157,14 +133,11 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国 2
       - 🇫🇷 法国
       - 🇺🇸 美国 266
-      - 🇺🇸 美国 801
-      - 🇺🇸 美国 804
+      - 🇺🇸 US美国
+      - "[openproxylist.com] ss-KZ"
+      - "[openproxylist.com] ss-FI"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

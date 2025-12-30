@@ -6,13 +6,10 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2001:bc8:32d7:302::10}}, tfo: false}
+  - {name: 🇺🇸 US 649 | ⬇️ 1MB/s, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇸🇬 俄罗斯 新西伯利亚justhost, server: 2.56.242.210, port: 34895, type: vmess, uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 美国, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 217.60.63.96, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: EHLQstH17CwNIdEoTv2t0i, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 217.60.63.96, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Mb7c1yskGeWF3qsl2Z3Zth, tfo: false}
-  - {name: "🇩🇪 [openproxylist.com] ss-DE", server: de1-nv.jugploer.icu, port: 2050, type: ss, cipher: chacha20-ietf-poly1305, password: 7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ, tfo: false}
-  - {name: 🇨🇳 台湾 | TWN 19, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: f18f0241-4e1b-426c-bef8-175d801b529c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇨🇳 TW台湾, server: hk3.t.sgateway.link, port: 5223, type: trojan, password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS, sni: pod-hk-z1.psusercontent.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 2, server: jp3.t.sgateway.link, port: 5223, type: trojan, password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS, sni: pod-jp-z1.psusercontent.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港, server: 58.152.18.48, port: 443, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,13 +17,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -34,13 +28,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -48,52 +39,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -101,13 +80,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -131,13 +107,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
+      - 🇺🇸 US 649 | ⬇️ 1MB/s
+      - 🇸🇬 俄罗斯 新西伯利亚justhost
       - 🇺🇸 美国
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 [openproxylist.com] ss-DE
-      - 🇨🇳 台湾 | TWN 19
-      - 🇨🇳 TW台湾
-      - 🇺🇸 美国 2
+      - 🇭🇰 香港
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

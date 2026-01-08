@@ -5,17 +5,18 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 2001:bc8:32d7:2013::8, port: 62211, type: vmess, uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: www.bing.com}}, tfo: false}
-  - {name: "🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 15.204.28.84, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: f96d6b42e30595dc, tfo: false}
-  - {name: "[openproxylist.com] ss-EE", server: 178.130.46.148, port: 47345, type: ss, cipher: chacha20-ietf-poly1305, password: nGSRvZ5IsYcRNDpDtNVrkV, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 85.90.207.104, port: 18794, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg, tfo: false}
+  - {name: 🇨🇳 台湾 | TWN, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9d7034dc-ae3f-4b90-8a39-ef9c79d4ed5f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[openproxylist.com] ss-JO", server: 91.106.109.73, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: be5ee3c62f0aae96, tfo: false}
+  - {name: "[openproxylist.com] ss-JO 2", server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, tfo: false}
+  - {name: "🇰🇷 [openproxylist.com] ss-KR", server: 156.244.20.53, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: c8f11e2ba63181ea, tfo: false}
   - {name: "[openproxylist.com] ss-KZ", server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, tfo: false}
-  - {name: "[openproxylist.com] ss-PK", server: 154.205.145.37, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 47509ba3679b9df9, tfo: false}
-  - {name: "🇵🇱 [openproxylist.com] ss-PL", server: 51.68.146.248, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: a792ff4b517fdf1c, tfo: false}
-  - {name: "[openproxylist.com] ss-TH", server: 163.171.148.71, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 312ee9bcc9570095, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] ss-US", server: 217.77.3.68, port: 28954, type: ss, cipher: chacha20-ietf-poly1305, password: a586ae8d773f250f, tfo: false}
-  - {name: 🇲🇾 马来西亚 | MYS, server: 163.171.115.28, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: f1584199f4cb3ca6, tfo: false}
-  - {name: 🇭🇰 HK香港3, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: "[openproxylist.com] ss-MM", server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, tfo: false}
+  - {name: 🇺🇸 美国, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 13669, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, tfo: false}
+  - {name: "🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: seoul02.zgjok.com, port: 443, type: vmess, uuid: 1a1e5196-eab4-4772-9012-65c27f19a524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul02.zgjok.com}}, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,16 +24,17 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,16 +42,17 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -57,64 +60,68 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -122,16 +129,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,16 +163,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - "[openproxylist.com] ss-EE"
+      - 🇨🇳 台湾 | TWN
+      - 🇭🇰 香港
+      - "[openproxylist.com] ss-JO"
+      - "[openproxylist.com] ss-JO 2"
+      - 🇰🇷 [openproxylist.com] ss-KR
       - "[openproxylist.com] ss-KZ"
-      - "[openproxylist.com] ss-PK"
-      - 🇵🇱 [openproxylist.com] ss-PL
-      - "[openproxylist.com] ss-TH"
-      - 🇺🇸 [openproxylist.com] ss-US
-      - 🇲🇾 马来西亚 | MYS
-      - 🇭🇰 HK香港3
+      - "[openproxylist.com] ss-MM"
+      - 🇺🇸 美国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 🇯🇵 日本 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

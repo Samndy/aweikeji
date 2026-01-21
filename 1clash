@@ -5,22 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: ss.010.node-for-bigairport.win, port: 11689, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 45.82.102.204, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11e520ccbe7365eb, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 217.12.219.157, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: TPXQERRdwexaQR25TWQvzA, tfo: false}
-  - {name: 🇩🇪 DE69｜机房｜低风险, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇫🇷 FR1｜机房｜低风险, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 HK120｜机房｜低风险, server: oss-4.qqa678.com, port: 47081, type: vmess, uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 HK44｜机房｜低风险, server: tunnel2.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇯🇵 JP12｜原生/疑似家宽｜非常安全, server: cees.owwoedu.com, port: 49303, type: vmess, uuid: 902c151a-809d-4e90-88cd-c1d426cc36a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: oss-4.qqa678.com, port: 47081, type: vmess, uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: tunnel2.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 US114｜机房｜低风险, server: 23.138.148.47, port: 42507, type: vmess, uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 US185｜机房｜低风险, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 美国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}, tfo: false}
-  - {name: 🇺🇦 乌克兰_011918018, server: 217.12.219.157, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: TPXQERRdwexaQR25TWQvzA, tfo: false}
-  - {name: 🇭🇰 HK149｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: abe81309-c37c-4ee8-9b2b-2e1b1073dd6c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇯🇵 JP日本3, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: login-staticjpc.jasmine-douyin.top, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 香港, server: 58.152.18.98, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 GB英国, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: login-staticjpc.jasmine-douyin.top, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 HK63｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 808b5ae2-7b94-43e7-8632-c639c3f72415, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -29,20 +21,12 @@ proxy-groups:
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -51,20 +35,12 @@ proxy-groups:
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -73,20 +49,12 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
   - name: 📲 电报信息
     type: select
     proxies:
@@ -94,20 +62,12 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -115,20 +75,12 @@ proxy-groups:
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -136,20 +88,12 @@ proxy-groups:
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -158,20 +102,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,20 +132,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
       - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 关注https://github.com/ggborr/FREEE-VPN 3
-      - 🇩🇪 DE69｜机房｜低风险
-      - 🇫🇷 FR1｜机房｜低风险
-      - 🇭🇰 HK120｜机房｜低风险
-      - 🇭🇰 HK44｜机房｜低风险
-      - 🇯🇵 JP12｜原生/疑似家宽｜非常安全
+      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
       - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇦 乌克兰_011918018
-      - 🇭🇰 HK149｜原生/疑似家宽｜非常安全
-      - 🇯🇵 JP日本3
-      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇬🇧 GB英国
+      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

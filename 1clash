@@ -5,14 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: oss-4.qqa678.com, port: 47081, type: vmess, uuid: 7d3b2ea8-337b-4979-948f-bc1c1e72b6d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: tunnel2.qqa678.com, port: 47081, type: vmess, uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US114｜机房｜低风险, server: 23.138.148.47, port: 42507, type: vmess, uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇺🇸 US185｜机房｜低风险, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 GB英国, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: login-staticjpc.jasmine-douyin.top, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 HK63｜原生/疑似家宽｜非常安全, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 808b5ae2-7b94-43e7-8632-c639c3f72415, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
+  - {name: CN_speednode_0006, server: tunnel2.qqa678.com, port: 47084, type: vmess, uuid: 9f8c122d-5b86-4c19-af87-64f458a88223, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: y3SowqUkrt1cbm487g74Ac, tfo: false}
+  - {name: 🇨🇳 TW台湾2, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 157db8b8-45bb-46dd-9d27-13e9b2b5ab91, sni: green2.cdntencentmusic.com, skip-cert-verify: true, tfo: false}
+  - {name: 🇨🇳 TW8｜商宽｜非常安全, server: tuntro011.instconn.com, port: 40130, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: cntwbta.686911.xyz, skip-cert-verify: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,13 +18,11 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -34,13 +30,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -48,52 +42,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -101,13 +87,11 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -131,13 +115,11 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 关注https://github.com/ggborr/FREEE-VPN 2
-      - 🇺🇸 US114｜机房｜低风险
       - 🇺🇸 US185｜机房｜低风险
-      - 🇺🇸 美国
-      - 🇬🇧 英国
-      - 🇬🇧 GB英国
-      - 🇭🇰 HK63｜原生/疑似家宽｜非常安全
+      - CN_speednode_0006
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇨🇳 TW台湾2
+      - 🇨🇳 TW8｜商宽｜非常安全
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

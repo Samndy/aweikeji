@@ -5,20 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
-  - {name: "🇬🇧 [openproxylist.com] ss-GB", server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
-  - {name: 🇫🇷 FR5｜机房｜低风险, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 GB4｜机房｜低风险, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 HK香港, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
-  - {name: RU_speednode_0015, server: basic-ru-0.undef.network, port: 43902, type: ss, cipher: chacha20-ietf-poly1305, password: 5kWesolQ0y0PVdIrb65LbHT2u, tfo: false}
-  - {name: 🇺🇸 US177｜机房｜低风险, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US37｜家宽｜非常安全, server: us02.jsyjiedian8.com, port: 40393, type: trojan, password: 984c7793-1447-4af5-9200-d514ad6fe329, sni: jsygouer.weixin-baidu-qq.com, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US美国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 US美国8 398.4KB/s, server: turk1.net.net, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560", headers: {Host: tr1-smart.adelping.com.}}, tfo: false}
-  - {name: RELAY-172.67.74.2-0279, server: 172.67.74.2, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com.}}, tfo: false}
-  - {name: 广东, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
-  - {name: 🇨🇳 广东2, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
-  - {name: 🇨🇳 广东省云浮市 移动, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇲🇾 MY-85.211.242.85-4757, server: gtm1.ktmwan.net, port: 12889, type: vmess, uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: gtm1.ktmwan.net, network: ws, ws-opts: {path: /, headers: {Host: gtm1.ktmwan.net}}, tfo: false}
+  - {name: 🇭🇰 HK香港, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 GB英国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 212.192.15.59, port: 19081, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, tfo: false}
+  - {name: 🇭🇰 HK香港 2, server: hk14.network-cdn-gw-yd.net, port: 32062, type: ss, cipher: chacha20-ietf-poly1305, password: eb9aff96-654d-4b84-bfbd-30d57a927e4d, tfo: false}
+  - {name: "🇯🇵 [openproxylist.com] trojan-JP", server: kto1.ttddd.xyz, port: 443, type: trojan, password: 14326_tf497f7b0, sni: kto1.cnedu2.com, skip-cert-verify: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,19 +20,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -46,19 +34,13 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,76 +48,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -143,19 +101,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,19 +131,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 关注https://github.com/ggborr/FREEE-VPN
-      - 🇬🇧 [openproxylist.com] ss-GB
-      - 🇫🇷 FR5｜机房｜低风险
-      - 🇬🇧 GB4｜机房｜低风险
+      - 🇲🇾 MY-85.211.242.85-4757
       - 🇭🇰 HK香港
-      - RU_speednode_0015
-      - 🇺🇸 US177｜机房｜低风险
-      - 🇺🇸 US37｜家宽｜非常安全
-      - 🇺🇸 US美国
-      - 🇺🇸 US美国8 398.4KB/s
-      - RELAY-172.67.74.2-0279
-      - 广东
-      - 🇨🇳 广东2
-      - 🇨🇳 广东省云浮市 移动
+      - 🇬🇧 GB英国
+      - 🇬🇧 [Rawdroid/Free-servers]英国 V2CROSS.COM
+      - 关注https://github.com/ggborr/FREEE-VPN 2
+      - 🇭🇰 HK香港 2
+      - 🇯🇵 [openproxylist.com] trojan-JP
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

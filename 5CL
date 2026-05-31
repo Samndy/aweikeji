@@ -5,19 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇭🇰 C - 🇭🇰 HK, server: board-01.ddnskunlun.com, port: 11919, type: vmess, uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: US_6|737KB/s, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN, server: 109.107.182.229, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: MZeSTvpl2uoey1R0frhPyJ, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 2, server: 195.133.2.2, port: 34898, type: ss, cipher: chacha20-ietf-poly1305, password: v2LIewZzNUsIrqODr22FVc, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 3, server: 185.18.250.127, port: 2096, type: vless, tls: true, uuid: 2ee26119-94e5-40b4-ba3a-16354021b600, servername: 69565ce3109804e7813f98ee.mmdbay.blog, network: ws, ws-opts: {path: /graphql, headers: {Host: 69565ce3109804e7813f98ee.mmdbay.blog}}, skip-cert-verify: true, tfo: false}
+  - {name: 关注https://github.com/ggborr/FREEE-VPN 4, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 HK, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: US_8|6.0MB/s, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 CCZZUU.TOP, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 Microsoft数据中心, server: 20.164.221.1, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dhUfc0noSQDTLOAR, tfo: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6003, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国_0530192782, server: us200m.jiasu.asia, port: 50000, type: trojan, password: 2fda86cd-fb2a-4cce-b8f4-b6ec96297287, sni: us200m.jiasu.asia, skip-cert-verify: true, tfo: false}
+  - {name: 🇭🇰 香港, server: 43.199.204.59, port: 2008, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: true, tfo: false}
   - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇨🇳 TW台湾 1.1MB/s, server: r3mrcg007134n4g.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, tfo: false}
-  - {name: 关注https://github.com/ggborr/FREEE-VPN 5, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, tfo: false}
-  - {name: 🇸🇬 新加坡_050419522, server: minthantzin1.online, port: 53711, type: ss, cipher: chacha20-ietf-poly1305, password: FZJyeTb6Y1tUnH+cx+BANn2xPagLPrneD6iyO7wuy0s=, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -28,15 +26,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,15 +43,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,15 +60,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
   - name: 📲 电报信息
     type: select
     proxies:
@@ -84,15 +76,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -102,15 +92,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -120,15 +108,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -139,15 +125,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -174,15 +158,13 @@ proxy-groups:
       - 关注https://github.com/ggborr/FREEE-VPN 2
       - 关注https://github.com/ggborr/FREEE-VPN 3
       - 关注https://github.com/ggborr/FREEE-VPN 4
-      - 🇭🇰 C - 🇭🇰 HK
-      - US_6|737KB/s
+      - 🇭🇰 HK
       - US_8|6.0MB/s
-      - 亚太地区 V2CROSS.COM
-      - 🇬🇧 英国 CCZZUU.TOP
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国_0530192782
+      - 🇭🇰 香港
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 TW台湾 1.1MB/s
-      - 关注https://github.com/ggborr/FREEE-VPN 5
-      - 🇸🇬 新加坡_050419522
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1865,6 +1847,15 @@ rules:
   - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
   - DOMAIN,mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt1.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,alt2.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,alt3.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,alt4.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,alt5.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,alt6.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,alt7.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,alt8.mobile-gtalk.l.google.com,📢 谷歌FCM
+  - DOMAIN,mobile-gtalk.l.google.com,📢 谷歌FCM
   - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
   - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
   - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
